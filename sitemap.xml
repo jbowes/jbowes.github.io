@@ -2,863 +2,863 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/</loc>
+    <loc>http://jbowes.github.io/</loc>
     <lastmod>2013-08-04T21:53:52-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2013/08/04/buckler-v100</loc>
+    <loc>http://jbowes.github.io/2013/08/04/buckler-v100</loc>
     <lastmod>2013-08-04T21:53:52-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/12/16/squeezebox-server-fedora</loc>
+    <loc>http://jbowes.github.io/2012/12/16/squeezebox-server-fedora</loc>
     <lastmod>2012-12-16T19:33:12-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/12/15/irssi-keys-on-macbook-pro</loc>
+    <loc>http://jbowes.github.io/2012/12/15/irssi-keys-on-macbook-pro</loc>
     <lastmod>2012-12-15T13:23:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/12/02/the-end</loc>
+    <loc>http://jbowes.github.io/2012/12/02/the-end</loc>
     <lastmod>2012-12-02T10:47:43-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/07/13/give-absolute-path-for-client</loc>
+    <loc>http://jbowes.github.io/2012/07/13/give-absolute-path-for-client</loc>
     <lastmod>2012-07-13T14:01:23-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/04/24/connect-client-implementation-for-netty</loc>
+    <loc>http://jbowes.github.io/2012/04/24/connect-client-implementation-for-netty</loc>
     <lastmod>2012-04-24T10:23:14-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/03/26/camopic-is-now-live</loc>
+    <loc>http://jbowes.github.io/2012/03/26/camopic-is-now-live</loc>
     <lastmod>2012-03-26T19:38:33-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/03/17/using-roboto-on-fedora</loc>
+    <loc>http://jbowes.github.io/2012/03/17/using-roboto-on-fedora</loc>
     <lastmod>2012-03-18T08:09:02-03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/02/21/howto-make-bacon</loc>
+    <loc>http://jbowes.github.io/2012/02/21/howto-make-bacon</loc>
     <lastmod>2012-02-21T19:29:02-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/02/17/glyphicons-styled-stack-overflow-icon</loc>
+    <loc>http://jbowes.github.io/2012/02/17/glyphicons-styled-stack-overflow-icon</loc>
     <lastmod>2012-02-17T19:51:54-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/02/16/using-960gs-haml-sass-and-compass-on</loc>
+    <loc>http://jbowes.github.io/2012/02/16/using-960gs-haml-sass-and-compass-on</loc>
     <lastmod>2012-02-16T21:43:54-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/02/12/retrofitting-drop-shadows-into-existing</loc>
+    <loc>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</loc>
     <lastmod>2012-02-12T16:28:12-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2012/01/21/micro-usb-for-power-everywhere</loc>
+    <loc>http://jbowes.github.io/2012/01/21/micro-usb-for-power-everywhere</loc>
     <lastmod>2012-01-21T18:59:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/12/06/essential-gnome-shell-extensions-for</loc>
+    <loc>http://jbowes.github.io/2011/12/06/essential-gnome-shell-extensions-for</loc>
     <lastmod>2011-12-08T10:32:09-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/12/03/android-proguard-and-git-tip</loc>
+    <loc>http://jbowes.github.io/2011/12/03/android-proguard-and-git-tip</loc>
     <lastmod>2011-12-03T11:01:39-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/12/02/my-gitconfig-2011-edition</loc>
+    <loc>http://jbowes.github.io/2011/12/02/my-gitconfig-2011-edition</loc>
     <lastmod>2011-12-05T09:22:18-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/30/btrfs-and-kvm</loc>
+    <loc>http://jbowes.github.io/2011/11/30/btrfs-and-kvm</loc>
     <lastmod>2011-11-30T22:15:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/28/importing-vpn-settings-in-gnome-3</loc>
+    <loc>http://jbowes.github.io/2011/11/28/importing-vpn-settings-in-gnome-3</loc>
     <lastmod>2011-11-28T09:50:09-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/25/cpsn-v080</loc>
+    <loc>http://jbowes.github.io/2011/11/25/cpsn-v080</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/24/pem-backed-keystore-for-java-ssl</loc>
+    <loc>http://jbowes.github.io/2011/11/24/pem-backed-keystore-for-java-ssl</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/21/cpsn-v070</loc>
+    <loc>http://jbowes.github.io/2011/11/21/cpsn-v070</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/21/new-blog-address</loc>
+    <loc>http://jbowes.github.io/2011/11/21/new-blog-address</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/11/21/howto-make-usb-y-cable-for-host-mode</loc>
+    <loc>http://jbowes.github.io/2011/11/21/howto-make-usb-y-cable-for-host-mode</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2011/07/05/access-logger-for-netty-and-http</loc>
+    <loc>http://jbowes.github.io/2011/07/05/access-logger-for-netty-and-http</loc>
     <lastmod>2011-11-06T10:02:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2010/10/13/measuring-network-speeds-with-netcat</loc>
+    <loc>http://jbowes.github.io/2010/10/13/measuring-network-speeds-with-netcat</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2009/06/23/converting-svn-commits-to-git-patches</loc>
+    <loc>http://jbowes.github.io/2009/06/23/converting-svn-commits-to-git-patches</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/10/20/diy-velcro-cable-ties</loc>
+    <loc>http://jbowes.github.io/2008/10/20/diy-velcro-cable-ties</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/06/04/perceptions-of-toronto</loc>
+    <loc>http://jbowes.github.io/2008/06/04/perceptions-of-toronto</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/05/24/graphing-git-repository-activity-in</loc>
+    <loc>http://jbowes.github.io/2008/05/24/graphing-git-repository-activity-in</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/05/13/installing-ruby-gems-in-your-home</loc>
+    <loc>http://jbowes.github.io/2008/05/13/installing-ruby-gems-in-your-home</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/04/09/shell-history-meme</loc>
+    <loc>http://jbowes.github.io/2008/04/09/shell-history-meme</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/03/26/dear-government-of-canada</loc>
+    <loc>http://jbowes.github.io/2008/03/26/dear-government-of-canada</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/03/03/cat-news</loc>
+    <loc>http://jbowes.github.io/2008/03/03/cat-news</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/01/29/2-genius</loc>
+    <loc>http://jbowes.github.io/2008/01/29/2-genius</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2008/01/08/mission-accomplished</loc>
+    <loc>http://jbowes.github.io/2008/01/08/mission-accomplished</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/12/31/thin-crust-pizza</loc>
+    <loc>http://jbowes.github.io/2007/12/31/thin-crust-pizza</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/11/08/qotd-mike-on-version-control-best</loc>
+    <loc>http://jbowes.github.io/2007/11/08/qotd-mike-on-version-control-best</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/10/20/another-fedora-upgrade-post</loc>
+    <loc>http://jbowes.github.io/2007/10/20/another-fedora-upgrade-post</loc>
     <lastmod>2011-11-06T10:02:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/10/16/terminal-bling</loc>
+    <loc>http://jbowes.github.io/2007/10/16/terminal-bling</loc>
     <lastmod>2011-11-06T10:02:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/10/13/filtering-atom-feeds-on-language</loc>
+    <loc>http://jbowes.github.io/2007/10/13/filtering-atom-feeds-on-language</loc>
     <lastmod>2011-11-06T10:02:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/08/27/python-holy-grail</loc>
+    <loc>http://jbowes.github.io/2007/08/27/python-holy-grail</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/08/12/python-comment-of-week-aug-12-2007</loc>
+    <loc>http://jbowes.github.io/2007/08/12/python-comment-of-week-aug-12-2007</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/08/04/barcamprdu-2007</loc>
+    <loc>http://jbowes.github.io/2007/08/04/barcamprdu-2007</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/07/23/our-home-and-native-land</loc>
+    <loc>http://jbowes.github.io/2007/07/23/our-home-and-native-land</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/07/03/canada-day</loc>
+    <loc>http://jbowes.github.io/2007/07/03/canada-day</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/06/25/delightful-typo-paintain</loc>
+    <loc>http://jbowes.github.io/2007/06/25/delightful-typo-paintain</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/06/25/seen-on-amazon</loc>
+    <loc>http://jbowes.github.io/2007/06/25/seen-on-amazon</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/06/24/being-productive</loc>
+    <loc>http://jbowes.github.io/2007/06/24/being-productive</loc>
     <lastmod>2011-11-06T10:02:36-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/06/04/xterm-like-fonts-for-gnome-terminal-in</loc>
+    <loc>http://jbowes.github.io/2007/06/04/xterm-like-fonts-for-gnome-terminal-in</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/05/24/hello-planet-fedora</loc>
+    <loc>http://jbowes.github.io/2007/05/24/hello-planet-fedora</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/05/10/using-hostip-berkeley-db-files-from</loc>
+    <loc>http://jbowes.github.io/2007/05/10/using-hostip-berkeley-db-files-from</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/04/27/neato-unix-command-friday-april-27-2007</loc>
+    <loc>http://jbowes.github.io/2007/04/27/neato-unix-command-friday-april-27-2007</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/04/20/qotd-devan-on-programming</loc>
+    <loc>http://jbowes.github.io/2007/04/20/qotd-devan-on-programming</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/04/18/system-summary</loc>
+    <loc>http://jbowes.github.io/2007/04/18/system-summary</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/04/15/perfect-cup-of-coffee</loc>
+    <loc>http://jbowes.github.io/2007/04/15/perfect-cup-of-coffee</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/03/24/yq-stack-for-package-transactions</loc>
+    <loc>http://jbowes.github.io/2007/03/24/yq-stack-for-package-transactions</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/03/17/facebook-eats-babies</loc>
+    <loc>http://jbowes.github.io/2007/03/17/facebook-eats-babies</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/03/11/nerd-test</loc>
+    <loc>http://jbowes.github.io/2007/03/11/nerd-test</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/03/03/error-handling-pay-phones</loc>
+    <loc>http://jbowes.github.io/2007/03/03/error-handling-pay-phones</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/18/git-bisect-practical-example-with-yum</loc>
+    <loc>http://jbowes.github.io/2007/02/18/git-bisect-practical-example-with-yum</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/15/brains-and-biceps-of-fedora</loc>
+    <loc>http://jbowes.github.io/2007/02/15/brains-and-biceps-of-fedora</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/12/shredded-wheat</loc>
+    <loc>http://jbowes.github.io/2007/02/12/shredded-wheat</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/11/did-i-mention-that-svn-sucks</loc>
+    <loc>http://jbowes.github.io/2007/02/11/did-i-mention-that-svn-sucks</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/10/dealing-with-grey-water</loc>
+    <loc>http://jbowes.github.io/2007/02/10/dealing-with-grey-water</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/09/mercurial-head-scratcher</loc>
+    <loc>http://jbowes.github.io/2007/02/09/mercurial-head-scratcher</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/08/on-dns</loc>
+    <loc>http://jbowes.github.io/2007/02/08/on-dns</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/05/heroes-destroying-family-values</loc>
+    <loc>http://jbowes.github.io/2007/02/05/heroes-destroying-family-values</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/05/giving-back-to-git</loc>
+    <loc>http://jbowes.github.io/2007/02/05/giving-back-to-git</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/02/03/setting-up-wordpress</loc>
+    <loc>http://jbowes.github.io/2007/02/03/setting-up-wordpress</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/31/fudcon</loc>
+    <loc>http://jbowes.github.io/2007/01/31/fudcon</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/28/gratuitous-kitty-photo</loc>
+    <loc>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/26/git-rebase-keeping-your-branches</loc>
+    <loc>http://jbowes.github.io/2007/01/26/git-rebase-keeping-your-branches</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/25/how-much-did-wuja-cost</loc>
+    <loc>http://jbowes.github.io/2007/01/25/how-much-did-wuja-cost</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/24/seperated-at-birth</loc>
+    <loc>http://jbowes.github.io/2007/01/24/seperated-at-birth</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/23/bash-shell-and-why-youre-already-using</loc>
+    <loc>http://jbowes.github.io/2007/01/23/bash-shell-and-why-youre-already-using</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/23/new-hosting</loc>
+    <loc>http://jbowes.github.io/2007/01/23/new-hosting</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/20/fair-criticism-of-criticism</loc>
+    <loc>http://jbowes.github.io/2007/01/20/fair-criticism-of-criticism</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2007/01/14/on-sponsored-blog-posts</loc>
+    <loc>http://jbowes.github.io/2007/01/14/on-sponsored-blog-posts</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/12/19/my-gitconfig</loc>
+    <loc>http://jbowes.github.io/2006/12/19/my-gitconfig</loc>
     <lastmod>2011-12-02T22:28:48-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/12/09/using-opendns-with-fedora-core-6</loc>
+    <loc>http://jbowes.github.io/2006/12/09/using-opendns-with-fedora-core-6</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/11/18/software-configuration-management</loc>
+    <loc>http://jbowes.github.io/2006/11/18/software-configuration-management</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/11/12/upgrading</loc>
+    <loc>http://jbowes.github.io/2006/11/12/upgrading</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/11/05/planet-upgrade</loc>
+    <loc>http://jbowes.github.io/2006/11/05/planet-upgrade</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/07/01/ol-update-post</loc>
+    <loc>http://jbowes.github.io/2006/07/01/ol-update-post</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/04/01/theatre-serves-beer</loc>
+    <loc>http://jbowes.github.io/2006/04/01/theatre-serves-beer</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/03/13/two-dollar-t-shirt</loc>
+    <loc>http://jbowes.github.io/2006/03/13/two-dollar-t-shirt</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/03/06/keane-is-krazy</loc>
+    <loc>http://jbowes.github.io/2006/03/06/keane-is-krazy</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/01/15/possibly-bad-generator-definition</loc>
+    <loc>http://jbowes.github.io/2006/01/15/possibly-bad-generator-definition</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2006/01/13/public-service-announcement</loc>
+    <loc>http://jbowes.github.io/2006/01/13/public-service-announcement</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/11/06/mersey-river-chalets</loc>
+    <loc>http://jbowes.github.io/2005/11/06/mersey-river-chalets</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/10/25/is-there-something-wrong-with-my-timex</loc>
+    <loc>http://jbowes.github.io/2005/10/25/is-there-something-wrong-with-my-timex</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/09/07/ipods</loc>
+    <loc>http://jbowes.github.io/2005/09/07/ipods</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/09/01/i-wish</loc>
+    <loc>http://jbowes.github.io/2005/09/01/i-wish</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/08/21/monster-cat</loc>
+    <loc>http://jbowes.github.io/2005/08/21/monster-cat</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/08/10/real-life-mass-transit-horror-stories</loc>
+    <loc>http://jbowes.github.io/2005/08/10/real-life-mass-transit-horror-stories</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/07/31/chocolate-martini</loc>
+    <loc>http://jbowes.github.io/2005/07/31/chocolate-martini</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/07/27/oh-ubuntu-why-must-your-java-vm-be-so</loc>
+    <loc>http://jbowes.github.io/2005/07/27/oh-ubuntu-why-must-your-java-vm-be-so</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/07/20/relevant-on-software-article-of</loc>
+    <loc>http://jbowes.github.io/2005/07/20/relevant-on-software-article-of</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/07/13/maven-buy-razor-get-blades-for-free</loc>
+    <loc>http://jbowes.github.io/2005/07/13/maven-buy-razor-get-blades-for-free</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/07/07/autonomic-pilot</loc>
+    <loc>http://jbowes.github.io/2005/07/07/autonomic-pilot</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/29/dang-that-nasty</loc>
+    <loc>http://jbowes.github.io/2005/06/29/dang-that-nasty</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/28/university-unlearning-optimization</loc>
+    <loc>http://jbowes.github.io/2005/06/28/university-unlearning-optimization</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/24/it-re-remix</loc>
+    <loc>http://jbowes.github.io/2005/06/24/it-re-remix</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/23/got-my-odeo-account</loc>
+    <loc>http://jbowes.github.io/2005/06/23/got-my-odeo-account</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/20/went-pro</loc>
+    <loc>http://jbowes.github.io/2005/06/20/went-pro</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/20/vimtutor</loc>
+    <loc>http://jbowes.github.io/2005/06/20/vimtutor</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/12/no-i-won-be-wearing-my-guadec-t-shirt</loc>
+    <loc>http://jbowes.github.io/2005/06/12/no-i-won-be-wearing-my-guadec-t-shirt</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/06/08/new-gkm</loc>
+    <loc>http://jbowes.github.io/2005/06/08/new-gkm</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/31/live-aus-stuttgart</loc>
+    <loc>http://jbowes.github.io/2005/05/31/live-aus-stuttgart</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/26/bonzo-goes-to-bitburg</loc>
+    <loc>http://jbowes.github.io/2005/05/26/bonzo-goes-to-bitburg</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/25/solid-state-ignition</loc>
+    <loc>http://jbowes.github.io/2005/05/25/solid-state-ignition</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/23/book-action-mono-developer-notebook</loc>
+    <loc>http://jbowes.github.io/2005/05/23/book-action-mono-developer-notebook</loc>
     <lastmod>2011-11-28T17:27:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/19/future-of-beverage-technology</loc>
+    <loc>http://jbowes.github.io/2005/05/19/future-of-beverage-technology</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/18/dan-brown-lowers-your-iq</loc>
+    <loc>http://jbowes.github.io/2005/05/18/dan-brown-lowers-your-iq</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/17/happy-happy-spam-joy</loc>
+    <loc>http://jbowes.github.io/2005/05/17/happy-happy-spam-joy</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/15/ceos-over-and-done-with-for-this-year</loc>
+    <loc>http://jbowes.github.io/2005/05/15/ceos-over-and-done-with-for-this-year</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/05/moleskines-in-halifax</loc>
+    <loc>http://jbowes.github.io/2005/05/05/moleskines-in-halifax</loc>
     <lastmod>2011-11-28T17:27:52-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/05/01/it-was-install-fest</loc>
+    <loc>http://jbowes.github.io/2005/05/01/it-was-install-fest</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/29/like-frozen-geriatric-turtle</loc>
+    <loc>http://jbowes.github.io/2005/04/29/like-frozen-geriatric-turtle</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/22/purdy-screenshot</loc>
+    <loc>http://jbowes.github.io/2005/04/22/purdy-screenshot</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/19/it-boy</loc>
+    <loc>http://jbowes.github.io/2005/04/19/it-boy</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/16/i-sell-my-freedom-for-copy-of</loc>
+    <loc>http://jbowes.github.io/2005/04/16/i-sell-my-freedom-for-copy-of</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/15/it-install-fest</loc>
+    <loc>http://jbowes.github.io/2005/04/15/it-install-fest</loc>
     <lastmod>2011-11-06T10:06:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/13/how-many-people-have-legal-copies-of-ms</loc>
+    <loc>http://jbowes.github.io/2005/04/13/how-many-people-have-legal-copies-of-ms</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/12/rodent-is-out-of-bag</loc>
+    <loc>http://jbowes.github.io/2005/04/12/rodent-is-out-of-bag</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/11/ook-ook</loc>
+    <loc>http://jbowes.github.io/2005/04/11/ook-ook</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/06/i-may-be-anti-plastic-but-i-pro</loc>
+    <loc>http://jbowes.github.io/2005/04/06/i-may-be-anti-plastic-but-i-pro</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/02/announcing-planet-loyalty-programme</loc>
+    <loc>http://jbowes.github.io/2005/04/02/announcing-planet-loyalty-programme</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/04/01/bacon-loves-you-too</loc>
+    <loc>http://jbowes.github.io/2005/04/01/bacon-loves-you-too</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/31/level-indeed</loc>
+    <loc>http://jbowes.github.io/2005/03/31/level-indeed</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/30/clyde-fans-make-excellent-reads</loc>
+    <loc>http://jbowes.github.io/2005/03/30/clyde-fans-make-excellent-reads</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/29/finer-things</loc>
+    <loc>http://jbowes.github.io/2005/03/29/finer-things</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/20/document-lovin</loc>
+    <loc>http://jbowes.github.io/2005/03/20/document-lovin</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/17/coming-soon-to-head-near-you</loc>
+    <loc>http://jbowes.github.io/2005/03/17/coming-soon-to-head-near-you</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/16/waterfront-warehouse-whatchamajigger</loc>
+    <loc>http://jbowes.github.io/2005/03/16/waterfront-warehouse-whatchamajigger</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/14/usrlibblogso</loc>
+    <loc>http://jbowes.github.io/2005/03/14/usrlibblogso</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/11/creationism</loc>
+    <loc>http://jbowes.github.io/2005/03/11/creationism</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/10/have-you-hugged-developer-today</loc>
+    <loc>http://jbowes.github.io/2005/03/10/have-you-hugged-developer-today</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/10/tooting-my-own-horn</loc>
+    <loc>http://jbowes.github.io/2005/03/10/tooting-my-own-horn</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/10/praise-from-caesar</loc>
+    <loc>http://jbowes.github.io/2005/03/10/praise-from-caesar</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/09/victory-gin</loc>
+    <loc>http://jbowes.github.io/2005/03/09/victory-gin</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/09/happy-days</loc>
+    <loc>http://jbowes.github.io/2005/03/09/happy-days</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/08/opiate-of-masses</loc>
+    <loc>http://jbowes.github.io/2005/03/08/opiate-of-masses</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/08/mac-users-have-pretty-websitse</loc>
+    <loc>http://jbowes.github.io/2005/03/08/mac-users-have-pretty-websitse</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/07/hard-and-soft</loc>
+    <loc>http://jbowes.github.io/2005/03/07/hard-and-soft</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/05/oralgasm</loc>
+    <loc>http://jbowes.github.io/2005/03/05/oralgasm</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/02/linux-user-tax-software-rant-3472</loc>
+    <loc>http://jbowes.github.io/2005/03/02/linux-user-tax-software-rant-3472</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/01/blogplusplus</loc>
+    <loc>http://jbowes.github.io/2005/03/01/blogplusplus</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/03/01/we-are-all-criminals</loc>
+    <loc>http://jbowes.github.io/2005/03/01/we-are-all-criminals</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/28/shocking-tale-of-lust-and-betrayal</loc>
+    <loc>http://jbowes.github.io/2005/02/28/shocking-tale-of-lust-and-betrayal</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/28/deadly-rythm</loc>
+    <loc>http://jbowes.github.io/2005/02/28/deadly-rythm</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/28/you-have-best-website</loc>
+    <loc>http://jbowes.github.io/2005/02/28/you-have-best-website</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/27/yakuza-attack-dog</loc>
+    <loc>http://jbowes.github.io/2005/02/27/yakuza-attack-dog</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/25/bruitist-pome-5</loc>
+    <loc>http://jbowes.github.io/2005/02/25/bruitist-pome-5</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/23/samurai-jack-say-hello-to-mr-dovetail</loc>
+    <loc>http://jbowes.github.io/2005/02/23/samurai-jack-say-hello-to-mr-dovetail</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/22/who-buntu-ubuntu</loc>
+    <loc>http://jbowes.github.io/2005/02/22/who-buntu-ubuntu</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/21/worms-of-senses-faculties-of-skull</loc>
+    <loc>http://jbowes.github.io/2005/02/21/worms-of-senses-faculties-of-skull</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/20/liberation-frequency</loc>
+    <loc>http://jbowes.github.io/2005/02/20/liberation-frequency</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/19/apollo-programme-was-hoax</loc>
+    <loc>http://jbowes.github.io/2005/02/19/apollo-programme-was-hoax</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/18/computer-science-deck-of-52</loc>
+    <loc>http://jbowes.github.io/2005/02/18/computer-science-deck-of-52</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/17/will-somebody-please-think-of-children</loc>
+    <loc>http://jbowes.github.io/2005/02/17/will-somebody-please-think-of-children</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/16/james-bowes-is-not-responsible-for-lost</loc>
+    <loc>http://jbowes.github.io/2005/02/16/james-bowes-is-not-responsible-for-lost</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/16/planet-news</loc>
+    <loc>http://jbowes.github.io/2005/02/16/planet-news</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/15/ximian-fanboy-redux</loc>
+    <loc>http://jbowes.github.io/2005/02/15/ximian-fanboy-redux</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/15/i-am-ximian-fanboy</loc>
+    <loc>http://jbowes.github.io/2005/02/15/i-am-ximian-fanboy</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/14/planet-goodies</loc>
+    <loc>http://jbowes.github.io/2005/02/14/planet-goodies</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/14/hello-world</loc>
+    <loc>http://jbowes.github.io/2005/02/14/hello-world</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/14/something-missing</loc>
+    <loc>http://jbowes.github.io/2005/02/14/something-missing</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/13/making-x-look-good</loc>
+    <loc>http://jbowes.github.io/2005/02/13/making-x-look-good</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/12/gimping-heads-for-fun-and-profit</loc>
+    <loc>http://jbowes.github.io/2005/02/12/gimping-heads-for-fun-and-profit</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://replace-this-with-your-hugo-site.com/2005/02/11/put-up-or-shut-up</loc>
+    <loc>http://jbowes.github.io/2005/02/11/put-up-or-shut-up</loc>
     <lastmod>2011-11-06T10:07:16-04:00</lastmod>
   </url>
   
