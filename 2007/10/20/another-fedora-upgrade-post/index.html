@@ -1,0 +1,380 @@
+<div class="single">
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.15" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans|Marcellus+SC'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://replace-this-with-your-hugo-site.com//index.xml">
+
+    
+    <title>Another Fedora Upgrade Post - My New Hugo Site</title>
+    <meta property='og:title' content="Another Fedora Upgrade Post - My New Hugo Site">
+    <meta property="og:type" content="article">
+    
+
+    <meta property="og:url" content="http://replace-this-with-your-hugo-site.com/2007/10/20/another-fedora-upgrade-post">
+    
+    
+
+  </head>
+
+  <body>
+
+    <header class="site">
+      <div class="title"><a href="http://replace-this-with-your-hugo-site.com/">My New Hugo Site</a></div>
+    </header>
+
+    <div class="container site">
+
+
+
+  <div class="row">
+    <div class="col-sm-9">
+
+      <article class="single" itemscope="itemscope" itemtype="http://schema.org/Article">
+
+        <meta itemprop="mainEntityOfPage"  itemType="https://schema.org/WebPage" content="http://replace-this-with-your-hugo-site.com/"/>
+        <meta itemprop="dateModified" content="2007-10-20T08:44:00-03:00">
+        <meta itemprop="headline" content="Another Fedora Upgrade Post">
+        <meta itemprop="description" content="Devan and I were chatting a bit about Fedora upgrades this morning. Given that he and I are both recovering debian users, we do miss (apparently) seamless live upgrades between releases. So following on the heels of Doug and Devan, here is my take on upgrades. First, offline upgrades will always be required for some cases. There&rsquo;s always going to be some cruft we need to drop, and can&rsquo;t do it on a live system.">
+        <meta itemprop="url" content="http://replace-this-with-your-hugo-site.com/2007/10/20/another-fedora-upgrade-post">
+        <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+          <meta itemprop="url" content="http://replace-this-with-your-hugo-site.com/images/default.jpg" />
+          <meta itemprop="width" content="800">
+          <meta itemprop="height" content="800">
+        </div>
+        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+          <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+            <meta itemprop="url" content="http://replace-this-with-your-hugo-site.com/images/logo.jpg">
+            <meta itemprop="width" content="100">
+            <meta itemprop="height" content="100">
+          </div>
+          <meta itemprop="name" content="My New Hugo Site">
+        </div>
+        <div itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <meta itemprop="name" content="">
+        </div>
+
+        <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+
+        <header class="article-header">
+          <time itemprop="datePublished" pubdate="pubdate" datetime="2007-10-20T08:44:00-03:00">Sat, Oct 20, 2007</time>
+          <h1 class="article-title">Another Fedora Upgrade Post</h1>
+        </header>
+
+        <div class="article-body" itemprop="articleBody">
+          <p><a href="http://dgoodwin.dangerouslyinc.com">Devan</a> and I were chatting a bit about
+Fedora upgrades this morning. Given that he and I are both recovering
+<a href="http://www.debian.org">debian</a> users, we do miss
+(<a href="http://www.debian.org/releases/stable/i386/release-notes/ch-
+upgrading.en.html">apparently</a>) seamless live upgrades between releases. So following on
+the heels of <a href="http://www.silfreed.net/content/some-clarifications-and-
+concessions">Doug</a> and <a href="http://dgoodwin.dangerouslyinc.com/more-fedora-live-
+upgrades-discussion">Devan</a>, here is my take on upgrades.</p>
+
+<p>First, offline upgrades will <strong>always</strong> be required for some cases. There&rsquo;s
+always going to be some cruft we need to drop, and can&rsquo;t do it on a live
+system.</p>
+
+<p>Second, allowing upgrades from release X to X+2, etc is too risky and would
+need more QA than I think we&rsquo;d be willing to commit. Likewise for rawhide to
+stable, or stable to rawhide. These all should be possible for the intrepid,
+but not defaults options.</p>
+
+<p><strong>A use case for upgrades</strong></p>
+
+<p>Franky Fedora is a Fedora user. He uses a default install, and is not familiar
+with the command line. Whenever the update applet appears at the top right of
+his screen, he launches it and updates his system. One day, instead of the
+regular update icon, a different one appears with a popup message &ldquo;A new
+version of Fedora is available! please click to upgrade.&rdquo;</p>
+
+<ol>
+<li><p>Franky double clicks on the icon.</p></li>
+
+<li><p>Franky is presented with information about the upgrade, including release notes and an advisory to back up any important data before continuing, as well as a choice to continue or cancel.</p></li>
+
+<li><p>Franky selects continue, and is presented with a list of tasks, as they complete, they are checked off. The list looks like:</p>
+
+<ul>
+<li><p>Updating current release</p></li>
+
+<li><p>Downloading software for upgrade</p></li>
+
+<li><p>Preparing system for upgrade</p></li>
+
+<li><p>Upgrading system</p></li>
+</ul></li>
+
+<li><p>As time progresses, the items on the list are checked off. Meanwhile, Franky is free to do other tasks.</p></li>
+
+<li><p>Once all items on the list are checked off, Franky is presented with a message telling him that his upgrade is complete, and advised to reboot his system. He is given the choice to reboot now, or not to reboot if he wishes to complete other tasks.</p></li>
+
+<li><p>Frankly chooses to reboot. His system restarts, and he is presented with the next Fedora release, and all of its <a href="http://people.redhat.com/duffy/artwork/24hr-infinity.png">wonderful new artwork</a>.</p></li>
+</ol>
+
+<p><strong>Extension Points:</strong></p>
+
+<p>2a. Franky selects cancel, and is returned to his regular desktop.</p>
+
+<p>3a. Franky&rsquo;s system requires a new filesystem, so he is presented with the
+following tasks instead:</p>
+
+<ul>
+<li><p>Updating current release.</p></li>
+
+<li><p>Downloading software for upgrade.</p></li>
+
+<li><p>Rebooting system info upgrader.</p></li>
+
+<li><p>As the items on the list are checked off, Franky is free to do what he wishes.</p></li>
+
+<li><p>When the final item is checked off, Franky is presented with a message telling him his system must be restarted to continue the upgrade. He can select to reboot now, or to do so on his own later.</p></li>
+
+<li><p>Franky chooses to reboot now.</p></li>
+
+<li><p>His system restarts, and runs the Anaconda installer.</p></li>
+
+<li><p>Once complete, Franky&rsquo;s machine reboots into the new Fedora release.</p></li>
+</ul>
+
+<p>5a. Franky chooses to reboot later, and is returned to his regular desktop.</p>
+
+<ol>
+<li>Later he reboots, and moves on to step 6.</li>
+</ol>
+
+<p><strong>Proposed implementation details</strong></p>
+
+<ul>
+<li><p>An upgrades metadata file added to the main repository metadata. This file will contain a pointer to the new Fedora release, as well as some caveats for upgrading. For instance, that the i386 version of dbus must be removed before upgrading.</p></li>
+
+<li><p>The upgrades file will specify whether a live or offline upgrade should be done.</p></li>
+
+<li><p>The caveats will run during the &lsquo;Preparing system for upgrade&rsquo; step.</p></li>
+
+<li><p>The updating current release step is just a &lsquo;yum update&rsquo; after it is completed, the upgrade tool shall restart, if it has been updated during this process.</p></li>
+
+<li><p>The caveats metadata will be updated over time if any new issues arise.</p></li>
+</ul>
+
+<p>Interaction between the upgrades metadata and other repos may get hairy. How
+does the system know what do to when you are running updates versus updates-
+testing? Perhaps each repo should have upgrades metadata.</p>
+
+<p>This is all an extension to the F9
+<a href="http://fedoraproject.org/wiki/Features/PreUpgrade">PreUpgrade</a> feature.
+Getting the Anaconda reboot working is a great first step. Once that&rsquo;s done,
+we can move on to the optional live upgrade, a command line interface, etc.</p>
+
+<p>Comments/flames appreciated.</p>
+
+        </div>
+
+
+        <aside>
+          <div class="section"><a href="http://replace-this-with-your-hugo-site.com/tags/rawhide" class="tag">rawhide</a> <a href="http://replace-this-with-your-hugo-site.com/tags/tech" class="tag">tech</a> <a href="http://replace-this-with-your-hugo-site.com/tags/fedora" class="tag">fedora</a> <a href="http://replace-this-with-your-hugo-site.com/tags/upgrade" class="tag">upgrade</a> <a href="http://replace-this-with-your-hugo-site.com/tags/debian" class="tag">debian</a> <a href="http://replace-this-with-your-hugo-site.com/tags/yum" class="tag">yum</a> </div>
+
+          <div class="section share">
+            <a href="http://www.facebook.com/sharer.php?src=bm&u=http%3a%2f%2freplace-this-with-your-hugo-site.com%2f2007%2f10%2f20%2fanother-fedora-upgrade-post&t=Another%20Fedora%20Upgrade%20Post" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+            <a href="http://twitter.com/intent/tweet?url=http%3a%2f%2freplace-this-with-your-hugo-site.com%2f2007%2f10%2f20%2fanother-fedora-upgrade-post&text=Another%20Fedora%20Upgrade%20Post&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+            <a href="https://plus.google.com/share?url=http%3a%2f%2freplace-this-with-your-hugo-site.com%2f2007%2f10%2f20%2fanother-fedora-upgrade-post" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+            <a href="http://getpocket.com/edit?url=http%3a%2f%2freplace-this-with-your-hugo-site.com%2f2007%2f10%2f20%2fanother-fedora-upgrade-post&title=Another%20Fedora%20Upgrade%20Post" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-get-pocket"></i></a>
+          </div>
+
+          
+          
+          
+        </aside>
+
+      </article>
+    </div>
+
+    <div class="col-sm-3">
+      <aside class="site">
+
+  
+  <div class="section">
+    <header><div class="title">TableOfContents</div></header>
+    <div class="list-default"></div>
+  </div>
+  
+
+  
+
+  <div class="section">
+    <header><div class="title">LatestPosts</div></header>
+    <div class="content">
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2013/08/04/buckler-v100" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Sun, Aug 4, 2013</time>
+      <h2 class="title">Buckler v1.0.0</h2>
+      <div class="summary">Buckler is Shields as a Service (ShaaS, or alternatively, Badges as a Service) for use in GitHub READMEs, or anywhere else. Use Buckler with your favorite continuous integration tool, performance monitoring service API, or ridiculous in-joke to surface information. Buckler is MIT licensed. You are free to: Host your own version of Buckler. Download and re-serve generated shields. Link directly to b.repl.ca for static information display (eg licensing details). Redirect to b.repl.ca from another service for dynamic information (eg build status).</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/12/16/squeezebox-server-fedora" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Sun, Dec 16, 2012</time>
+      <h2 class="title">Squeezebox Server &amp; Fedora</h2>
+      <div class="summary">To get squeezeboxserver working on Fedora, add the following to /etc/sysconfig/iptables: # squeezebox -A INPUT -m state --state NEW -m tcp -p tcp --dport 9000 -j ACCEPT -A INPUT -m state --state NEW -m tcp -p tcp --dport 3483 -j ACCEPT -A INPUT -m state --state NEW -m udp -p udp --dport 3483 -j ACCEPT</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/12/15/irssi-keys-on-macbook-pro" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Sat, Dec 15, 2012</time>
+      <h2 class="title">IRSSI Keys on a MacBook Pro</h2>
+      <div class="summary">At $newjob I&rsquo;m using a late 2011 MacBook Pro, so I&rsquo;ve had to relearn some keys for IRSSI. The important ones to me are: fn + up arrow / down arrow: for viewing the backscroll (page up / page down) Setting an option key to &ldquo;+esc&rdquo; under iTerm2 so I can hold down the key and use left and right arrows to move through open windows.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/12/02/the-end" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Sun, Dec 2, 2012</time>
+      <h2 class="title">The End</h2>
+      <div class="summary">After nearly seven years, Friday marked my last day at Red Hat. I&rsquo;m taking a week off to focus on growing my beard and brewing a lot, before starting my next adventure. If you need to reach me, I&rsquo;m still on teh internets.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/07/13/give-absolute-path-for-client" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Fri, Jul 13, 2012</time>
+      <h2 class="title">Give the absolute path for a client certificate with curl</h2>
+      <div class="summary">If you&rsquo;re expecting curl &ndash;cert somefile.pem to work, and you keep getting 403s in response, it might be because your curl is compiled against NSS, and that cert is being interpreted as an alias to an NSS DB entry. Use curl &ndash;cert ./somefile.pem instead. Fwiw, this is documented in the curl man page, but who looks there? &hellip;Or use wget instead.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/04/24/connect-client-implementation-for-netty" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Tue, Apr 24, 2012</time>
+      <h2 class="title">A CONNECT Client Implementation for Netty</h2>
+      <div class="summary">If you need an implementation of an HTTP CONNECT client to tunnel SSL (or anything else) through a proxy using Netty, Chris Duryee and I recently landed a patch to do so in Thumbslug. By all means, make use of it! The original changeset is here.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/03/26/camopic-is-now-live" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Mon, Mar 26, 2012</time>
+      <h2 class="title">Camopic is now live!</h2>
+      <div class="summary">My new app, Camopic, is now live on Google Play (only $0.99! cheap!). Camopic uses steganography to hide a picture inside a different jpeg image. You can then share that image with another Camopic user, who will be able to reveal and view your hidden image. This basically sums it up: Google Play: Camopic $0.99</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/03/17/using-roboto-on-fedora" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Sat, Mar 17, 2012</time>
+      <h2 class="title">Using Roboto on Fedora</h2>
+      <div class="summary">Using Android&rsquo;s Roboto font is pretty easy on Fedora (or any other Linux flavour). Just download the Roboto zip, open it up, copy the ttf files into your ~/.fonts dir, and refresh your font cache. From there, you can use the font in any program (though you may need to reload it first). Here are the steps: `` wget https://dl-ssl.google.com/android/design/Roboto_Hinted_20111129.zip unzip Roboto_Hinted_20111129.zip mkdir ~/.fonts mv Roboto_Hinted_20111129/*.ttf ~/.fonts fc-cache ``</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/02/21/howto-make-bacon" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Tue, Feb 21, 2012</time>
+      <h2 class="title">HOWTO Make Bacon</h2>
+      <div class="summary">[] (http://www.flickr.com/photos/bowes/6893738855/) Side View: The side of a slab of pork _belly is __ quite obviously delicious_ bacon, only raw. A few weeks ago I acquired a slab of pork belly from a local Nova Scotian farmer, with the intention of making Bacon from scratch. Plenty of different cuts of meat preserved in different ways can be qualified as bacon; I decided on typical North American pork belly, salt cured and smoked.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+      <div class="sm"><article class="li">
+  <a href="http://replace-this-with-your-hugo-site.com/2012/02/17/glyphicons-styled-stack-overflow-icon" class="clearfix">
+    <div class="image" style="background-image: url(http://replace-this-with-your-hugo-site.com/images/default.jpg);"></div>
+    <div class="detail">
+      <time>Fri, Feb 17, 2012</time>
+      <h2 class="title">Glyphicons Styled Stack Overflow Icon</h2>
+      <div class="summary">Here is a Stack Overflow icon in the style of Glyphicons I did for my &lsquo;about me&rsquo; sidebar section: Feel free to use it however you want.</div>
+    </div>
+  </a>
+</article>
+</div>
+      
+    </div>
+  </div>
+
+  
+  <div class="section taxonomies">
+    <header><div class="title">category</div></header>
+    <div class="content">
+      
+    </div>
+  </div>
+  
+  <div class="section taxonomies">
+    <header><div class="title">tag</div></header>
+    <div class="content">
+      <a href="http://replace-this-with-your-hugo-site.com/tags/fedora">fedora</a><a href="http://replace-this-with-your-hugo-site.com/tags/tech">tech</a><a href="http://replace-this-with-your-hugo-site.com/tags/life">life</a><a href="http://replace-this-with-your-hugo-site.com/tags/scm">scm</a><a href="http://replace-this-with-your-hugo-site.com/tags/git">git</a><a href="http://replace-this-with-your-hugo-site.com/tags/wtf">wtf</a><a href="http://replace-this-with-your-hugo-site.com/tags/opinion">opinion</a><a href="http://replace-this-with-your-hugo-site.com/tags/programming">programming</a><a href="http://replace-this-with-your-hugo-site.com/tags/blog">blog</a><a href="http://replace-this-with-your-hugo-site.com/tags/config">config</a>
+    </div>
+  </div>
+  
+
+</aside>
+
+    </div>
+
+  </div>
+
+      </div>
+
+    <footer class="site">
+      <p>&copy; 2013 My New Hugo Site</p>
+      <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>,</p>
+      <p>Theme <a href="https://github.com/dim0627/hugo_theme_robust" target="_blank">Robust</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+
+  </body>
+</html>
+
+</div>
