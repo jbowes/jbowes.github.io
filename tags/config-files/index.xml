@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Config Files on My New Hugo Site</title>
+    <title>Config Files on repl.ca</title>
     <link>http://jbowes.github.io/tags/config-files/</link>
-    <description>Recent content in Config Files on My New Hugo Site</description>
+    <description>Recent content in Config Files on repl.ca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2005 - 2016 James Bowes</copyright>

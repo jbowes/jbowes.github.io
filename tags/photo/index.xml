@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Photo on My New Hugo Site</title>
+    <title>Photo on repl.ca</title>
     <link>http://jbowes.github.io/tags/photo/</link>
-    <description>Recent content in Photo on My New Hugo Site</description>
+    <description>Recent content in Photo on repl.ca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2005 - 2016 James Bowes</copyright>
