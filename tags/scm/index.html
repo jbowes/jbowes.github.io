@@ -107,10 +107,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2009/06/23/converting-svn-commits-to-git-patches">Converting SVN Commits to Git Patches</a></h2>
+        <h2 class="post-title"><a href="/2009/06/23/converting-svn-commits-to-git-patches/">Converting SVN Commits to Git Patches</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>In case you find yourself in need of a way to turn an svn revision into a git patch that can be applied with &lsquo;git am&rsquo;, keeping the commit message and authorship information, here&rsquo;s a script I used recently: #!/usr/bin/python # # svnrev2git.py - Convert an SVN revsion to a Git patch. # # Author: James Bowes &lt;jbowes@repl.ca&gt; # # Usage: # $&gt; cd my-svn-repo # $&gt; python svnrev2git.py [AUTHORS_FILE] [REV_RANGE | REVSION [REVISION..]] # # AUTHORS_FILE - a CSV of svn username, full name, email # REV_RANGE - an svn revision range, like 100-700 # REVISION - a single svn revision # # You may specify either a revision range, or a series of individual # svn revisions # # Output: # A series of git style patch files, one per svn revision, which can then be # applied with 'git am' # # Why use this instead of 'git svn'? <a class="read-more" href="/2009/06/23/converting-svn-commits-to-git-patches">&raquo;</a></p>
+        <p>In case you find yourself in need of a way to turn an svn revision into a git patch that can be applied with &lsquo;git am&rsquo;, keeping the commit message and authorship information, here&rsquo;s a script I used recently: #!/usr/bin/python # # svnrev2git.py - Convert an SVN revsion to a Git patch. # # Author: James Bowes &lt;jbowes@repl.ca&gt; # # Usage: # $&gt; cd my-svn-repo # $&gt; python svnrev2git.py [AUTHORS_FILE] [REV_RANGE | REVSION [REVISION..]] # # AUTHORS_FILE - a CSV of svn username, full name, email # REV_RANGE - an svn revision range, like 100-700 # REVISION - a single svn revision # # You may specify either a revision range, or a series of individual # svn revisions # # Output: # A series of git style patch files, one per svn revision, which can then be # applied with 'git am' # # Why use this instead of 'git svn'? <a class="read-more" href="/2009/06/23/converting-svn-commits-to-git-patches/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -135,10 +135,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2008/05/24/graphing-git-repository-activity-in">Graphing Git Repository Activity In ASCII</a></h2>
+        <h2 class="post-title"><a href="/2008/05/24/graphing-git-repository-activity-in/">Graphing Git Repository Activity In ASCII</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Here&rsquo;s a quick little script I wrote up (adapted from this perlmonks post) to show git repository activity as an ascii graph, like so: The X axis represents a day, with the current day being on the far right. The Y axis is no. of lines added + no. of lines deleted during that day. EDIT (2009/02/03): Wordpress.com won&rsquo;t let me attach a .pl file, so here&rsquo;s the contents: #!/usr/bin/perl # # git-graph.pl - Generate an ascii graph of git repository activity # # Copyright (C) 2008 James Bowes &lt;jbowes@dangerouslyinc.com&gt; # # Graphing routine Adapted from http://www.perlmonks.org/?node_id=336907 sub get_activity { my $day = shift; my $git_cmd = 'git diff --shortstat &quot;@{' . <a class="read-more" href="/2008/05/24/graphing-git-repository-activity-in">&raquo;</a></p>
+        <p>Here&rsquo;s a quick little script I wrote up (adapted from this perlmonks post) to show git repository activity as an ascii graph, like so: The X axis represents a day, with the current day being on the far right. The Y axis is no. of lines added + no. of lines deleted during that day. EDIT (2009/02/03): Wordpress.com won&rsquo;t let me attach a .pl file, so here&rsquo;s the contents: #!/usr/bin/perl # # git-graph.pl - Generate an ascii graph of git repository activity # # Copyright (C) 2008 James Bowes &lt;jbowes@dangerouslyinc.com&gt; # # Graphing routine Adapted from http://www.perlmonks.org/?node_id=336907 sub get_activity { my $day = shift; my $git_cmd = 'git diff --shortstat &quot;@{' . <a class="read-more" href="/2008/05/24/graphing-git-repository-activity-in/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -169,10 +169,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2007/11/08/qotd-mike-on-version-control-best">QotD: Mike on Version Control Best Practices</a></h2>
+        <h2 class="post-title"><a href="/2007/11/08/qotd-mike-on-version-control-best/">QotD: Mike on Version Control Best Practices</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>&lt; mdehaan&gt; atomic commits are dangerous, just as atomic weapons He may have been sarcastic. Maybe. <a class="read-more" href="/2007/11/08/qotd-mike-on-version-control-best">&raquo;</a></p>
+        <p>&lt; mdehaan&gt; atomic commits are dangerous, just as atomic weapons He may have been sarcastic. Maybe. <a class="read-more" href="/2007/11/08/qotd-mike-on-version-control-best/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -197,10 +197,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2007/02/18/git-bisect-practical-example-with-yum">git bisect: A practical example with yum</a></h2>
+        <h2 class="post-title"><a href="/2007/02/18/git-bisect-practical-example-with-yum/">git bisect: A practical example with yum</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I used git bisect to track down a bug in yum last night. It was so easy and practical that I figured I should record it here, so that others might want to give git a try. I was attempting to install mutt, and yum failed (printing a traceback) after the rpms had been downloaded, but before the test transaction finished. So I started git bisect, and marked the current point as bad: $&gt; git bisect start $&gt; git bisect bad The yum 3.1.0 release didn&rsquo;t have this bug (it was the version I had installed at the time), so I marked it as good: $&gt; git bisect good yum-3-1-0 Bisecting: 15 revisions left to test after this [1d0454af41ef6361604cafa8c7a13d80bc183c63] make it so that we see that the local rpm is present and then don't download Git automatically checks out the next revision for you to test. <a class="read-more" href="/2007/02/18/git-bisect-practical-example-with-yum">&raquo;</a></p>
+        <p>I used git bisect to track down a bug in yum last night. It was so easy and practical that I figured I should record it here, so that others might want to give git a try. I was attempting to install mutt, and yum failed (printing a traceback) after the rpms had been downloaded, but before the test transaction finished. So I started git bisect, and marked the current point as bad: $&gt; git bisect start $&gt; git bisect bad The yum 3.1.0 release didn&rsquo;t have this bug (it was the version I had installed at the time), so I marked it as good: $&gt; git bisect good yum-3-1-0 Bisecting: 15 revisions left to test after this [1d0454af41ef6361604cafa8c7a13d80bc183c63] make it so that we see that the local rpm is present and then don't download Git automatically checks out the next revision for you to test. <a class="read-more" href="/2007/02/18/git-bisect-practical-example-with-yum/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -233,10 +233,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2007/02/11/did-i-mention-that-svn-sucks">Did I mention that svn sucks?</a></h2>
+        <h2 class="post-title"><a href="/2007/02/11/did-i-mention-that-svn-sucks/">Did I mention that svn sucks?</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>$&gt; svn co svn://gcc.gnu.org/svn/gcc/trunk gcc $&gt; cd gcc $&gt; du -h ... 1.6G . $&gt; svn export . ../clean-gcc $&gt; cd ../clean-gcc $&gt; du -h ... 638M . $&gt; Oh, yes, I did. <a class="read-more" href="/2007/02/11/did-i-mention-that-svn-sucks">&raquo;</a></p>
+        <p>$&gt; svn co svn://gcc.gnu.org/svn/gcc/trunk gcc $&gt; cd gcc $&gt; du -h ... 1.6G . $&gt; svn export . ../clean-gcc $&gt; cd ../clean-gcc $&gt; du -h ... 638M . $&gt; Oh, yes, I did. <a class="read-more" href="/2007/02/11/did-i-mention-that-svn-sucks/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -265,10 +265,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2007/01/26/git-rebase-keeping-your-branches">git rebase: keeping your branches current</a></h2>
+        <h2 class="post-title"><a href="/2007/01/26/git-rebase-keeping-your-branches/">git rebase: keeping your branches current</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Where possible, I use git for my scm now. All software on dangerously incompetent is stored in git, and I do my personal yum work with git-cvsimport. One of the reasons I like git so much is git- rebase. Here’s an example of how it works: There is some upstream project that you wish to work on. You clone this upstream project when it is in state A, and make some changes. <a class="read-more" href="/2007/01/26/git-rebase-keeping-your-branches">&raquo;</a></p>
+        <p>Where possible, I use git for my scm now. All software on dangerously incompetent is stored in git, and I do my personal yum work with git-cvsimport. One of the reasons I like git so much is git- rebase. Here’s an example of how it works: There is some upstream project that you wish to work on. You clone this upstream project when it is in state A, and make some changes. <a class="read-more" href="/2007/01/26/git-rebase-keeping-your-branches/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
@@ -293,10 +293,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2006/12/19/my-gitconfig">My .gitconfig</a></h2>
+        <h2 class="post-title"><a href="/2006/12/19/my-gitconfig/">My .gitconfig</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>**Update: **I&rsquo;ve posted a revised version of my .gitconfig here. By default, git does not include aliases for commands. For instance, &lsquo;git status&rsquo; works but &lsquo;git st&rsquo; does not. This will hurt your noggin if you are used to using cvs or svn. Also, the internet is for posting config files on. So here are the contents of my .gitconfig: [user] name = James Bowes email = MY_EMAIL [alias] ci = commit -a co = checkout st = status -a praise = blame [apply] whitespace = strip [diff] color = auto rename = copy [pager] color = true [status] color = auto Just drop that into ~/.gitconfig and you&rsquo;re all set. <a class="read-more" href="/2006/12/19/my-gitconfig">&raquo;</a></p>
+        <p>**Update: **I&rsquo;ve posted a revised version of my .gitconfig here. By default, git does not include aliases for commands. For instance, &lsquo;git status&rsquo; works but &lsquo;git st&rsquo; does not. This will hurt your noggin if you are used to using cvs or svn. Also, the internet is for posting config files on. So here are the contents of my .gitconfig: [user] name = James Bowes email = MY_EMAIL [alias] ci = commit -a co = checkout st = status -a praise = blame [apply] whitespace = strip [diff] color = auto rename = copy [pager] color = true [status] color = auto Just drop that into ~/.gitconfig and you&rsquo;re all set. <a class="read-more" href="/2006/12/19/my-gitconfig/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         

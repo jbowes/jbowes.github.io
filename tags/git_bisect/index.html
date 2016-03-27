@@ -107,10 +107,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2007/02/18/git-bisect-practical-example-with-yum">git bisect: A practical example with yum</a></h2>
+        <h2 class="post-title"><a href="/2007/02/18/git-bisect-practical-example-with-yum/">git bisect: A practical example with yum</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I used git bisect to track down a bug in yum last night. It was so easy and practical that I figured I should record it here, so that others might want to give git a try. I was attempting to install mutt, and yum failed (printing a traceback) after the rpms had been downloaded, but before the test transaction finished. So I started git bisect, and marked the current point as bad: $&gt; git bisect start $&gt; git bisect bad The yum 3.1.0 release didn&rsquo;t have this bug (it was the version I had installed at the time), so I marked it as good: $&gt; git bisect good yum-3-1-0 Bisecting: 15 revisions left to test after this [1d0454af41ef6361604cafa8c7a13d80bc183c63] make it so that we see that the local rpm is present and then don't download Git automatically checks out the next revision for you to test. <a class="read-more" href="/2007/02/18/git-bisect-practical-example-with-yum">&raquo;</a></p>
+        <p>I used git bisect to track down a bug in yum last night. It was so easy and practical that I figured I should record it here, so that others might want to give git a try. I was attempting to install mutt, and yum failed (printing a traceback) after the rpms had been downloaded, but before the test transaction finished. So I started git bisect, and marked the current point as bad: $&gt; git bisect start $&gt; git bisect bad The yum 3.1.0 release didn&rsquo;t have this bug (it was the version I had installed at the time), so I marked it as good: $&gt; git bisect good yum-3-1-0 Bisecting: 15 revisions left to test after this [1d0454af41ef6361604cafa8c7a13d80bc183c63] make it so that we see that the local rpm is present and then don't download Git automatically checks out the next revision for you to test. <a class="read-more" href="/2007/02/18/git-bisect-practical-example-with-yum/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         

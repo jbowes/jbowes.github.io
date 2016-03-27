@@ -107,10 +107,10 @@
 	   
 <article class="post blog">
     <header class="post-header">
-        <h2 class="post-title"><a href="/2008/05/13/installing-ruby-gems-in-your-home">Installing ruby gems in your home directory</a></h2>
+        <h2 class="post-title"><a href="/2008/05/13/installing-ruby-gems-in-your-home/">Installing ruby gems in your home directory</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>I found it hard to find good instructions for installing ruby gems as a non- root user without installing the gem package locally as well. Here&rsquo;s what I figured out; hopefully this will save someone else some time in the future: Make a directory for gem installation: $&gt; mkdir ~/.gems Set up your .gemrc for gem install-time configuration: $&gt; cat &lt;&lt; EOF &gt; ~/.gemrc gemhome: $HOME/gems gempath: - $HOME/gems - /usr/lib/ruby/gems/1.8 EOF Set up some environment variables for run-time: $&gt; cat &lt;&lt; EOF &gt;&gt; ~/.bashrc export GEM_HOME=$HOME/gems export GEM_PATH=$HOME/gems:/usr/lib/ruby/gems/1.8/ export PATH=$PATH:$HOME/gems/bin EOF Source your bashrc and you&rsquo;re all set. <a class="read-more" href="/2008/05/13/installing-ruby-gems-in-your-home">&raquo;</a></p>
+        <p>I found it hard to find good instructions for installing ruby gems as a non- root user without installing the gem package locally as well. Here&rsquo;s what I figured out; hopefully this will save someone else some time in the future: Make a directory for gem installation: $&gt; mkdir ~/.gems Set up your .gemrc for gem install-time configuration: $&gt; cat &lt;&lt; EOF &gt; ~/.gemrc gemhome: $HOME/gems gempath: - $HOME/gems - /usr/lib/ruby/gems/1.8 EOF Set up some environment variables for run-time: $&gt; cat &lt;&lt; EOF &gt;&gt; ~/.bashrc export GEM_HOME=$HOME/gems export GEM_PATH=$HOME/gems:/usr/lib/ruby/gems/1.8/ export PATH=$PATH:$HOME/gems/bin EOF Source your bashrc and you&rsquo;re all set. <a class="read-more" href="/2008/05/13/installing-ruby-gems-in-your-home/">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         
