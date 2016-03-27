@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Sewer on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/sewer/</link>
+    <description>Recent content in Sewer on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-02-10 17:55:00 -0400 -0400</updated>
-
+    <lastBuildDate>Sat, 10 Feb 2007 17:55:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/sewer/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Dealing with grey water</title>
+      <link>http://jbowes.github.io/2007/02/10/dealing-with-grey-water</link>
+      <pubDate>Sat, 10 Feb 2007 17:55:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/02/10/dealing-with-grey-water</guid>
+      <description>&lt;p&gt;On Wednesday evening, whilst I was playing &lt;a href=&#34;http://www.boardgamegeek.com/game/15363&#34;&gt;Nexus
+Ops&lt;/a&gt; with a few mates, the toilet
+began to gurgle (it turns out it had been gurgling all day). After a usage and
+a flush, the toilet overflowed with such speed that more than half of our
+apartment was flooded before the water could be stopped. It turns out there
+had been some blockage in the sewer lines to the apartment building.&lt;/p&gt;
 
+&lt;p&gt;Cherie and I then spent the next two days soaking up water, moving furniture
+and cats around, and generally having a bad time. The apartment complex paid
+to have someone come in and clean the carpets, and next week they will be
+replacing the linoleum in the bathroom. I ended up working from home on
+Thursday and Friday to help Cherie as much as possible.&lt;/p&gt;
+
+&lt;p&gt;The only good thing to come out of this was that we had a great excuse to
+order take out.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

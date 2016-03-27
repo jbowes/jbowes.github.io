@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Photo on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/photo/</link>
+    <description>Recent content in Photo on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-02-15 05:24:00 -0400 -0400</updated>
-
+    <lastBuildDate>Thu, 15 Feb 2007 05:24:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/photo/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>The brains and biceps of Fedora</title>
+      <link>http://jbowes.github.io/2007/02/15/brains-and-biceps-of-fedora</link>
+      <pubDate>Thu, 15 Feb 2007 05:24:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2007/02/15/brains-and-biceps-of-fedora</guid>
+      <description>&lt;p&gt;.flickr-photo { border: solid 2px #000000; } .flickr-yourcomment { } .flickr-
+frame { text-align: left; padding: 3px; } .flickr-caption { font-size: 0.8em;
+margin-top: 0px; }&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://www.
+flickr.com/photos/bowes/391118330/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://farm1.static.flickr.com/180/391118330_76ebf9dd2b.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/391118330/&#34;&gt;The brains and biceps of
+Fedora&lt;/a&gt;, originally uploaded by
+&lt;a href=&#34;http://www.flickr.com/people/bowes/&#34;&gt;James Bowes&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gratuitous kitty photo</title>
+      <link>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</link>
+      <pubDate>Sun, 28 Jan 2007 15:30:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</guid>
+      <description>&lt;p&gt;.flickr-photo { border: solid 2px #000000; } .flickr-yourcomment { } .flickr-
+frame { text-align: left; padding: 3px; } .flickr-caption { font-size: 0.8em;
+margin-top: 0px; }&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.f
+lickr.com/photos/bowes/118386519/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://farm1.static.flickr.com/35/118386519_08cc9fa352.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/118386519/&#34;&gt;Spook in her box tunnel&lt;/a&gt;,
+originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/bowes/&#34;&gt;James Bowes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m still playing around with the new hotness that is wordpress. This is me
+using the ‘blog this’ feature in flickr.&lt;/p&gt;
+
+&lt;p&gt;Above is our girl cat, spook, playing in a tunnel made from free cardboard
+boxes, sent to us from eBay and the USPS. The boxes are now long gone, after
+being filled with various nerd accoutrements. The cat remains.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

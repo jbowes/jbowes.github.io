@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Dal on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/dal/</link>
+    <description>Recent content in Dal on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2006-11-05 07:11:00 -0400 -0400</updated>
-
+    <lastBuildDate>Sun, 05 Nov 2006 07:11:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/dal/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Planet Upgrade</title>
+      <link>http://jbowes.github.io/2006/11/05/planet-upgrade</link>
+      <pubDate>Sun, 05 Nov 2006 07:11:00 -0400</pubDate>
       
+      <guid>http://jbowes.github.io/2006/11/05/planet-upgrade</guid>
+      <description>&lt;p&gt;I upgraded&lt;a href=&#34;http://planet.cs.dal.ca&#34; title=&#34;Planet Dal CS&#34;&gt; Planet Dal CS&lt;/a&gt; to the
+latest stable release of &lt;a href=&#34;http://www.planetplanet.org&#34;&gt;Planet&lt;/a&gt; today.
+Everything looks good, but if you notice a bug, let me know.&lt;/p&gt;
+</description>
+    </item>
     
-
   </channel>
 </rss>

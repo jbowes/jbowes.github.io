@@ -1,18 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Ui on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/ui/</link>
+    <description>Recent content in Ui on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2012-02-17 19:51:00.002 -0400 -0400</updated>
-
+    <lastBuildDate>Fri, 17 Feb 2012 19:51:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/ui/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Glyphicons Styled Stack Overflow Icon</title>
+      <link>http://jbowes.github.io/2012/02/17/glyphicons-styled-stack-overflow-icon</link>
+      <pubDate>Fri, 17 Feb 2012 19:51:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2012/02/17/glyphicons-styled-stack-overflow-icon</guid>
+      <description>&lt;p&gt;Here is a &lt;a href=&#34;http://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt; icon in the style of
+&lt;a href=&#34;http://www.glyphicons.com/&#34;&gt;Glyphicons&lt;/a&gt; I did for my &amp;lsquo;about me&amp;rsquo; sidebar
+section:&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://4.bp.blogspot.com/-L97ZcszhfM8/Tz7kl0q933I/AAAAAAAACVk/s57eKDGBSF0/
+s1600/glyph_stack_overflow.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to use it however you want.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrofitting drop shadows into existing Android layouts</title>
+      <link>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</link>
+      <pubDate>Sun, 12 Feb 2012 16:28:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</guid>
+      <description>&lt;p&gt;I had some UI elements in an &lt;a href=&#34;https://market.android.com/developer?pub=James+Bowes&#34;&gt;Android application I&amp;rsquo;m working
+on&lt;/a&gt; that felt as if they
+should be above (pushing out of the screen, rather than to the top of it) the
+elements that followed them in the UI. A good way to indicate this is with a
+drop shadow, similar to those on Android title bars or &lt;a href=&#34;http://developer.android.com/design/patterns/actionbar.html&#34;&gt;Action
+Bars&lt;/a&gt;. An
+&lt;a href=&#34;http://www.anotherandroidblog.com/2011/06/29/drop-shadow-
+linearlayout/&#34;&gt;existing method&lt;/a&gt; didn&amp;rsquo;t work for me, as my UI is relying heavily on weights to
+keep proper size ratios between the elements I wanted to add a drop shadow to,
+and the element they would be casting a shadow on.&lt;/p&gt;
+
+&lt;p&gt;Rather than hanging the shadow off the element that will be casting the shadow
+with a &lt;a href=&#34;http://developer.android.com/reference/android/widget/
+RelativeLayout.html&#34;&gt;RelativeLayout&lt;/a&gt;, and throwing off the weights, I instead used a &lt;a href=&#34;http://developer.android.com/reference/android/widget/FrameLayout.html&#34;&gt;FrameLay
+out&lt;/a&gt;
+to overlay the shadow on top of where the shadow was cast:&lt;/p&gt;
+
+&lt;p&gt;`layout/my_layout.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;LinearLayout  
+    android:id=&amp;quot;@+id/linearLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_weight=&amp;quot;1&amp;quot;  
+    android:layout_gravity=&amp;quot;top&amp;quot;  
+    android:paddingBottom=&amp;quot;2dp&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyShadowCastingWidget  
+        android:id=&amp;quot;@+id/shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherShadowCastingWidget  
+        android:id=&amp;quot;@+id/other_shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;   
+&amp;lt;/LinearLayout&amp;gt;  
+
+&amp;lt;FrameLayout  
+    android:id=&amp;quot;@+id/relativeLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_gravity=&amp;quot;bottom&amp;quot;  
+    android:layout_weight=&amp;quot;2&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherWidget  
+        android:id=&amp;quot;@+id/other_widget&amp;quot;  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;View  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;4dip&amp;quot;  
+        android:background=&amp;quot;@drawable/drop_shadow&amp;quot; /&amp;gt;  
+&amp;lt;/FrameLayout&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;p&gt;ca.repl.MyOtherWidget will have a shadow cast over it. To maintain the
+weights, I just moved all attrs off ca.repl.MyOtherWidget and onto the new
+FrameLayout.&lt;/p&gt;
+
+&lt;p&gt;For completeness, here&amp;rsquo;s the drop shadow drawable:&lt;/p&gt;
+
+&lt;p&gt;`drawable/drop_shadow.xml&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?xml version=&amp;ldquo;1.0&amp;rdquo; encoding=&amp;ldquo;utf-8&amp;rdquo;?&amp;gt;&lt;br /&gt;
+&lt;shape xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;&gt;&lt;br /&gt;
+    &lt;gradient  
+        android:startColor=&#34;@color/drop_start&#34;  
+        android:endColor=&#34;@color/drop_end&#34;  
+        android:angle=&#34;270&#34; &gt;&lt;br /&gt;
+    &lt;/gradient&gt;&lt;br /&gt;
+&lt;/shape&gt;&lt;br /&gt;
+`&lt;br /&gt;
+And the two colors for the drawable. I used black for the color with alpha
+channels. If you wanted to make the shadow more obvious you could forgo alpha
+channels:&lt;/p&gt;
+
+&lt;p&gt;`values/colors.xml&lt;/p&gt;
+
+&lt;p&gt;&lt;resources&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_start&#34;&gt;#66000000&lt;/color&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_end&#34;&gt;#00000000&lt;/color&gt;&lt;br /&gt;
+&lt;/resources&gt;&lt;br /&gt;
+`&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

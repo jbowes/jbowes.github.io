@@ -1,24 +1,130 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Blog on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/blog/</link>
+    <description>Recent content in Blog on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-02-03 17:23:00 -0400 -0400</updated>
+    <lastBuildDate>Sat, 03 Feb 2007 17:23:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting up wordpress</title>
+      <link>http://jbowes.github.io/2007/02/03/setting-up-wordpress</link>
+      <pubDate>Sat, 03 Feb 2007 17:23:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/02/03/setting-up-wordpress</guid>
+      <description>&lt;p&gt;Since I&amp;rsquo;m running through the &lt;a href=&#34;http://www.wordpress.org&#34;&gt;wordpress&lt;/a&gt; install
+again, I figured I&amp;rsquo;d take &lt;a href=&#34;http://www.lastblogger.com&#34;&gt;Marc&lt;/a&gt;&amp;rsquo;s advice and
+&amp;lsquo;blog my changes&amp;rsquo;.&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plugins:&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://http://www.neato.co.nz/ultimate-tag-warrior/&#34;&gt;Ultimate tag warrior&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://orderedlist.com/wordpress-plugins/feedburner-plugin/&#34;&gt;feedburner&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://wasabi.pbwiki.com/Related%20Entries&#34;&gt;related posts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.netconcepts.com/seo-title-tag-plugin/&#34;&gt;seo title tag&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.arnebrachhold.de/2005/06/05/google-sitemaps-generator-v2-final&#34;&gt;sitemap&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://automattic.com/code/widgets/&#34;&gt;widgets&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://tarskitheme.com/help/widgets/&#34;&gt;Tarski links widget&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Popularity Contest (disable visible rankings for external viewers)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://tarskitheme.com/&#34;&gt;Tarski&lt;/a&gt; theme:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Edit footer.php to remove the recent entries section and lower sidebar.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit sidebar.php to always show the &amp;ldquo;Main Sidebar&amp;rdquo; widget thing, and only show the &amp;ldquo;Widget Footer&amp;rdquo; one for the front page, to make the sidebar shorter for individual posts.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit header.php, replacing the standard title call with the SEO title tag.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit loop.php to display the related entries in the content block.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gratuitous kitty photo</title>
+      <link>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</link>
+      <pubDate>Sun, 28 Jan 2007 15:30:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</guid>
+      <description>&lt;p&gt;.flickr-photo { border: solid 2px #000000; } .flickr-yourcomment { } .flickr-
+frame { text-align: left; padding: 3px; } .flickr-caption { font-size: 0.8em;
+margin-top: 0px; }&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.f
+lickr.com/photos/bowes/118386519/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://farm1.static.flickr.com/35/118386519_08cc9fa352.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/118386519/&#34;&gt;Spook in her box tunnel&lt;/a&gt;,
+originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/bowes/&#34;&gt;James Bowes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m still playing around with the new hotness that is wordpress. This is me
+using the ‘blog this’ feature in flickr.&lt;/p&gt;
+
+&lt;p&gt;Above is our girl cat, spook, playing in a tunnel made from free cardboard
+boxes, sent to us from eBay and the USPS. The boxes are now long gone, after
+being filled with various nerd accoutrements. The cat remains.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>New hosting</title>
+      <link>http://jbowes.github.io/2007/01/23/new-hosting</link>
+      <pubDate>Tue, 23 Jan 2007 13:06:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/23/new-hosting</guid>
+      <description>&lt;p&gt;I’ve moved my blog and associated pages from &lt;a href=&#34;http://www.cs.dal.ca&#34;&gt;Dal CS&lt;/a&gt; to
+the &lt;a href=&#34;http://www.dangerouslyinc.com&#34;&gt;dangerously incompetent&lt;/a&gt; data center.
+Also, I’ve moved it from pybloxsom to &lt;a href=&#34;http://www.wordpress.org&#34;&gt;wordpress&lt;/a&gt;,
+mainly because of what &lt;a href=&#34;http://www.lastblogger.com&#34;&gt;Marc&lt;/a&gt; has written about
+it. So far I’m very impressed.&lt;/p&gt;
+
+&lt;p&gt;The most difficult thing has been setting up redirects from my old cs pages to
+these new ones, due to the apache configuration at Dal. I’ve had to do silly
+things like making a directory called “cv.html”, and placing an index.php file
+in there that will write out redirect headers. I also had to write up a quick
+python cgi program that translates requests for old blog posts into redirects
+to their locations on my new blog. Good times.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Upgrading</title>
+      <link>http://jbowes.github.io/2006/11/12/upgrading</link>
+      <pubDate>Sun, 12 Nov 2006 03:39:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2006/11/12/upgrading</guid>
+      <description>&lt;p&gt;Following last week&amp;rsquo;s &lt;a href=&#34;http://planet.cs.dal.ca&#34;&gt;Planet&lt;/a&gt; upgrade, I&amp;rsquo;ve upgraded
+my blog to the latest release of&lt;a href=&#34;http://pyblosxom.sourceforge.net&#34;&gt;
+PyBlosxom&lt;/a&gt;. Nothing seems much different,
+except its newer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planet Upgrade</title>
+      <link>http://jbowes.github.io/2006/11/05/planet-upgrade</link>
+      <pubDate>Sun, 05 Nov 2006 07:11:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2006/11/05/planet-upgrade</guid>
+      <description>&lt;p&gt;I upgraded&lt;a href=&#34;http://planet.cs.dal.ca&#34; title=&#34;Planet Dal CS&#34;&gt; Planet Dal CS&lt;/a&gt; to the
+latest stable release of &lt;a href=&#34;http://www.planetplanet.org&#34;&gt;Planet&lt;/a&gt; today.
+Everything looks good, but if you notice a bug, let me know.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

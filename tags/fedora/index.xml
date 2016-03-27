@@ -1,242 +1,558 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Fedora on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/fedora/</link>
+    <description>Recent content in Fedora on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2013-08-04 21:53:00.001 -0300 -0300</updated>
+    <lastBuildDate>Sun, 04 Aug 2013 21:53:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Buckler v1.0.0</title>
+      <link>http://jbowes.github.io/2013/08/04/buckler-v100</link>
+      <pubDate>Sun, 04 Aug 2013 21:53:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2013/08/04/buckler-v100</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://b.repl.ca/v1/use-buckler-blue.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1/License-
+MIT-
+red.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1/go-1.1.1-yellow.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1
+/enterprise-ready-ff69b4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+&lt;p&gt;&lt;a href=&#34;https://github.com/jbowes/buckler&#34;&gt;Buckler&lt;/a&gt; is
+&lt;a href=&#34;https://github.com/olivierlacan/shields&#34;&gt;Shields&lt;/a&gt; as a Service (ShaaS, or
+alternatively, Badges as a Service) for use in GitHub READMEs, or anywhere
+else. Use Buckler with your favorite continuous integration tool, performance
+monitoring service API, or ridiculous in-joke to surface information.&lt;/p&gt;
 
+&lt;p&gt;Buckler is MIT licensed. You are free to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Host your own version of Buckler.&lt;/li&gt;
+&lt;li&gt;Download and re-serve generated shields.&lt;/li&gt;
+&lt;li&gt;Link directly to &lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt; for static information display (eg licensing details).&lt;/li&gt;
+&lt;li&gt;Redirect to &lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt; from another service for dynamic information (eg build status).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the &lt;a href=&#34;https://github.com/jbowes/buckler#api&#34;&gt;API &lt;/a&gt;on GitHub, view the
+&lt;a href=&#34;https://github.com/jbowes/buckler/blob/master/README.md&#34;&gt;README&lt;/a&gt; for more
+examples, or play around with the simple form on
+&lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Squeezebox Server &amp; Fedora</title>
+      <link>http://jbowes.github.io/2012/12/16/squeezebox-server-fedora</link>
+      <pubDate>Sun, 16 Dec 2012 19:33:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/12/16/squeezebox-server-fedora</guid>
+      <description>&lt;p&gt;To get squeezeboxserver working on Fedora, add the following to
+&lt;em&gt;/etc/sysconfig/iptables&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# squeezebox  
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 9000 -j ACCEPT  
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 3483 -j ACCEPT  
+-A INPUT -m state --state NEW -m udp -p udp --dport 3483 -j ACCEPT  
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The End</title>
+      <link>http://jbowes.github.io/2012/12/02/the-end</link>
+      <pubDate>Sun, 02 Dec 2012 10:47:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/12/02/the-end</guid>
+      <description>&lt;p&gt;After nearly seven years, Friday marked my last day at &lt;a href=&#34;http://www.redhat.com/&#34;&gt;Red
+Hat&lt;/a&gt;. I&amp;rsquo;m taking a week off to focus on growing my
+beard and &lt;a href=&#34;http://hopville.com/recipe/1651119&#34;&gt;brewing&lt;/a&gt;
+&lt;a href=&#34;http://hopville.com/recipe/1664369&#34;&gt;a&lt;/a&gt;
+&lt;a href=&#34;http://hopville.com/recipe/1664372&#34;&gt;lot&lt;/a&gt;, before starting my next adventure.&lt;/p&gt;
+
+&lt;p&gt;If you need to reach me, I&amp;rsquo;m still on teh internets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Give the absolute path for a client certificate with curl</title>
+      <link>http://jbowes.github.io/2012/07/13/give-absolute-path-for-client</link>
+      <pubDate>Fri, 13 Jul 2012 14:01:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/07/13/give-absolute-path-for-client</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re expecting &lt;em&gt;curl &amp;ndash;cert somefile.pem&lt;/em&gt; to work, and you keep getting
+403s in response, it might be because your curl is compiled against NSS, and
+that cert is being interpreted as an alias to an NSS DB entry. Use &lt;em&gt;curl
+&amp;ndash;cert ./somefile.pem&lt;/em&gt; instead. Fwiw, this is documented in the curl man page,
+but who looks there?&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;Or use wget instead.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A CONNECT Client Implementation for Netty</title>
+      <link>http://jbowes.github.io/2012/04/24/connect-client-implementation-for-netty</link>
+      <pubDate>Tue, 24 Apr 2012 10:23:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/04/24/connect-client-implementation-for-netty</guid>
+      <description>&lt;p&gt;If you need an implementation of an &lt;a href=&#34;https://tools.ietf.org/html/rfc2616#section-9.9&#34;&gt;HTTP
+CONNECT&lt;/a&gt; client to tunnel SSL
+(or anything else) through a proxy using &lt;a href=&#34;http://netty.io/&#34;&gt;Netty&lt;/a&gt;, Chris
+Duryee and I recently landed a patch to do so in
+&lt;a href=&#34;https://fedorahosted.org/candlepin/wiki/thumbslug/Index&#34;&gt;Thumbslug&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;By all means, make use of it!&lt;/p&gt;
+
+&lt;p&gt;The original changeset is &lt;a href=&#34;http://git.fedorahosted.org/git/?p=thumbslug.
+git;a=commit;h=813697226726ababafa7fcd6eabcfd2c610f9779&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Roboto on Fedora</title>
+      <link>http://jbowes.github.io/2012/03/17/using-roboto-on-fedora</link>
+      <pubDate>Sat, 17 Mar 2012 19:43:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/03/17/using-roboto-on-fedora</guid>
+      <description>&lt;p&gt;Using &lt;a href=&#34;http://www.android.com/&#34;&gt;Android&lt;/a&gt;&amp;rsquo;s
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Roboto&#34;&gt;Roboto&lt;/a&gt; font is pretty easy on
+&lt;a href=&#34;http://fedoraproject.org/&#34;&gt;Fedora&lt;/a&gt; (or any other Linux flavour). Just
+download the Roboto zip, open it up, copy the ttf files into your ~/.fonts
+dir, and refresh your font cache. From there, you can use the font in any
+program (though you may need to reload it first).&lt;/p&gt;
+
+&lt;p&gt;Here are the steps:&lt;br /&gt;
+``&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://dl-ssl.google.com/android/design/Roboto_Hinted_20111129.zip  
+unzip Roboto_Hinted_20111129.zip  
+mkdir ~/.fonts  
+mv Roboto_Hinted_20111129/*.ttf ~/.fonts  
+fc-cache  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;``&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>HOWTO Make Bacon</title>
+      <link>http://jbowes.github.io/2012/02/21/howto-make-bacon</link>
+      <pubDate>Tue, 21 Feb 2012 19:29:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/21/howto-make-bacon</guid>
+      <description>
+
+&lt;p&gt;[&lt;img src=&#34;http://farm8.staticflickr.com/7208/6893738855_3297afc767_m.jpg&#34; alt=&#34;Side View&#34; /&gt;]&lt;/p&gt;
+
+&lt;h2 id=&#34;http-www-flickr-com-photos-bowes-6893738855:3b8cf15c3476101d5b00d23d1db395b9&#34;&gt;(&lt;a href=&#34;http://www.flickr.com/photos/bowes/6893738855/&#34;&gt;http://www.flickr.com/photos/bowes/6893738855/&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flic.kr/p/bvbdot&#34;&gt;Side View&lt;/a&gt;: &lt;em&gt;The side of a slab of pork&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;_belly is __ quite obviously delicious_&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;bacon, only raw.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A few weeks ago I acquired a slab of pork belly from a local &lt;a href=&#34;http://www3.ns.sympatico.ca/naturesscriptfarm/&#34;&gt;Nova Scotian
+farmer&lt;/a&gt;, with the intention of
+making &lt;a href=&#34;http://en.wikipedia.org/wiki/Bacon&#34;&gt;Bacon&lt;/a&gt; from scratch. Plenty of
+different cuts of meat preserved in different ways can be qualified as bacon;
+I decided on typical North American pork belly, salt cured and smoked.&lt;/p&gt;
+
+&lt;p&gt;Making bacon is pretty easy, if a little time consuming. All you need is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A slab of pork belly&lt;/li&gt;
+&lt;li&gt;Salt (table or kosher. sea salt is too coarse)&lt;/li&gt;
+&lt;li&gt;A smoker&lt;/li&gt;
+&lt;li&gt;Wood&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;[&lt;img src=&#34;http://3.bp.blogspot.com/-IJcsRl4dzUE/T0Ql6p4NlOI/AAAAAAAACXM/1JRGM27N_-M
+/s200/salting.JPG&#34; alt=&#34;&#34; /&gt;](&lt;a href=&#34;http://3.bp.blogspot.com/-IJcsRl4dzUE/T0Ql6p4NlOI/AAAAAAAA&#34;&gt;http://3.bp.blogspot.com/-IJcsRl4dzUE/T0Ql6p4NlOI/AAAAAAAA&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;cxm-1jrgm27n-m-s1600-salting-jpg:3b8cf15c3476101d5b00d23d1db395b9&#34;&gt;CXM/1JRGM27N_-M/s1600/salting.JPG)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flic.kr/p/bvbiBK&#34;&gt;Salt Curing&lt;/a&gt;&lt;br /&gt;
+I **salt cured **the pork belly by covering it in salt and storing it in a
+glass container for 5 days (actually two containers, the belly was so big I
+had to cut it to fit into the containers I had available). I coated the pork
+belly in salt on both sides, then rubbed it in with my hands. Each day after
+first draining any excess liquid out of the container I repeated the salting.&lt;/p&gt;
+
+&lt;p&gt;The curing stage is a good time to add any additional seasonings to the bacon,
+like brown sugar or maple syrup. For my first batch of bacon I decided to
+pass.&lt;/p&gt;
+
+&lt;p&gt;After the bacon had cured for 5 days (and when I had enough time in the day to
+watch the smoker), I &lt;strong&gt;smoked&lt;/strong&gt; the bacon. I used my home-made &lt;a href=&#34;http://www.naffziger.net/blog/2008/07/05/the-alton-brown-flower-pot-
+smoker/&#34;&gt;flower pot
+smoker&lt;/a&gt; and cherry wood chips that were soaked in water overnight. The bacon
+stayed on the smoker for about 8 hours, at 200°F. Since I&amp;rsquo;d be frying the
+bacon before eating it, I wasn&amp;rsquo;t concerned about under-cooking it.&lt;/p&gt;
+
+&lt;p&gt;[&lt;img src=&#34;http://3.bp.blogspot.com/-5G3i5suglk8/T0QmLoqqcUI/AAAAAAAACXU/E2HWpX3evEU
+/s200/smoker.jpg&#34; alt=&#34;&#34; /&gt;](&lt;a href=&#34;http://3.bp.blogspot.com/-5G3i5suglk8/T0QmLoqqcUI/AAAAAAAAC&#34;&gt;http://3.bp.blogspot.com/-5G3i5suglk8/T0QmLoqqcUI/AAAAAAAAC&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;xu-e2hwpx3eveu-s1600-smoker-jpg:3b8cf15c3476101d5b00d23d1db395b9&#34;&gt;XU/E2HWpX3evEU/s1600/smoker.jpg)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flic.kr/p/bvbtve&#34;&gt;Smoking the bacon&lt;/a&gt;&lt;br /&gt;
+After the bacon was smoked, I put it in the fridge for about half an hour to
+let the meat rest, and to let it firm up before cutting. I cut the bacon with
+my sharpest cutting knife. A deli slicer would have been nice here. And that&amp;rsquo;s
+it! The pork belly was now bacon, and ready to be fried and eaten.&lt;/p&gt;
+
+&lt;p&gt;It was a good first attempt; the bacon is tender and has a great smoky
+flavour, but is a bit too salty. The salt and smoke flavour does make it great
+as an ingredient to other dishes though, like omeletts and soup. Next time
+I&amp;rsquo;ll try to reduce the salt content, probably by wiping off any excess salt
+each day, when I drain off the juices.&lt;/p&gt;
+
+&lt;p&gt;[&lt;img src=&#34;http://farm8.staticflickr.com/7199/6893808881_7de9c93422_m.jpg&#34; alt=&#34;&#34; /&gt;](&lt;a href=&#34;http://f&#34;&gt;http://f&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;arm8-staticflickr-com-7199-6893808881-7de9c93422-m-jpg:3b8cf15c3476101d5b00d23d1db395b9&#34;&gt;arm8.staticflickr.com/7199/6893808881_7de9c93422_m.jpg)&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://flic.kr/p/bvbzcP&#34;&gt;Frying it up!&lt;/a&gt;&lt;br /&gt;
+If you&amp;rsquo;d like to see more, you can view the complete photo set &lt;a href=&#34;http://www.flickr.com/photos/bowes/sets/72157629384312115/&#34;&gt;on
+flickr&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Glyphicons Styled Stack Overflow Icon</title>
+      <link>http://jbowes.github.io/2012/02/17/glyphicons-styled-stack-overflow-icon</link>
+      <pubDate>Fri, 17 Feb 2012 19:51:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/17/glyphicons-styled-stack-overflow-icon</guid>
+      <description>&lt;p&gt;Here is a &lt;a href=&#34;http://stackoverflow.com/&#34;&gt;Stack Overflow&lt;/a&gt; icon in the style of
+&lt;a href=&#34;http://www.glyphicons.com/&#34;&gt;Glyphicons&lt;/a&gt; I did for my &amp;lsquo;about me&amp;rsquo; sidebar
+section:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://4.bp.blogspot.com/-L97ZcszhfM8/Tz7kl0q933I/AAAAAAAACVk/s57eKDGBSF0/
+s1600/glyph_stack_overflow.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Feel free to use it however you want.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using 960.gs, Haml, Sass, and Compass on Blogger</title>
+      <link>http://jbowes.github.io/2012/02/16/using-960gs-haml-sass-and-compass-on</link>
+      <pubDate>Thu, 16 Feb 2012 21:43:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/16/using-960gs-haml-sass-and-compass-on</guid>
+      <description>&lt;p&gt;I tried to see how many cool toys I could use to create my own
+&lt;a href=&#34;http://www.blogger.com/&#34;&gt;blogger&lt;/a&gt; template. So far I have:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://960.gs/&#34;&gt;960 Grid System&lt;/a&gt; for a nice 2 column layout.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://haml-lang.com/&#34;&gt;Haml&lt;/a&gt; for the unstyled template.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://sass-lang.com/&#34;&gt;Sass&lt;/a&gt; for style.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://compass-style.org/&#34;&gt;Compass&lt;/a&gt; and &lt;a href=&#34;http://rake.rubyforge.org/&#34;&gt;Rake&lt;/a&gt; to tie it all together.
+You can find the result on github, &lt;a href=&#34;https://github.com/jbowes/repl-960
+-haml-blogger&#34;&gt;here&lt;/a&gt;.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Any readers who have noticed a similarity in chosen technology to those used
+by &lt;a href=&#34;http://katello.org/&#34;&gt;Katello&lt;/a&gt; get bonus points!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrofitting drop shadows into existing Android layouts</title>
+      <link>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</link>
+      <pubDate>Sun, 12 Feb 2012 16:28:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</guid>
+      <description>&lt;p&gt;I had some UI elements in an &lt;a href=&#34;https://market.android.com/developer?pub=James+Bowes&#34;&gt;Android application I&amp;rsquo;m working
+on&lt;/a&gt; that felt as if they
+should be above (pushing out of the screen, rather than to the top of it) the
+elements that followed them in the UI. A good way to indicate this is with a
+drop shadow, similar to those on Android title bars or &lt;a href=&#34;http://developer.android.com/design/patterns/actionbar.html&#34;&gt;Action
+Bars&lt;/a&gt;. An
+&lt;a href=&#34;http://www.anotherandroidblog.com/2011/06/29/drop-shadow-
+linearlayout/&#34;&gt;existing method&lt;/a&gt; didn&amp;rsquo;t work for me, as my UI is relying heavily on weights to
+keep proper size ratios between the elements I wanted to add a drop shadow to,
+and the element they would be casting a shadow on.&lt;/p&gt;
+
+&lt;p&gt;Rather than hanging the shadow off the element that will be casting the shadow
+with a &lt;a href=&#34;http://developer.android.com/reference/android/widget/
+RelativeLayout.html&#34;&gt;RelativeLayout&lt;/a&gt;, and throwing off the weights, I instead used a &lt;a href=&#34;http://developer.android.com/reference/android/widget/FrameLayout.html&#34;&gt;FrameLay
+out&lt;/a&gt;
+to overlay the shadow on top of where the shadow was cast:&lt;/p&gt;
+
+&lt;p&gt;`layout/my_layout.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;LinearLayout  
+    android:id=&amp;quot;@+id/linearLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_weight=&amp;quot;1&amp;quot;  
+    android:layout_gravity=&amp;quot;top&amp;quot;  
+    android:paddingBottom=&amp;quot;2dp&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyShadowCastingWidget  
+        android:id=&amp;quot;@+id/shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherShadowCastingWidget  
+        android:id=&amp;quot;@+id/other_shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;   
+&amp;lt;/LinearLayout&amp;gt;  
+
+&amp;lt;FrameLayout  
+    android:id=&amp;quot;@+id/relativeLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_gravity=&amp;quot;bottom&amp;quot;  
+    android:layout_weight=&amp;quot;2&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherWidget  
+        android:id=&amp;quot;@+id/other_widget&amp;quot;  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;View  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;4dip&amp;quot;  
+        android:background=&amp;quot;@drawable/drop_shadow&amp;quot; /&amp;gt;  
+&amp;lt;/FrameLayout&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;p&gt;ca.repl.MyOtherWidget will have a shadow cast over it. To maintain the
+weights, I just moved all attrs off ca.repl.MyOtherWidget and onto the new
+FrameLayout.&lt;/p&gt;
+
+&lt;p&gt;For completeness, here&amp;rsquo;s the drop shadow drawable:&lt;/p&gt;
+
+&lt;p&gt;`drawable/drop_shadow.xml&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?xml version=&amp;ldquo;1.0&amp;rdquo; encoding=&amp;ldquo;utf-8&amp;rdquo;?&amp;gt;&lt;br /&gt;
+&lt;shape xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;&gt;&lt;br /&gt;
+    &lt;gradient  
+        android:startColor=&#34;@color/drop_start&#34;  
+        android:endColor=&#34;@color/drop_end&#34;  
+        android:angle=&#34;270&#34; &gt;&lt;br /&gt;
+    &lt;/gradient&gt;&lt;br /&gt;
+&lt;/shape&gt;&lt;br /&gt;
+`&lt;br /&gt;
+And the two colors for the drawable. I used black for the color with alpha
+channels. If you wanted to make the shadow more obvious you could forgo alpha
+channels:&lt;/p&gt;
+
+&lt;p&gt;`values/colors.xml&lt;/p&gt;
+
+&lt;p&gt;&lt;resources&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_start&#34;&gt;#66000000&lt;/color&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_end&#34;&gt;#00000000&lt;/color&gt;&lt;br /&gt;
+&lt;/resources&gt;&lt;br /&gt;
+`&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Micro USB for Power Everywhere</title>
+      <link>http://jbowes.github.io/2012/01/21/micro-usb-for-power-everywhere</link>
+      <pubDate>Sat, 21 Jan 2012 18:59:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/01/21/micro-usb-for-power-everywhere</guid>
+      <description>&lt;p&gt;One of the reasons I&amp;rsquo;m very excited for  &lt;a href=&#34;http://www.raspberrypi.org/&#34;&gt;Rasberry
+Pi&lt;/a&gt; is that it uses &lt;a href=&#34;http://en.wikipedia.org/wiki/USB#Mini_and_Micro_connectors&#34;&gt;micro
+USB&lt;/a&gt; for power.
+This is also the standard may cell phone manufacturers are &lt;a href=&#34;http://news.bbc.co.uk/2/hi/technology/7894763.stm?lss&#34;&gt;settling
+on&lt;/a&gt; for charging. I
+would love to see more every day devices use micro USB for charging and for
+power. Granted, not all devices can run off the 100mA from USB 2.0 (or charge
+at a reasonable rate), but I can eliminate just one more of those odd coaxial
+chargers, I&amp;rsquo;d be a happy fellow.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Essential Gnome Shell Extensions For Laggards</title>
+      <link>http://jbowes.github.io/2011/12/06/essential-gnome-shell-extensions-for</link>
+      <pubDate>Tue, 06 Dec 2011 18:57:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/12/06/essential-gnome-shell-extensions-for</guid>
+      <description>
+
+&lt;p&gt;[&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-
+vt100.jpg&#34; alt=&#34;&#34; /&gt;](&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-&#34;&gt;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;vt100-jpg:4f4d6a7113c2000dd0ed3450e9f6370c&#34;&gt;vt100.jpg)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;My ideal workstation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;__Image by &lt;a href=&#34;http://commons.wikimedia.org/wiki/User:ClickRick&#34;&gt;ClickPick&lt;/a&gt;, used
+under the ____&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Creative Commons&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/deed.en&#34;&gt;Attribution-Share Alike 3.0 Unported
+license.&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;__&lt;br /&gt;
+Gnome 3 introduced a lot of fundamental changes to how you interact with your
+computer. I don&amp;rsquo;t want to hopelessly cling to the past, bemoaning the loss of
+my &lt;a href=&#34;http://en.wikipedia.org/wiki/Sawfish_(window_manager)&#34;&gt;Lisp based window
+manager&lt;/a&gt; and yearning
+for the days when I could debate the merits of pure applets vs notification
+area icons, so I&amp;rsquo;ve moved on to gnome-shell.&lt;/p&gt;
+
+&lt;p&gt;That said, I&amp;rsquo;ve been using a few tweaks to bring Gnome 3 and gnome-shell
+closer to what I&amp;rsquo;m used to. Consider them training wheels; they can be
+disabled over time, easing the transition.&lt;/p&gt;
+
+&lt;p&gt;Here are the extensions I use, and some settings tweaks. Most extensions are
+available from &lt;a href=&#34;http://extensions.gnome.org/&#34;&gt;http://extensions.gnome.org&lt;/a&gt;.
+The ones that aren&amp;rsquo;t can typically be downloaded via your distro&amp;rsquo;s packaging
+mechanism of choice, then symlinked into &lt;em&gt;~/.local/share/gnome-
+shell/extensions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/38/&#34;&gt;Windows Alt Tab&lt;/a&gt; **Makes alt-tab cycle through all open windows, rather than all open applications. This is really useful if you have a lot of terminal windows open.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/40/&#34;&gt;Status Only Icon&lt;/a&gt; **Remove your name from the top panel. You know who you are, and you don&amp;rsquo;t care to let strangers in the coffee shop find out.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/14/&#34;&gt;Frippery Shut Down Menu&lt;/a&gt; **Replaces the suspend menu option shut down. Perfect for a workstation that is turned off at the end of the day.&lt;/p&gt;
+
+&lt;p&gt;**Remove Accessibility Icon **_(Not available on extensions.gnome.org) _I think it&amp;rsquo;s wonderful how prominent the accessibility icon is in Gnome 3. It should always be out and visible by default, but since I don&amp;rsquo;t need it, I&amp;rsquo;ve removed it from my desktop.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/3/&#34;&gt;Frippery Bottom Panel&lt;/a&gt; **A bottom panel with a list of open windows and workspaces. This is probably the first training wheel I&amp;rsquo;ll drop, as the gnome-shell overview thingy gives a good view of my open windows and workspaces.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/12/&#34;&gt;&lt;strong&gt;Frippery Static Workspaces&lt;/strong&gt;&lt;/a&gt;
+Works in conjunction with the number of workspaces you set via the Frippery
+Bottom Panel, to keep them open even if no windows are present on the
+workspace. This extension is my favorite. I find it very disorienting when the
+webbrowser on workspace one crashes, then all of a sudden my 9 terminals are
+on workspace 2 instead of workspace 3. Then I spend the next 15 minutes
+juggling windows to get everything back to the workspaces they belong on.
+Previously I&amp;rsquo;d open a terminal on all workspaces, just so that if another
+application crashed, the workspace would remain open.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classic Multi-Monitor Support&lt;/strong&gt; gnome-shell&amp;rsquo;s default multi-monitor support, where only your primary monitor has more than one workspace, and the content on the other monitors is always pinned in place, is not to my liking. You can get the _OG _multi-monitor style back by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gconftool-2 -s /desktop/gnome/shell/windows/workspaces_only_on_primary --type bool false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Minimize/Maxmize Buttons&lt;/strong&gt; Useful with the Frippery Bottom Panel. Get them back by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gconftool-2 -s /desktop/gnome/shell/windows/button_layout --type string &amp;quot;:minimize,maximize,close&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;**No IM Integration **This last item I &lt;em&gt;wish&lt;/em&gt; I had. I find the popup notifications on incoming instant messages to be very distracting and disrupting, yet I still want to leave my IM status as online. If anyone knows how I can keep using empathy for IM, and yet not have any IM integration in Gnome 3, please leave me a comment!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My .gitconfig - 2011 Edition</title>
+      <link>http://jbowes.github.io/2011/12/02/my-gitconfig-2011-edition</link>
+      <pubDate>Fri, 02 Dec 2011 21:55:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/12/02/my-gitconfig-2011-edition</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been just shy of five years since I &lt;a href=&#34;http://blog.repl.ca/2006/12/my-gitconfig.html&#34;&gt;first blogged about my .gitconfig
+file&lt;/a&gt;, so I figured now would
+be a good time to revisit it. If you&amp;rsquo;re not already aware, you can set git
+configuration values in a .gitconfig file in your home directory, and have
+them apply to all &lt;a href=&#34;http://git-scm.org/&#34;&gt;git&lt;/a&gt; repositories you work on. This is
+particularly useful for aliases and to set your email address.&lt;/p&gt;
+
+&lt;p&gt;My current .gitconfig:&lt;/p&gt;
+
+&lt;p&gt;[user]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    name = James Bowes  
+    email = $EMAIL_ADDRESS  
+
+[alias]  
+    ci = commit -a  
+    co = checkout  
+    st = status  
+    praise = blame  
+    br = branch  
+    diffstat = diff --stat  
+    cat = !cat @  
+    ds = diff --stat  
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit  
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all  
+
+[apply]  
+    whitespace = warn  
+
+[diff]  
+    rename = copy  
+    renamelimit = 600  
+
+[pager]  
+    color = true  
+
+[color]  
+    branch = auto  
+    diff = auto  
+    interactive =auto  
+    status = auto  
+
+[push]  
+    default = upstream  
+
+[github]  
+    user = jbowes  
+    token = $GITHUB_TOKEN  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I cribbed _lol _and &lt;em&gt;lola&lt;/em&gt; from
+&lt;a href=&#34;http://adrianlikins.com/2011/05/gitconfig/&#34;&gt;Adrian&lt;/a&gt;. Naturally, there&amp;rsquo;s now a
+&lt;a href=&#34;http://github.com/&#34;&gt;github&lt;/a&gt; section. I get the most use out of
+&lt;em&gt;diff.renamelimit&lt;/em&gt;, which helps me when I&amp;rsquo;m doing merges in large projects
+like &lt;a href=&#34;http://candlepinproject.org/&#34;&gt;Candlepin&lt;/a&gt;, and the &lt;em&gt;ds&lt;/em&gt; alias, which
+gives me a good overview of how much work I&amp;rsquo;ve done prior to a commit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BTRFS and KVM</title>
+      <link>http://jbowes.github.io/2011/11/30/btrfs-and-kvm</link>
+      <pubDate>Wed, 30 Nov 2011 22:06:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/11/30/btrfs-and-kvm</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re like me, you&amp;rsquo;ve spend the last year wondering why your KVM based
+virtualization is horribly slow when doing IO. You&amp;rsquo;ve tried twiddling every
+available option in your BIOS, you&amp;rsquo;ve mucked about with hdparm  and
+libvirt/qemu settings, and you&amp;rsquo;ve run more timed installs of &lt;a href=&#34;http://www.redhat.com/rhel/&#34;&gt;RHEL
+5&lt;/a&gt; than you care to admit.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re also like me, you tried using ext4 instead of BTRFS to store your
+guest images today, and found that this resolved your issue.&lt;/p&gt;
+
+&lt;p&gt;The relevant bz appears to be
+&lt;a href=&#34;https://bugzilla.redhat.com/show_bug.cgi?id=689127&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The lesson I learned today is to blame experimental or newer features before
+anything else (though its doubtful I&amp;rsquo;ll remember this next time).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing VPN Settings in GNOME 3</title>
+      <link>http://jbowes.github.io/2011/11/28/importing-vpn-settings-in-gnome-3</link>
+      <pubDate>Mon, 28 Nov 2011 09:47:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/11/28/importing-vpn-settings-in-gnome-3</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve noticed after upgrading my workstation to Fedora 16 that GNOME 3&amp;rsquo;s
+default NetworkManager UI doesn&amp;rsquo;t expose the old UI&amp;rsquo;s import option for VPN
+settings. I have my old OpenVPN settings file on hand, so I&amp;rsquo;d rather not type
+it out again.&lt;/p&gt;
+
+&lt;p&gt;Turns out you can still access the old UI and its convenient import button by
+running &lt;em&gt;nm-connection-editor.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

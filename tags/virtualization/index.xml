@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Virtualization on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/virtualization/</link>
+    <description>Recent content in Virtualization on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2011-11-30 22:06:00.001 -0400 -0400</updated>
-
+    <lastBuildDate>Wed, 30 Nov 2011 22:06:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>BTRFS and KVM</title>
+      <link>http://jbowes.github.io/2011/11/30/btrfs-and-kvm</link>
+      <pubDate>Wed, 30 Nov 2011 22:06:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2011/11/30/btrfs-and-kvm</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re like me, you&amp;rsquo;ve spend the last year wondering why your KVM based
+virtualization is horribly slow when doing IO. You&amp;rsquo;ve tried twiddling every
+available option in your BIOS, you&amp;rsquo;ve mucked about with hdparm  and
+libvirt/qemu settings, and you&amp;rsquo;ve run more timed installs of &lt;a href=&#34;http://www.redhat.com/rhel/&#34;&gt;RHEL
+5&lt;/a&gt; than you care to admit.&lt;/p&gt;
 
+&lt;p&gt;If you&amp;rsquo;re also like me, you tried using ext4 instead of BTRFS to store your
+guest images today, and found that this resolved your issue.&lt;/p&gt;
+
+&lt;p&gt;The relevant bz appears to be
+&lt;a href=&#34;https://bugzilla.redhat.com/show_bug.cgi?id=689127&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The lesson I learned today is to blame experimental or newer features before
+anything else (though its doubtful I&amp;rsquo;ll remember this next time).&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

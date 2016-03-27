@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Pizza on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/pizza/</link>
+    <description>Recent content in Pizza on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-12-31 04:38:00 -0400 -0400</updated>
-
+    <lastBuildDate>Mon, 31 Dec 2007 04:38:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/pizza/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Thin Crust Pizza</title>
+      <link>http://jbowes.github.io/2007/12/31/thin-crust-pizza</link>
+      <pubDate>Mon, 31 Dec 2007 04:38:00 -0400</pubDate>
       
+      <guid>http://jbowes.github.io/2007/12/31/thin-crust-pizza</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/2144297943/&#34; title=&#34;img_3266.jpg by James
+Bowes, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2163/2144297943_c1246346f2.jpg&#34; alt=&#34;img_3266.jpg&#34; /&gt;&lt;/a&gt;We made a delicious pizza on the weekend with a great &lt;a href=&#34;http://www.recipezaar.com/70165&#34;&gt;thin
+crust pizza dough recipe&lt;/a&gt; found on the tubes.
+It went well with &lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;Old Credit Brewing Co.
+Ltd.&amp;rsquo;s&lt;/a&gt; Pale
+Pilsner.&lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;&lt;br /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
-
   </channel>
 </rss>

@@ -1,18 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Ruby on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/ruby/</link>
+    <description>Recent content in Ruby on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2011-11-25 21:01:00.001 -0400 -0400</updated>
-
+    <lastBuildDate>Fri, 25 Nov 2011 21:01:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>CPSN v0.8.0</title>
+      <link>http://jbowes.github.io/2011/11/25/cpsn-v080</link>
+      <pubDate>Fri, 25 Nov 2011 21:01:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2011/11/25/cpsn-v080</guid>
+      <description>&lt;p&gt;This is just a quick update to CPSN, fixing detection of stale cookies. It
+will also prompt you for a username and password if you forget to put one in
+the settings file (or don&amp;rsquo;t want to save your password on disk).&lt;/p&gt;
 
+&lt;p&gt;Install it with gem install &amp;ndash;user cpsn&lt;br /&gt;
+Check the included README for details on configuration.&lt;/p&gt;
+
+&lt;p&gt;Git: &lt;a href=&#34;https://github.com/jbowes/cpsn&#34;&gt;https://github.com/jbowes/cpsn&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; Using CPSN probably violates any number of Terms of Service, etc.
+Use at your own risk.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Installing ruby gems in your home directory</title>
+      <link>http://jbowes.github.io/2008/05/13/installing-ruby-gems-in-your-home</link>
+      <pubDate>Tue, 13 May 2008 07:54:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/05/13/installing-ruby-gems-in-your-home</guid>
+      <description>&lt;p&gt;I found it hard to find good instructions for installing ruby gems as a non-
+root user without installing the gem package locally as well. Here&amp;rsquo;s what I
+figured out; hopefully this will save someone else some time in the future:&lt;/p&gt;
+
+&lt;p&gt;Make a directory for gem installation:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; mkdir ~/.gems&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Set up your .gemrc for gem install-time configuration:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; cat &amp;lt;&amp;lt; EOF &amp;gt; ~/.gemrc  
+gemhome: $HOME/gems  
+gempath:  
+- $HOME/gems  
+- /usr/lib/ruby/gems/1.8  
+EOF&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Set up some environment variables for run-time:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; cat &amp;lt;&amp;lt; EOF &amp;gt;&amp;gt; ~/.bashrc  
+export GEM_HOME=$HOME/gems  
+export GEM_PATH=$HOME/gems:/usr/lib/ruby/gems/1.8/  
+export PATH=$PATH:$HOME/gems/bin  
+EOF&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Source your bashrc and you&amp;rsquo;re all set.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE (Apr 18, 2009):&lt;/strong&gt; gem seems to do this on its own now, so just adding&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export PATH=$PATH:$HOME/.gem/ruby/1.8/bin
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to your .bash_profile should be enough.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

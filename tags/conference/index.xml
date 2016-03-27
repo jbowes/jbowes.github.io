@@ -1,16 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Conference on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/conference/</link>
+    <description>Recent content in Conference on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-01-31 15:31:00 -0400 -0400</updated>
-
+    <lastBuildDate>Wed, 31 Jan 2007 15:31:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>FUDCon</title>
+      <link>http://jbowes.github.io/2007/01/31/fudcon</link>
+      <pubDate>Wed, 31 Jan 2007 15:31:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/01/31/fudcon</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://fedoraproject.org/wiki/FUDCon&#34;&gt;Fedora Users and Developers
+Conference&lt;/a&gt; is on Friday. Weather
+permitting, I’ll be flying up to Boston to attend tomorrow night.&lt;/p&gt;
 
+&lt;p&gt;In no particular order, here are the parts of FUDCon I am looking forward to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cold Boston weather means I can wear my parka.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Riding the subway.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Meeting &lt;a href=&#34;http://katzj.livejournal.com/&#34;&gt;Mr. Katz&lt;/a&gt; and &lt;a href=&#34;http://skvidal.wordpress.com/&#34;&gt;Mr. Vidal&lt;/a&gt; in person.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;http://linux.duke.edu/projects/yum/&#34;&gt;yum&lt;/a&gt; &lt;a href=&#34;http://wiki.linux.duke.edu/YumHackFestFudCon&#34;&gt;hackfest.&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Getting a free t-shirt.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I plan to take lots of photos, but I usually forget my camera whenever I go
+anywhere, so we’ll see.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

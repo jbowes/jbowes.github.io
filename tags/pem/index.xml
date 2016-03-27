@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Pem on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/pem/</link>
+    <description>Recent content in Pem on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2011-11-24 12:49:00.001 -0400 -0400</updated>
-
+    <lastBuildDate>Thu, 24 Nov 2011 12:49:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/pem/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>A PEM Backed Keystore for Java SSL</title>
+      <link>http://jbowes.github.io/2011/11/24/pem-backed-keystore-for-java-ssl</link>
+      <pubDate>Thu, 24 Nov 2011 12:49:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2011/11/24/pem-backed-keystore-for-java-ssl</guid>
+      <description>&lt;p&gt;For &lt;a href=&#34;https://fedorahosted.org/candlepin/wiki/thumbslug/Index&#34;&gt;Thumbslug&lt;/a&gt;, we
+needed to open a number of &lt;a href=&#34;http://en.wikipedia.org/wiki/SSL&#34;&gt;SSL&lt;/a&gt; connections
+to the same server, each with its own
+&lt;a href=&#34;http://en.wikipedia.org/wiki/X.509&#34;&gt;X.509&lt;/a&gt; client certificate. Thumbslug
+grabs the certificates from &lt;a href=&#34;http://candlepinproject.org/&#34;&gt;Candlepin&lt;/a&gt;, which
+stores them in
+&lt;a href=&#34;http://en.wikipedia.org/wiki/X.509#Certificate_filename_extensions&#34;&gt;PEM&lt;/a&gt;
+format. Rather than teach Candlepin to also store these certificates in a
+different format, or to load them first into a format that Java deals with
+nativley (like &lt;a href=&#34;http://en.wikipedia.org/wiki/PKCS12&#34;&gt;PKCS #12&lt;/a&gt;), I figured it
+would be best to create an SSLSession backed directly by an X509Certificate
+and PrivateKey loaded from the PEM file.&lt;/p&gt;
 
+&lt;p&gt;I wasn&amp;rsquo;t able to find any other examples of a PEM backed Java KeyStore, so
+&lt;a href=&#34;http://git.fedorahosted.org/git?p=thumbslug.git;a=blob_plain;f=
+src/main/java/org/candlepin/thumbslug/ssl/PEMx509KeyManager.java;hb=HEAD&#34;&gt;here is mine&lt;/a&gt;
+(&lt;a href=&#34;https://gist.github.com/1391823&#34;&gt;backup&lt;/a&gt;), and the &lt;a href=&#34;http:
+//git.fedorahosted.org/git?p=thumbslug.git;a=blob;f=src/main/java/org/candlepi
+n/thumbslug/ssl/SslContextFactory.java;h=b8791e0b4910c2f1adf347015df5110b2f6ac
+9bb;hb=HEAD#l102&#34;&gt;code that uses it&lt;/a&gt; (&lt;a href=&#34;https://gist.github.com/1391824&#34;&gt;backup&lt;/a&gt;). Since PEM is
+still widely used (by OpenSSL, for example), hopefully others can make use of
+this.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

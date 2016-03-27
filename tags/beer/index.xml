@@ -1,20 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Beer on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/beer/</link>
+    <description>Recent content in Beer on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-06-04 14:17:00 -0300 -0300</updated>
+    <lastBuildDate>Wed, 04 Jun 2008 14:17:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/beer/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Perceptions of Toronto</title>
+      <link>http://jbowes.github.io/2008/06/04/perceptions-of-toronto</link>
+      <pubDate>Wed, 04 Jun 2008 14:17:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/06/04/perceptions-of-toronto</guid>
+      <description>&lt;p&gt;Growing up on the east coast of Canada,
+&lt;a href=&#34;http://torontoist.com/2008/06/vice_to_zune_mu.php&#34;&gt;this&lt;/a&gt; is how I imagined
+Toronto to be, like, &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
+&lt;p&gt;I&amp;rsquo;ve been here for nine months or so, and have yet to be invited to any trendy
+&lt;a href=&#34;http://vice.typepad.com/vice_magazine/canada/index.html&#34;&gt;VICE&lt;/a&gt; parties. Just
+so you know, VICE, I am very willing to grow out some stubble and wear vintage
+clothing or an ironic t-shirt for the event.&lt;/p&gt;
 
+&lt;p&gt;Toronto is great though, even without the free Red Stripe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thin Crust Pizza</title>
+      <link>http://jbowes.github.io/2007/12/31/thin-crust-pizza</link>
+      <pubDate>Mon, 31 Dec 2007 04:38:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/12/31/thin-crust-pizza</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/2144297943/&#34; title=&#34;img_3266.jpg by James
+Bowes, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2163/2144297943_c1246346f2.jpg&#34; alt=&#34;img_3266.jpg&#34; /&gt;&lt;/a&gt;We made a delicious pizza on the weekend with a great &lt;a href=&#34;http://www.recipezaar.com/70165&#34;&gt;thin
+crust pizza dough recipe&lt;/a&gt; found on the tubes.
+It went well with &lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;Old Credit Brewing Co.
+Ltd.&amp;rsquo;s&lt;/a&gt; Pale
+Pilsner.&lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;&lt;br /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Canada Day</title>
+      <link>http://jbowes.github.io/2007/07/03/canada-day</link>
+      <pubDate>Tue, 03 Jul 2007 07:02:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/07/03/canada-day</guid>
+      <description>&lt;p&gt;Last Sunday was &lt;a href=&#34;http://www.pch.gc.ca/special/canada/11/canada_e.cfm&#34;&gt;Canada
+Day&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm2.static.flickr.com/1381/704606117_562e76542f.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cherie and I celebrated with some homemade &lt;a href=&#34;http://www.google.com/url
+?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPoutine&amp;amp;ei=xWSKRp
+L9DoHUeei5jPwB&amp;amp;usg=AFQjCNENrz7z9sApR-
+QNRr7ga04IYqWULw&amp;amp;sig2=u07EjVPW_2fJlh3UuMVkeA&#34;&gt;poutine&lt;/a&gt; and fine Canadian beverages.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

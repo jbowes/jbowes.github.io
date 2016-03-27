@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Software on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/software/</link>
+    <description>Recent content in Software on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-01-29 16:46:00 -0400 -0400</updated>
-
+    <lastBuildDate>Tue, 29 Jan 2008 16:46:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>2% Genius</title>
+      <link>http://jbowes.github.io/2008/01/29/2-genius</link>
+      <pubDate>Tue, 29 Jan 2008 16:46:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2008/01/29/2-genius</guid>
+      <description>&lt;p&gt;Agile Tsar &lt;a href=&#34;http://appliedlogic.blogspot.com/&#34;&gt;Dmitri Dolguikh&lt;/a&gt; pointed out
+&lt;a href=&#34;http://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt; yesterday, which is a website
+containing a series of short programming problems. It reads a bit like bonus
+questions on a math exam, which is actually quite refreshing compared to the
+day-to-day problems at work. For added fun, I&amp;rsquo;m trying to run through the
+problems in &lt;a href=&#34;http://en.wikipedia.org/wiki/Common_Lisp&#34;&gt;Common Lisp&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;So far I have completed 4 out of 179 problems, which makes me &lt;em&gt;2% genius&lt;/em&gt;,
+according to the site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A delightful typo: Paintain</title>
+      <link>http://jbowes.github.io/2007/06/25/delightful-typo-paintain</link>
+      <pubDate>Mon, 25 Jun 2007 16:45:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/06/25/delightful-typo-paintain</guid>
+      <description>&lt;p&gt;While discussing a new software feature, I made the following typo:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;17:56 &amp;lt;@jbowes&amp;gt; and then people would use it, and then we&#39;d have to paintain
+it  
+17:56 &amp;lt;@jbowes&amp;gt; i meant to type maintain, but that word is awesome  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I think &lt;em&gt;paintain&lt;/em&gt; aptly describes what many of us do daily.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

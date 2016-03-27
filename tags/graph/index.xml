@@ -1,16 +1,94 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Graph on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/graph/</link>
+    <description>Recent content in Graph on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-05-24 08:15:00 -0300 -0300</updated>
-
+    <lastBuildDate>Sat, 24 May 2008 08:15:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Graphing Git Repository Activity In ASCII</title>
+      <link>http://jbowes.github.io/2008/05/24/graphing-git-repository-activity-in</link>
+      <pubDate>Sat, 24 May 2008 08:15:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2008/05/24/graphing-git-repository-activity-in</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://jbowes.dangerouslyinc.com/wp-
+content/uploads/2008/05/git-graph.pl&#34;&gt;Here&amp;rsquo;s a quick little script&lt;/a&gt; I wrote up (adapted from &lt;a href=&#34;http://www.perlmonks.org/?node_id=336907&#34;&gt;this perlmonks
+post&lt;/a&gt;) to show
+&lt;a href=&#34;http://git.or.cz&#34;&gt;git&lt;/a&gt; repository activity as an ascii graph, like so:&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://jbowes.files.wordpress.com/2008/05/screenshot-
+git-graphpl.png&#34; alt=&#34;git-graph screenshot&#34; /&gt;The X axis represents a day, with the current day being on the
+far right. The Y axis is no. of lines added + no. of lines deleted during that
+day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT (2009/02/03):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wordpress.com won&amp;rsquo;t let me attach a .pl file, so here&amp;rsquo;s the contents:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/perl  
+#  
+# git-graph.pl - Generate an ascii graph of git repository activity  
+#  
+# Copyright (C) 2008 James Bowes &amp;lt;jbowes@dangerouslyinc.com&amp;gt;  
+#  
+# Graphing routine Adapted from http://www.perlmonks.org/?node_id=336907  
+
+sub get_activity {  
+    my $day = shift;  
+    my $git_cmd = &#39;git diff --shortstat &amp;quot;@{&#39; . ($day + 1) .&#39; day ago}&amp;quot; &amp;quot;@{&#39; .  
+                  ($day or &amp;quot;0&amp;quot;) . &#39; day ago}&amp;quot;&#39;;  
+    $res = `$git_cmd 2&amp;gt; /dev/null`;  
+
+    $res =~ /, (.*?) insertions\(\+\), (.*?) deletions\(-\)/;  
+    $activity = $1 + $2;  
+
+    return $activity;  
+}  
+
+@deltas = ();  
+foreach $day (0..70) {  
+    push (@deltas, get_activity ($day));  
+}  
+
+print (&amp;quot;\n&amp;quot;);  
+print graph(@deltas);  
+print (&amp;quot;\n&amp;quot;);  
+
+sub graph {  
+  my( $i, $magic, $m, $p, $top, @g ) = ( 0, 20, 7, 70, 0, () );  
+
+  foreach $pad (0..($p - scalar(@_))) {  
+      push (@_, 0);  
+  }  
+
+  @_ = reverse @_;   
+
+  for (0..($p)) {  
+      $top = ($top &amp;gt; $_[$_]) ? $top : $_[$_];  
+  }  
+
+  $top = $top - ($top % 100) + 100;  
+
+  my $s = $top &amp;gt; $magic ? ( $top / $magic ) : 1;  ### calculate scale  
+
+  for (0..$magic) {  
+    $g[$_] = sprintf(&amp;quot;%&amp;quot; . ($m - 1) . &amp;quot;d |&amp;quot;, $_ * $s) .  
+             ($_ % 5 == 0 ? &#39;_&#39; : &#39; &#39;) x ($p);  
+    for $i (0..($p)) {  
+        substr($g[$_], ($i + $m), 1) = &#39;#&#39; if ($_[$i] / $s) &amp;gt; $_;  
+    }  
+  }  
+  join( &amp;quot;\n&amp;quot;, reverse( @g ), &#39; Date:  &#39; . &#39;^^^^^^|&#39; x ( $p / 7 ));    
+}  # end sub graph  
+
+__END__
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

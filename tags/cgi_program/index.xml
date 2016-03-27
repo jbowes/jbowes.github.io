@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Cgi_program on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/cgi_program/</link>
+    <description>Recent content in Cgi_program on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-01-23 13:06:00 -0400 -0400</updated>
-
+    <lastBuildDate>Tue, 23 Jan 2007 13:06:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/cgi_program/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>New hosting</title>
+      <link>http://jbowes.github.io/2007/01/23/new-hosting</link>
+      <pubDate>Tue, 23 Jan 2007 13:06:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/01/23/new-hosting</guid>
+      <description>&lt;p&gt;I’ve moved my blog and associated pages from &lt;a href=&#34;http://www.cs.dal.ca&#34;&gt;Dal CS&lt;/a&gt; to
+the &lt;a href=&#34;http://www.dangerouslyinc.com&#34;&gt;dangerously incompetent&lt;/a&gt; data center.
+Also, I’ve moved it from pybloxsom to &lt;a href=&#34;http://www.wordpress.org&#34;&gt;wordpress&lt;/a&gt;,
+mainly because of what &lt;a href=&#34;http://www.lastblogger.com&#34;&gt;Marc&lt;/a&gt; has written about
+it. So far I’m very impressed.&lt;/p&gt;
 
+&lt;p&gt;The most difficult thing has been setting up redirects from my old cs pages to
+these new ones, due to the apache configuration at Dal. I’ve had to do silly
+things like making a directory called “cv.html”, and placing an index.php file
+in there that will write out redirect headers. I also had to write up a quick
+python cgi program that translates requests for old blog posts into redirects
+to their locations on my new blog. Good times.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

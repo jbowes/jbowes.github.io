@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Theme on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/theme/</link>
+    <description>Recent content in Theme on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-02-03 17:23:00 -0400 -0400</updated>
-
+    <lastBuildDate>Sat, 03 Feb 2007 17:23:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/theme/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Setting up wordpress</title>
+      <link>http://jbowes.github.io/2007/02/03/setting-up-wordpress</link>
+      <pubDate>Sat, 03 Feb 2007 17:23:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/02/03/setting-up-wordpress</guid>
+      <description>&lt;p&gt;Since I&amp;rsquo;m running through the &lt;a href=&#34;http://www.wordpress.org&#34;&gt;wordpress&lt;/a&gt; install
+again, I figured I&amp;rsquo;d take &lt;a href=&#34;http://www.lastblogger.com&#34;&gt;Marc&lt;/a&gt;&amp;rsquo;s advice and
+&amp;lsquo;blog my changes&amp;rsquo;.&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Plugins:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://http://www.neato.co.nz/ultimate-tag-warrior/&#34;&gt;Ultimate tag warrior&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://orderedlist.com/wordpress-plugins/feedburner-plugin/&#34;&gt;feedburner&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://wasabi.pbwiki.com/Related%20Entries&#34;&gt;related posts&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.netconcepts.com/seo-title-tag-plugin/&#34;&gt;seo title tag&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.arnebrachhold.de/2005/06/05/google-sitemaps-generator-v2-final&#34;&gt;sitemap&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://automattic.com/code/widgets/&#34;&gt;widgets&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://tarskitheme.com/help/widgets/&#34;&gt;Tarski links widget&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Popularity Contest (disable visible rankings for external viewers)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://tarskitheme.com/&#34;&gt;Tarski&lt;/a&gt; theme:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Edit footer.php to remove the recent entries section and lower sidebar.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit sidebar.php to always show the &amp;ldquo;Main Sidebar&amp;rdquo; widget thing, and only show the &amp;ldquo;Widget Footer&amp;rdquo; one for the front page, to make the sidebar shorter for individual posts.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit header.php, replacing the standard title call with the SEO title tag.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit loop.php to display the related entries in the content block.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

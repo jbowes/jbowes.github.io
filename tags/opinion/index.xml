@@ -1,26 +1,154 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Opinion on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/opinion/</link>
+    <description>Recent content in Opinion on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-03-26 05:30:00 -0300 -0300</updated>
+    <lastBuildDate>Wed, 26 Mar 2008 05:30:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/opinion/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dear Government of Canada</title>
+      <link>http://jbowes.github.io/2008/03/26/dear-government-of-canada</link>
+      <pubDate>Wed, 26 Mar 2008 05:30:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/03/26/dear-government-of-canada</guid>
+      <description>&lt;p&gt;Please stop Bell from doing &lt;a href=&#34;http://arstechnica.com/news.ars/post/20080325-canadian-isps-furious-
+about-bell-canadas-traffic-throttling.html&#34;&gt;crazy
+stuff&lt;/a&gt;.  Thanks!&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+&lt;p&gt;Love,&lt;/p&gt;
 
+&lt;p&gt;James&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mission Accomplished!</title>
+      <link>http://jbowes.github.io/2008/01/08/mission-accomplished</link>
+      <pubDate>Tue, 08 Jan 2008 06:35:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/01/08/mission-accomplished</guid>
+      <description>&lt;p&gt;A lot of people are linking to &lt;a href=&#34;http://www.stsc.hill.af.mil/Cros
+sTalk/2008/01/0801DewarSchonberg.html&#34;&gt;this article&lt;/a&gt; about the state of the practice in CS
+curriculum and its use of Java creating dull replaceable drones.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.michaeldehaan.net/&#34;&gt;mdehaan&lt;/a&gt; points out a wonderful section
+wherein the authors relate Java programming to a plumber in a hardware store,
+finding pieces and putting them together to solve a problem, rather than their
+unmentioned alternative (maybe an artist molding clay?)&lt;/p&gt;
+
+&lt;p&gt;If this is true, then we, the software industry and software engineering
+fields, are done. We have found the holy grail: true modularity and reusable
+software components. Drop whatever language you&amp;rsquo;re using and switch to Java.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facebook eats babies</title>
+      <link>http://jbowes.github.io/2007/03/17/facebook-eats-babies</link>
+      <pubDate>Sat, 17 Mar 2007 09:05:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/03/17/facebook-eats-babies</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to understand the popularity of
+&lt;a href=&#34;http://www.facebook.com&#34;&gt;facebook&lt;/a&gt; over the past week. In particular, why is
+it seemingly more popular than &lt;a href=&#34;http://www.friendster.com&#34;&gt;friendster&lt;/a&gt; or
+&lt;a href=&#34;http://www.orkut.com&#34;&gt;orkut&lt;/a&gt; (unless you&amp;rsquo;re
+&lt;a href=&#34;http://www.searchenginejournal.com/?p=3082&#34;&gt;Brazilian&lt;/a&gt;)?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt; phrased it well (using his elite
+new irc nick):&lt;br /&gt;
+&lt;code&gt;
+12:39 &amp;lt;@jbowes&amp;gt; facebook is way too much like orkut  
+12:40 &amp;lt;@jbowes&amp;gt; or all them other ones  
+12:40 &amp;lt;@jbowes&amp;gt; why is it that people seem to like it more?  
+12:40 &amp;lt; kryptos&amp;gt; it tries to replace everything  
+12:40 &amp;lt; kryptos&amp;gt; we have email  
+12:40 &amp;lt; kryptos&amp;gt; we have blogs  
+12:40 &amp;lt; kryptos&amp;gt; we have flickr  
+12:41 &amp;lt; kryptos&amp;gt; i wouldnt even be on facebook if i didnt have to check email
+for plans tonight, and constantly see facebook emails  
+12:41 &amp;lt; kryptos&amp;gt; maybe i need to filter them to trash  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Facebook wants become the canonical source for your data. It keeps you coming
+back with its stream of email. This is reminiscent of the &lt;a href=&#34;http://www.stopmethaddiction.com/&#34;&gt;instant
+gratification&lt;/a&gt; aspects of gambling and
+other addictive activities.&lt;/p&gt;
+
+&lt;p&gt;If you think I&amp;rsquo;m being paranoid and over the top, check out this &lt;a href=&#34;http://www.thestudentunderground.org/article.php?id=21&amp;amp;issue=51&#34;&gt;Boston
+Underground
+article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Heroes - Destroying Family Values</title>
+      <link>http://jbowes.github.io/2007/02/05/heroes-destroying-family-values</link>
+      <pubDate>Mon, 05 Feb 2007 16:59:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/02/05/heroes-destroying-family-values</guid>
+      <description>&lt;p&gt;If your wife/SO has not yet watched &lt;a href=&#34;http://www.nbc.com&#34;&gt;NBC&lt;/a&gt;&amp;rsquo;s
+&lt;a href=&#34;http://www.nbc.com/Heroes&#34;&gt;Heroes&lt;/a&gt; &lt;em&gt;do not let her!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;My wife, &lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt;&amp;rsquo;s wife, and
+&lt;a href=&#34;http://katzj.livejournal.com&#34;&gt;Jeremy&lt;/a&gt;&amp;rsquo;s finance all have some sort of a thing
+for that &lt;a href=&#34;http://www.imdb.com/name/nm1199811/&#34;&gt;Hiro&lt;/a&gt; character. If your
+relationship has not yet been affected by this pandemic, protect yourself, and
+stay away from this awesome show.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fair Criticism of Criticism?</title>
+      <link>http://jbowes.github.io/2007/01/20/fair-criticism-of-criticism</link>
+      <pubDate>Sat, 20 Jan 2007 05:58:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/20/fair-criticism-of-criticism</guid>
+      <description>&lt;p&gt;Yup.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.lastblogger.com/archives/217&#34;&gt;Marc&amp;rsquo;s&lt;/a&gt; reply to&lt;a href=&#34;http://flame.cs.dal.ca/~bowes/blog.cgi/opinion/greedvmeat.html&#34;&gt; my
+chart&lt;/a&gt; is
+right on the money. Some of the words I chose were intentionally over the top,
+when they probably shouldn&amp;rsquo;t have been. I should also mention that Marc is
+someone that I greatly respect, and look up to. I may not agree with how he
+chooses to supplement his income (he might not agree with my selling
+overpriced board games on ebay, either), but he has every right to do so.&lt;/p&gt;
+
+&lt;p&gt;Marc has every right to be on the &lt;a href=&#34;http://planet.cs.dal.ca&#34;&gt;planet&lt;/a&gt;, and to
+post whatever he wants on there. He&amp;rsquo;s been more involved with Dal CS than
+anyone else, and it would be a shame to lose him. I want to make sure he wants
+to be taken off the planet before I remove his feed, and I hope he changes his
+mind.&lt;/p&gt;
+
+&lt;p&gt;As for this professor, where is their blog? I&amp;rsquo;m sure it would make a great
+addition to the planet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On Sponsored Blog Posts</title>
+      <link>http://jbowes.github.io/2007/01/14/on-sponsored-blog-posts</link>
+      <pubDate>Sun, 14 Jan 2007 03:56:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/14/on-sponsored-blog-posts</guid>
+      <description>&lt;p&gt;On the &lt;a href=&#34;http://planet.cs.dal.ca&#34;&gt;planet&lt;/a&gt;, a certain blogger has been writing
+sponsored blog posts (aka selling out to the man). This blogger is free to do
+whatever they feel is acceptable, I suppose. What follows is an infographic
+generated from posts made by said blogger since the start of December.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.cs.dal.ca/~bowes/pictures/greedvmeat.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Only 45% of the content is not shilling or about shilling. Imagine watching an
+hour long program, only to find out that 33 minutes are commercials.&lt;/p&gt;
+
+&lt;p&gt;I can understand the desire to make money, but you actually need people to
+read your blog to make money from it. How many people will keep reading when
+less than half of the posts contain actual content?&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

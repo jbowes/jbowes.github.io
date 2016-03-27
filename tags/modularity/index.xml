@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Modularity on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/modularity/</link>
+    <description>Recent content in Modularity on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-01-08 06:35:00 -0400 -0400</updated>
-
+    <lastBuildDate>Tue, 08 Jan 2008 06:35:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/modularity/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Mission Accomplished!</title>
+      <link>http://jbowes.github.io/2008/01/08/mission-accomplished</link>
+      <pubDate>Tue, 08 Jan 2008 06:35:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2008/01/08/mission-accomplished</guid>
+      <description>&lt;p&gt;A lot of people are linking to &lt;a href=&#34;http://www.stsc.hill.af.mil/Cros
+sTalk/2008/01/0801DewarSchonberg.html&#34;&gt;this article&lt;/a&gt; about the state of the practice in CS
+curriculum and its use of Java creating dull replaceable drones.&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://www.michaeldehaan.net/&#34;&gt;mdehaan&lt;/a&gt; points out a wonderful section
+wherein the authors relate Java programming to a plumber in a hardware store,
+finding pieces and putting them together to solve a problem, rather than their
+unmentioned alternative (maybe an artist molding clay?)&lt;/p&gt;
+
+&lt;p&gt;If this is true, then we, the software industry and software engineering
+fields, are done. We have found the holy grail: true modularity and reusable
+software components. Drop whatever language you&amp;rsquo;re using and switch to Java.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

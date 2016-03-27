@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Tv on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/tv/</link>
+    <description>Recent content in Tv on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-02-05 16:59:00 -0400 -0400</updated>
-
+    <lastBuildDate>Mon, 05 Feb 2007 16:59:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/tv/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Heroes - Destroying Family Values</title>
+      <link>http://jbowes.github.io/2007/02/05/heroes-destroying-family-values</link>
+      <pubDate>Mon, 05 Feb 2007 16:59:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/02/05/heroes-destroying-family-values</guid>
+      <description>&lt;p&gt;If your wife/SO has not yet watched &lt;a href=&#34;http://www.nbc.com&#34;&gt;NBC&lt;/a&gt;&amp;rsquo;s
+&lt;a href=&#34;http://www.nbc.com/Heroes&#34;&gt;Heroes&lt;/a&gt; &lt;em&gt;do not let her!&lt;/em&gt;&lt;/p&gt;
 
+&lt;p&gt;My wife, &lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt;&amp;rsquo;s wife, and
+&lt;a href=&#34;http://katzj.livejournal.com&#34;&gt;Jeremy&lt;/a&gt;&amp;rsquo;s finance all have some sort of a thing
+for that &lt;a href=&#34;http://www.imdb.com/name/nm1199811/&#34;&gt;Hiro&lt;/a&gt; character. If your
+relationship has not yet been affected by this pandemic, protect yourself, and
+stay away from this awesome show.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

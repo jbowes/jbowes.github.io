@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Red_hat on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/red_hat/</link>
+    <description>Recent content in Red_hat on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-07-23 04:44:00 -0300 -0300</updated>
-
+    <lastBuildDate>Mon, 23 Jul 2007 04:44:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/red_hat/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Our Home and Native Land</title>
+      <link>http://jbowes.github.io/2007/07/23/our-home-and-native-land</link>
+      <pubDate>Mon, 23 Jul 2007 04:44:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/07/23/our-home-and-native-land</guid>
+      <description>&lt;p&gt;At the end of August, Cherie and I (and the cats) will be moving to
+&lt;a href=&#34;http://www.toronto.ca/&#34;&gt;Toronto&lt;/a&gt;. I&amp;rsquo;ll still be working with &lt;a href=&#34;http://www.redhat.com&#34;&gt;Red
+Hat&lt;/a&gt; on &lt;a href=&#34;http://rhn.redhat.com&#34;&gt;RHN&lt;/a&gt;; we just decided
+it was time to return to &lt;a href=&#34;http://www.canada.gc.ca&#34;&gt;our own Country&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;It should be good times.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

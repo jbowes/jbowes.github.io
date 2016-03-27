@@ -1,18 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Gnome on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/gnome/</link>
+    <description>Recent content in Gnome on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2011-12-06 18:57:00.001 -0400 -0400</updated>
-
+    <lastBuildDate>Tue, 06 Dec 2011 18:57:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Essential Gnome Shell Extensions For Laggards</title>
+      <link>http://jbowes.github.io/2011/12/06/essential-gnome-shell-extensions-for</link>
+      <pubDate>Tue, 06 Dec 2011 18:57:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2011/12/06/essential-gnome-shell-extensions-for</guid>
+      <description>
 
+&lt;p&gt;[&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-
+vt100.jpg&#34; alt=&#34;&#34; /&gt;](&lt;a href=&#34;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-&#34;&gt;http://upload.wikimedia.org/wikipedia/commons/6/6f/Terminal-dec-&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;vt100-jpg:4f4d6a7113c2000dd0ed3450e9f6370c&#34;&gt;vt100.jpg)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;My ideal workstation&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;__Image by &lt;a href=&#34;http://commons.wikimedia.org/wiki/User:ClickRick&#34;&gt;ClickPick&lt;/a&gt;, used
+under the ____&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Creative Commons&lt;/em&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/deed.en&#34;&gt;Attribution-Share Alike 3.0 Unported
+license.&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;__&lt;br /&gt;
+Gnome 3 introduced a lot of fundamental changes to how you interact with your
+computer. I don&amp;rsquo;t want to hopelessly cling to the past, bemoaning the loss of
+my &lt;a href=&#34;http://en.wikipedia.org/wiki/Sawfish_(window_manager)&#34;&gt;Lisp based window
+manager&lt;/a&gt; and yearning
+for the days when I could debate the merits of pure applets vs notification
+area icons, so I&amp;rsquo;ve moved on to gnome-shell.&lt;/p&gt;
+
+&lt;p&gt;That said, I&amp;rsquo;ve been using a few tweaks to bring Gnome 3 and gnome-shell
+closer to what I&amp;rsquo;m used to. Consider them training wheels; they can be
+disabled over time, easing the transition.&lt;/p&gt;
+
+&lt;p&gt;Here are the extensions I use, and some settings tweaks. Most extensions are
+available from &lt;a href=&#34;http://extensions.gnome.org/&#34;&gt;http://extensions.gnome.org&lt;/a&gt;.
+The ones that aren&amp;rsquo;t can typically be downloaded via your distro&amp;rsquo;s packaging
+mechanism of choice, then symlinked into &lt;em&gt;~/.local/share/gnome-
+shell/extensions&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/38/&#34;&gt;Windows Alt Tab&lt;/a&gt; **Makes alt-tab cycle through all open windows, rather than all open applications. This is really useful if you have a lot of terminal windows open.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/40/&#34;&gt;Status Only Icon&lt;/a&gt; **Remove your name from the top panel. You know who you are, and you don&amp;rsquo;t care to let strangers in the coffee shop find out.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/14/&#34;&gt;Frippery Shut Down Menu&lt;/a&gt; **Replaces the suspend menu option shut down. Perfect for a workstation that is turned off at the end of the day.&lt;/p&gt;
+
+&lt;p&gt;**Remove Accessibility Icon **_(Not available on extensions.gnome.org) _I think it&amp;rsquo;s wonderful how prominent the accessibility icon is in Gnome 3. It should always be out and visible by default, but since I don&amp;rsquo;t need it, I&amp;rsquo;ve removed it from my desktop.&lt;/p&gt;
+
+&lt;p&gt;**&lt;a href=&#34;https://extensions.gnome.org/extension/3/&#34;&gt;Frippery Bottom Panel&lt;/a&gt; **A bottom panel with a list of open windows and workspaces. This is probably the first training wheel I&amp;rsquo;ll drop, as the gnome-shell overview thingy gives a good view of my open windows and workspaces.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://extensions.gnome.org/extension/12/&#34;&gt;&lt;strong&gt;Frippery Static Workspaces&lt;/strong&gt;&lt;/a&gt;
+Works in conjunction with the number of workspaces you set via the Frippery
+Bottom Panel, to keep them open even if no windows are present on the
+workspace. This extension is my favorite. I find it very disorienting when the
+webbrowser on workspace one crashes, then all of a sudden my 9 terminals are
+on workspace 2 instead of workspace 3. Then I spend the next 15 minutes
+juggling windows to get everything back to the workspaces they belong on.
+Previously I&amp;rsquo;d open a terminal on all workspaces, just so that if another
+application crashed, the workspace would remain open.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classic Multi-Monitor Support&lt;/strong&gt; gnome-shell&amp;rsquo;s default multi-monitor support, where only your primary monitor has more than one workspace, and the content on the other monitors is always pinned in place, is not to my liking. You can get the _OG _multi-monitor style back by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gconftool-2 -s /desktop/gnome/shell/windows/workspaces_only_on_primary --type bool false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Minimize/Maxmize Buttons&lt;/strong&gt; Useful with the Frippery Bottom Panel. Get them back by running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gconftool-2 -s /desktop/gnome/shell/windows/button_layout --type string &amp;quot;:minimize,maximize,close&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;**No IM Integration **This last item I &lt;em&gt;wish&lt;/em&gt; I had. I find the popup notifications on incoming instant messages to be very distracting and disrupting, yet I still want to leave my IM status as online. If anyone knows how I can keep using empathy for IM, and yet not have any IM integration in Gnome 3, please leave me a comment!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Importing VPN Settings in GNOME 3</title>
+      <link>http://jbowes.github.io/2011/11/28/importing-vpn-settings-in-gnome-3</link>
+      <pubDate>Mon, 28 Nov 2011 09:47:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/11/28/importing-vpn-settings-in-gnome-3</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve noticed after upgrading my workstation to Fedora 16 that GNOME 3&amp;rsquo;s
+default NetworkManager UI doesn&amp;rsquo;t expose the old UI&amp;rsquo;s import option for VPN
+settings. I have my old OpenVPN settings file on hand, so I&amp;rsquo;d rather not type
+it out again.&lt;/p&gt;
+
+&lt;p&gt;Turns out you can still access the old UI and its convenient import button by
+running &lt;em&gt;nm-connection-editor.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

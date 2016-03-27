@@ -1,28 +1,405 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Scm on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/scm/</link>
+    <description>Recent content in Scm on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2009-06-23 03:29:00 -0300 -0300</updated>
+    <lastBuildDate>Tue, 23 Jun 2009 03:29:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/scm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Converting SVN Commits to Git Patches</title>
+      <link>http://jbowes.github.io/2009/06/23/converting-svn-commits-to-git-patches</link>
+      <pubDate>Tue, 23 Jun 2009 03:29:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2009/06/23/converting-svn-commits-to-git-patches</guid>
+      <description>&lt;p&gt;In case you find yourself in need of a way to turn an svn revision into a git
+patch that can be applied with &amp;lsquo;git am&amp;rsquo;, keeping the commit message and
+authorship information, here&amp;rsquo;s a script I used recently:&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/python  
+#  
+# svnrev2git.py - Convert an SVN revsion to a Git patch.  
+#  
+# Author: James Bowes &amp;lt;jbowes@repl.ca&amp;gt;  
+#  
+# Usage:  
+#   $&amp;gt; cd my-svn-repo  
+#   $&amp;gt; python svnrev2git.py [AUTHORS_FILE] [REV_RANGE | REVSION [REVISION..]]  
+#  
+#   AUTHORS_FILE - a CSV of  svn username, full name, email  
+#   REV_RANGE - an svn revision range, like 100-700  
+#   REVISION - a single svn revision  
+#  
+#   You may specify either a revision range, or a series of individual  
+#   svn revisions  
+#  
+# Output:  
+#   A series of git style patch files, one per svn revision, which can then be  
+#   applied with &#39;git am&#39;  
+#  
+# Why use this instead of &#39;git svn&#39;?  
+#   I had done a large repo conversion via git svn where we wanted no downtime  
+#   for the switchover. After removing the git svn specific info from our git  
+#   commits, I used this tool to bring in commits from svn, keeping svn and git  
+#   in sync, until we were ready to switch.  
 
+import sys  
+import commands  
+
+def svnlog_to_gitlog(authors, svnlog):  
+
+    lines = svnlog.split(&amp;quot;\n&amp;quot;)  
+    lines = lines[1:-1]  
+
+    metainfo = lines[0].split(&amp;quot; | &amp;quot;)  
+    subject = lines[2]  
+    description = lines[3:]  
+
+    author = metainfo[1]  
+
+    day = metainfo[2].split(&amp;quot;(&amp;quot;)[1][:-1]  
+    time = metainfo[2].split(&amp;quot; &amp;quot;)[1]  
+    offset = metainfo[2].split(&amp;quot; &amp;quot;)[2]  
+
+    gitlog = []  
+    gitlog += [&amp;quot;From: %s &amp;lt;%s&amp;gt;&amp;quot; % authors[author]]  
+    gitlog += [&amp;quot;Date: %s %s %s&amp;quot; % (day, time, offset)]  
+    gitlog += [&amp;quot;Subject: [PATCH] %s&amp;quot; % subject]  
+    gitlog += [&amp;quot;&amp;quot;]  
+    gitlog += description  
+    gitlog += [&amp;quot;&amp;quot;]  
+
+    return &#39;\n&#39;.join(gitlog)  
+
+def svndiff_to_gitdiff(svndiff):  
+    lines = svndiff.split(&amp;quot;\n&amp;quot;)  
+
+    gitdiff = []  
+    for line in lines:  
+        if line.startswith(&amp;quot;--- &amp;quot;):  
+            gitdiff.append(&amp;quot;--- a/&amp;quot; + line[4:])  
+        elif line.startswith(&amp;quot;+++ &amp;quot;):  
+            gitdiff.append(&amp;quot;+++ b/&amp;quot; + line[4:])  
+        else:  
+            gitdiff.append(line)  
+
+    return &#39;\n&#39;.join(gitdiff)  
+
+def make_patch(authors, rev):  
+    out = commands.getoutput(&amp;quot;svn log -c %s .&amp;quot; % rev)  
+
+    if len(out.split(&amp;quot;\n&amp;quot;)) &amp;lt; 2:  
+        print &amp;quot;skipping r%s&amp;quot; % rev  
+        return  
+
+    patch = open(rev + &amp;quot;.patch&amp;quot;, &#39;w&#39;)  
+    patch.write(svnlog_to_gitlog(authors, out))  
+    patch.write(&amp;quot;---\n\n&amp;quot;)  
+
+    out = commands.getoutput(&amp;quot;svn diff -c %s .&amp;quot; % rev)  
+    patch.write(svndiff_to_gitdiff(out))  
+
+    patch.write(&amp;quot;\n---\n&amp;quot;)  
+    patch.write(&amp;quot;svnrev2git.py\n&amp;quot;)  
+
+    patch.close()  
+    print &amp;quot;wrote %s.patch&amp;quot; % rev  
+
+def main(args):  
+    author_file = open(args[0])  
+    authors = {}  
+
+    print &amp;quot;loading authors&amp;quot;  
+    for line in author_file.readlines():  
+        parts = line.strip().split(&amp;quot;, &amp;quot;)  
+        authors[parts[0]] = (parts[1], parts[2])  
+
+    author_file.close()  
+
+    revs = args[1:]  
+
+    if len(revs) == 1 and &#39;-&#39; in revs[0]:  
+        start, end = revs[0].split(&#39;-&#39;)  
+        start = int(start)  
+        end = int(end)  
+        revs = [str(x) for x in range(start, end + 1)]  
+
+    for rev in revs:  
+        make_patch(authors, rev)  
+
+if __name__ == &amp;quot;__main__&amp;quot;:  
+    main(sys.argv[1:])
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Graphing Git Repository Activity In ASCII</title>
+      <link>http://jbowes.github.io/2008/05/24/graphing-git-repository-activity-in</link>
+      <pubDate>Sat, 24 May 2008 08:15:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/05/24/graphing-git-repository-activity-in</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://jbowes.dangerouslyinc.com/wp-
+content/uploads/2008/05/git-graph.pl&#34;&gt;Here&amp;rsquo;s a quick little script&lt;/a&gt; I wrote up (adapted from &lt;a href=&#34;http://www.perlmonks.org/?node_id=336907&#34;&gt;this perlmonks
+post&lt;/a&gt;) to show
+&lt;a href=&#34;http://git.or.cz&#34;&gt;git&lt;/a&gt; repository activity as an ascii graph, like so:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://jbowes.files.wordpress.com/2008/05/screenshot-
+git-graphpl.png&#34; alt=&#34;git-graph screenshot&#34; /&gt;The X axis represents a day, with the current day being on the
+far right. The Y axis is no. of lines added + no. of lines deleted during that
+day.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT (2009/02/03):&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Wordpress.com won&amp;rsquo;t let me attach a .pl file, so here&amp;rsquo;s the contents:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/perl  
+#  
+# git-graph.pl - Generate an ascii graph of git repository activity  
+#  
+# Copyright (C) 2008 James Bowes &amp;lt;jbowes@dangerouslyinc.com&amp;gt;  
+#  
+# Graphing routine Adapted from http://www.perlmonks.org/?node_id=336907  
+
+sub get_activity {  
+    my $day = shift;  
+    my $git_cmd = &#39;git diff --shortstat &amp;quot;@{&#39; . ($day + 1) .&#39; day ago}&amp;quot; &amp;quot;@{&#39; .  
+                  ($day or &amp;quot;0&amp;quot;) . &#39; day ago}&amp;quot;&#39;;  
+    $res = `$git_cmd 2&amp;gt; /dev/null`;  
+
+    $res =~ /, (.*?) insertions\(\+\), (.*?) deletions\(-\)/;  
+    $activity = $1 + $2;  
+
+    return $activity;  
+}  
+
+@deltas = ();  
+foreach $day (0..70) {  
+    push (@deltas, get_activity ($day));  
+}  
+
+print (&amp;quot;\n&amp;quot;);  
+print graph(@deltas);  
+print (&amp;quot;\n&amp;quot;);  
+
+sub graph {  
+  my( $i, $magic, $m, $p, $top, @g ) = ( 0, 20, 7, 70, 0, () );  
+
+  foreach $pad (0..($p - scalar(@_))) {  
+      push (@_, 0);  
+  }  
+
+  @_ = reverse @_;   
+
+  for (0..($p)) {  
+      $top = ($top &amp;gt; $_[$_]) ? $top : $_[$_];  
+  }  
+
+  $top = $top - ($top % 100) + 100;  
+
+  my $s = $top &amp;gt; $magic ? ( $top / $magic ) : 1;  ### calculate scale  
+
+  for (0..$magic) {  
+    $g[$_] = sprintf(&amp;quot;%&amp;quot; . ($m - 1) . &amp;quot;d |&amp;quot;, $_ * $s) .  
+             ($_ % 5 == 0 ? &#39;_&#39; : &#39; &#39;) x ($p);  
+    for $i (0..($p)) {  
+        substr($g[$_], ($i + $m), 1) = &#39;#&#39; if ($_[$i] / $s) &amp;gt; $_;  
+    }  
+  }  
+  join( &amp;quot;\n&amp;quot;, reverse( @g ), &#39; Date:  &#39; . &#39;^^^^^^|&#39; x ( $p / 7 ));    
+}  # end sub graph  
+
+__END__
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>QotD: Mike on Version Control Best Practices</title>
+      <link>http://jbowes.github.io/2007/11/08/qotd-mike-on-version-control-best</link>
+      <pubDate>Thu, 08 Nov 2007 08:03:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/11/08/qotd-mike-on-version-control-best</guid>
+      <description>&lt;p&gt;&lt;code&gt;&amp;lt; mdehaan&amp;gt; atomic commits are dangerous, just as atomic weapons&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;He may have been sarcastic. Maybe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>git bisect: A practical example with yum</title>
+      <link>http://jbowes.github.io/2007/02/18/git-bisect-practical-example-with-yum</link>
+      <pubDate>Sun, 18 Feb 2007 16:59:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/02/18/git-bisect-practical-example-with-yum</guid>
+      <description>&lt;p&gt;I used &lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-
+bisect.html&#34;&gt;git bisect&lt;/a&gt; to track down a bug in &lt;a href=&#34;http://linux.duke.edu/projects/yum/&#34;&gt;yum&lt;/a&gt;
+last night. It was so easy and practical that I figured I should record it
+here, so that others might want to give git a try.&lt;/p&gt;
+
+&lt;p&gt;I was attempting to install &lt;a href=&#34;http://www.mutt.org/&#34;&gt;mutt&lt;/a&gt;, and yum failed
+(printing a traceback) after the rpms had been downloaded, but before the test
+transaction finished. So I started git bisect, and marked the current point as
+bad:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; git bisect start  
+$&amp;gt; git bisect bad  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The yum 3.1.0 release didn&amp;rsquo;t have this bug (it was the version I had installed
+at the time), so I marked it as good:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; git bisect good yum-3-1-0  
+Bisecting: 15 revisions left to test after this  
+[1d0454af41ef6361604cafa8c7a13d80bc183c63] make it so that we see that the
+local rpm is present and then don&#39;t download  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://git.or.cz&#34;&gt;Git&lt;/a&gt; automatically checks out the next revision for you to
+test. This one happened to be good, so I marked it as such. I continued to
+test and mark revisions as either good or bad, until:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$&amp;gt; git bisect bad  
+832814e6b037621c4f26ee6a47e4b7b6dc7eb073 is first bad commit  
+commit 832814e6b037621c4f26ee6a47e4b7b6dc7eb073  
+Author: XXX  
+Date: XXX  
+XXXXXXXXXXXXXXXX  
+:100644 100644 8ea07cda8441687da2f0e3dd794c3a1c50a0f161
+567ef25557eacbd932bc5f8c20cd34e49c169f57 M cli.py  
+:100644 100644 50fb320c9c31a0f394985e244dc35b9766fb28ce
+3875b70c4f8a7b6a9cf7d06de6df47e8a0ae5777 M yum-updatesd.py  
+:040000 040000 28296caad31015e1573b19dd84d12c2e3db2b90b
+98048391465ca3da06c210d6f45c3f234dc12e0a M yum  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;At this point, with the traceback and the diff from the commit, it was easy
+enough figure out what the problem was, and commit a fix.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Did I mention that svn sucks?</title>
+      <link>http://jbowes.github.io/2007/02/11/did-i-mention-that-svn-sucks</link>
+      <pubDate>Sun, 11 Feb 2007 08:46:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/02/11/did-i-mention-that-svn-sucks</guid>
+      <description>&lt;p&gt;&lt;code&gt;$&amp;gt; svn co svn://gcc.gnu.org/svn/gcc/trunk gcc  
+$&amp;gt; cd gcc  
+$&amp;gt; du -h  
+...  
+1.6G .  
+$&amp;gt; svn export . ../clean-gcc  
+$&amp;gt; cd ../clean-gcc  
+$&amp;gt; du -h  
+...  
+638M .  
+$&amp;gt;  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, yes, &lt;a href=&#34;http://jbowes.dangerouslyinc.com/2006/11/18/software-
+configuration-management/&#34;&gt;I did&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>git rebase: keeping your branches current</title>
+      <link>http://jbowes.github.io/2007/01/26/git-rebase-keeping-your-branches</link>
+      <pubDate>Fri, 26 Jan 2007 15:29:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/26/git-rebase-keeping-your-branches</guid>
+      <description>&lt;p&gt;Where possible, I use &lt;a href=&#34;http://git.or.cz&#34;&gt;git&lt;/a&gt; for my scm now. All software on
+&lt;a href=&#34;http://dangerouslyincompetent.com&#34;&gt;dangerously incompetent&lt;/a&gt; is stored in git,
+and I do my personal &lt;a href=&#34;http://linux.duke.edu/projects/yum/&#34;&gt;yum&lt;/a&gt; work with
+&lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-
+cvsimport.html&#34;&gt;git-cvsimport&lt;/a&gt;. One of the reasons I like git so much is &lt;a href=&#34;http://www.kernel.org/pub/software/scm/git/docs/git-rebase.html&#34;&gt;git-
+rebase&lt;/a&gt;.
+Here’s an example of how it works:&lt;/p&gt;
+
+&lt;p&gt;There is some upstream project that you wish to work on. You clone this
+upstream project when it is in state &lt;em&gt;A&lt;/em&gt;, and make some changes. Your personal
+branch is now in state &lt;em&gt;Ab&lt;/em&gt;, that is, &lt;em&gt;A&lt;/em&gt; plus some set of changes &lt;em&gt;b&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;upstream ==========A  
+
+you                +=====Ab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, while you’ve been writing &lt;em&gt;b&lt;/em&gt;, more changes have occurred upstream. These
+changes may or may not also be contained in &lt;em&gt;b&lt;/em&gt;. Upstream is now in state &lt;em&gt;A’&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;upstream ==========A==========A&#39;  
+
+you                +=====Ab
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, how do you get the differences between &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;A’&lt;/em&gt; into your branch?
+With many distributed scms, you would perform a merge. The merge will take the
+differences between &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;A’&lt;/em&gt; and apply them on top of &lt;em&gt;Ab&lt;/em&gt; (this is a
+greatly simplified explaination, of course). Over time, you end up with a
+history in your branch that interleaves changes from upstream with your own
+changes. Merge is an option with git, but you can also perform a &lt;strong&gt;rebase&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;With a rebase, the changes between &lt;em&gt;A&lt;/em&gt; and &lt;em&gt;Ab&lt;/em&gt; are taken and reapplied at
+&lt;em&gt;A’&lt;/em&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;upstream ==========A==========A&#39;  
+
+you                           +=====A&#39;b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So your own changes are always the most recent. In practice, I find this to be
+a very elegant approach. git-rebase makes it easy to see and manipulate your
+own set of changes against the upstream codebase.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My .gitconfig</title>
+      <link>http://jbowes.github.io/2006/12/19/my-gitconfig</link>
+      <pubDate>Tue, 19 Dec 2006 13:16:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2006/12/19/my-gitconfig</guid>
+      <description>&lt;p&gt;**Update: **&lt;em&gt;I&amp;rsquo;ve posted a revised version of my .gitconfig &lt;a href=&#34;http://http//blog.repl.ca/2011/12/my-gitconfig-2011-edition.html&#34;&gt;here.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;By default, git does not include aliases for commands. For instance,&lt;br /&gt;
+&amp;lsquo;git status&amp;rsquo; works but &amp;lsquo;git st&amp;rsquo; does not. This will hurt your noggin if you
+are&lt;br /&gt;
+used to using cvs or svn.&lt;br /&gt;
+Also, the internet is for posting config files on.&lt;br /&gt;
+So here are the contents of my .gitconfig:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[user]  
+    name = James Bowes  
+    email = MY_EMAIL  
+
+[alias]  
+    ci = commit -a  
+    co = checkout  
+    st = status -a  
+    praise = blame  
+
+[apply]  
+    whitespace = strip  
+
+[diff]  
+    color = auto  
+    rename = copy  
+
+[pager]  
+    color = true  
+
+[status]  
+    color = auto
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Just drop that into ~/.gitconfig and you&amp;rsquo;re all set. Also, use your own name&lt;br /&gt;
+and email address.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

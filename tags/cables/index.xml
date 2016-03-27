@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Cables on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/cables/</link>
+    <description>Recent content in Cables on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-10-20 05:15:00 -0300 -0300</updated>
-
+    <lastBuildDate>Mon, 20 Oct 2008 05:15:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/cables/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>DIY Velcro Cable Ties</title>
+      <link>http://jbowes.github.io/2008/10/20/diy-velcro-cable-ties</link>
+      <pubDate>Mon, 20 Oct 2008 05:15:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2008/10/20/diy-velcro-cable-ties</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.instructables.com/id/Velcro-
+Cable-Ties/&#34;&gt;Making your own velcro cable ties&lt;/a&gt; is a great idea. $2 in materials made as many cable ties as Wal-
+Mart was selling for $13. Thrifty!&lt;/p&gt;
 
+&lt;p&gt;I&amp;rsquo;d suggest sewing the velcro together vs stapling, especially if you have
+cats that are far too curious about staples.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Github on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/github/</link>
+    <description>Recent content in Github on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2013-08-04 21:53:00.001 -0300 -0300</updated>
-
+    <lastBuildDate>Sun, 04 Aug 2013 21:53:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Buckler v1.0.0</title>
+      <link>http://jbowes.github.io/2013/08/04/buckler-v100</link>
+      <pubDate>Sun, 04 Aug 2013 21:53:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2013/08/04/buckler-v100</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://b.repl.ca/v1/use-buckler-blue.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1/License-
+MIT-
+red.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1/go-1.1.1-yellow.png&#34; alt=&#34;&#34; /&gt;&lt;img src=&#34;http://b.repl.ca/v1
+/enterprise-ready-ff69b4.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;https://github.com/jbowes/buckler&#34;&gt;Buckler&lt;/a&gt; is
+&lt;a href=&#34;https://github.com/olivierlacan/shields&#34;&gt;Shields&lt;/a&gt; as a Service (ShaaS, or
+alternatively, Badges as a Service) for use in GitHub READMEs, or anywhere
+else. Use Buckler with your favorite continuous integration tool, performance
+monitoring service API, or ridiculous in-joke to surface information.&lt;/p&gt;
+
+&lt;p&gt;Buckler is MIT licensed. You are free to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Host your own version of Buckler.&lt;/li&gt;
+&lt;li&gt;Download and re-serve generated shields.&lt;/li&gt;
+&lt;li&gt;Link directly to &lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt; for static information display (eg licensing details).&lt;/li&gt;
+&lt;li&gt;Redirect to &lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt; from another service for dynamic information (eg build status).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Check out the &lt;a href=&#34;https://github.com/jbowes/buckler#api&#34;&gt;API &lt;/a&gt;on GitHub, view the
+&lt;a href=&#34;https://github.com/jbowes/buckler/blob/master/README.md&#34;&gt;README&lt;/a&gt; for more
+examples, or play around with the simple form on
+&lt;a href=&#34;http://b.repl.ca/&#34;&gt;b.repl.ca&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Bell on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/bell/</link>
+    <description>Recent content in Bell on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-03-26 05:30:00 -0300 -0300</updated>
-
+    <lastBuildDate>Wed, 26 Mar 2008 05:30:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/bell/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Dear Government of Canada</title>
+      <link>http://jbowes.github.io/2008/03/26/dear-government-of-canada</link>
+      <pubDate>Wed, 26 Mar 2008 05:30:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2008/03/26/dear-government-of-canada</guid>
+      <description>&lt;p&gt;Please stop Bell from doing &lt;a href=&#34;http://arstechnica.com/news.ars/post/20080325-canadian-isps-furious-
+about-bell-canadas-traffic-throttling.html&#34;&gt;crazy
+stuff&lt;/a&gt;.  Thanks!&lt;/p&gt;
 
+&lt;p&gt;Love,&lt;/p&gt;
+
+&lt;p&gt;James&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

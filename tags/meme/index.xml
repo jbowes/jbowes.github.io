@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Meme on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/meme/</link>
+    <description>Recent content in Meme on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-04-09 10:12:00 -0300 -0300</updated>
-
+    <lastBuildDate>Wed, 09 Apr 2008 10:12:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/meme/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Shell HIstory Meme</title>
+      <link>http://jbowes.github.io/2008/04/09/shell-history-meme</link>
+      <pubDate>Wed, 09 Apr 2008 10:12:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2008/04/09/shell-history-meme</guid>
+      <description>&lt;p&gt;&lt;code&gt;[jbowes@laptop ~]$ history | awk &#39;{a[$2]++ } END{for(i in a){print a[i] &amp;quot; &amp;quot;
+i}}&#39;|sort -rn|head  
+211 git  
+148 fg  
+107 ls  
+99 cd  
+89 python  
+43 make  
+26 vim  
+23 sudo  
+20 nosetests  
+19 player/swfplay&lt;/code&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;code&gt;[jbowes@workstation ~]$  history | awk &#39;{a[$2]++ } END{for(i in a){print a[i]
+&amp;quot; &amp;quot; i}}&#39;|sort -rn|head -n 12  
+163 ls  
+156 cd  
+115 svn  
+76 vim  
+70 screen  
+55 fg  
+47 exit  
+35 sudo  
+30 git  
+21 yasql&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Seen on &lt;a href=&#34;http://adrianlikins.com/archives/2008/04/08/shell-history-
+meme/&#34;&gt;Adrian&amp;rsquo;s&lt;/a&gt; and &lt;a href=&#34;http://www.michaeldehaan.net/?p=583&#34;&gt;Mike&amp;rsquo;s&lt;/a&gt; blogs.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

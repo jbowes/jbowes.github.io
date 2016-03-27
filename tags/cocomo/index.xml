@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Cocomo on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/cocomo/</link>
+    <description>Recent content in Cocomo on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-01-25 17:40:00 -0400 -0400</updated>
-
+    <lastBuildDate>Thu, 25 Jan 2007 17:40:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/cocomo/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>How much did wuja cost?</title>
+      <link>http://jbowes.github.io/2007/01/25/how-much-did-wuja-cost</link>
+      <pubDate>Thu, 25 Jan 2007 17:40:00 -0400</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/01/25/how-much-did-wuja-cost</guid>
+      <description>&lt;p&gt;I heard about &lt;a href=&#34;http://www.dwheeler.com/sloccount/&#34;&gt;SLOCCount&lt;/a&gt; the other day
+from &lt;a href=&#34;http://blogs.linux.ie/caolan/2006/01/30
+/disentangling-ooo-java-build-items/&#34;&gt;Caolan McNamara’s&lt;/a&gt; post on &lt;a href=&#34;http://planet.fedoraproject.org&#34;&gt;Fedora
+People&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;Besides just counting source lines of code, SLOCCount also outputs some quick
+&lt;a href=&#34;http://en.wikipedia.org/wiki/COCOMO&#34;&gt;COCOMO&lt;/a&gt; calculations. According to these
+figures, &lt;a href=&#34;http://www.dangerouslyinc.com/wuja&#34;&gt;wuja&lt;/a&gt; cost would around $55,265
+to produce if it were written by paid programmers. Pretty neat.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

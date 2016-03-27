@@ -1,18 +1,139 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Upgrade on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/upgrade/</link>
+    <description>Recent content in Upgrade on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-10-20 08:44:00 -0300 -0300</updated>
-
+    <lastBuildDate>Sat, 20 Oct 2007 08:44:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/upgrade/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Another Fedora Upgrade Post</title>
+      <link>http://jbowes.github.io/2007/10/20/another-fedora-upgrade-post</link>
+      <pubDate>Sat, 20 Oct 2007 08:44:00 -0300</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2007/10/20/another-fedora-upgrade-post</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt; and I were chatting a bit about
+Fedora upgrades this morning. Given that he and I are both recovering
+&lt;a href=&#34;http://www.debian.org&#34;&gt;debian&lt;/a&gt; users, we do miss
+(&lt;a href=&#34;http://www.debian.org/releases/stable/i386/release-notes/ch-
+upgrading.en.html&#34;&gt;apparently&lt;/a&gt;) seamless live upgrades between releases. So following on
+the heels of &lt;a href=&#34;http://www.silfreed.net/content/some-clarifications-and-
+concessions&#34;&gt;Doug&lt;/a&gt; and &lt;a href=&#34;http://dgoodwin.dangerouslyinc.com/more-fedora-live-
+upgrades-discussion&#34;&gt;Devan&lt;/a&gt;, here is my take on upgrades.&lt;/p&gt;
 
+&lt;p&gt;First, offline upgrades will &lt;strong&gt;always&lt;/strong&gt; be required for some cases. There&amp;rsquo;s
+always going to be some cruft we need to drop, and can&amp;rsquo;t do it on a live
+system.&lt;/p&gt;
+
+&lt;p&gt;Second, allowing upgrades from release X to X+2, etc is too risky and would
+need more QA than I think we&amp;rsquo;d be willing to commit. Likewise for rawhide to
+stable, or stable to rawhide. These all should be possible for the intrepid,
+but not defaults options.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A use case for upgrades&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Franky Fedora is a Fedora user. He uses a default install, and is not familiar
+with the command line. Whenever the update applet appears at the top right of
+his screen, he launches it and updates his system. One day, instead of the
+regular update icon, a different one appears with a popup message &amp;ldquo;A new
+version of Fedora is available! please click to upgrade.&amp;rdquo;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Franky double clicks on the icon.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Franky is presented with information about the upgrade, including release notes and an advisory to back up any important data before continuing, as well as a choice to continue or cancel.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Franky selects continue, and is presented with a list of tasks, as they complete, they are checked off. The list looks like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Updating current release&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Downloading software for upgrade&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Preparing system for upgrade&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upgrading system&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As time progresses, the items on the list are checked off. Meanwhile, Franky is free to do other tasks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once all items on the list are checked off, Franky is presented with a message telling him that his upgrade is complete, and advised to reboot his system. He is given the choice to reboot now, or not to reboot if he wishes to complete other tasks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Frankly chooses to reboot. His system restarts, and he is presented with the next Fedora release, and all of its &lt;a href=&#34;http://people.redhat.com/duffy/artwork/24hr-infinity.png&#34;&gt;wonderful new artwork&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Extension Points:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;2a. Franky selects cancel, and is returned to his regular desktop.&lt;/p&gt;
+
+&lt;p&gt;3a. Franky&amp;rsquo;s system requires a new filesystem, so he is presented with the
+following tasks instead:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Updating current release.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Downloading software for upgrade.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Rebooting system info upgrader.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;As the items on the list are checked off, Franky is free to do what he wishes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When the final item is checked off, Franky is presented with a message telling him his system must be restarted to continue the upgrade. He can select to reboot now, or to do so on his own later.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Franky chooses to reboot now.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;His system restarts, and runs the Anaconda installer.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once complete, Franky&amp;rsquo;s machine reboots into the new Fedora release.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;5a. Franky chooses to reboot later, and is returned to his regular desktop.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Later he reboots, and moves on to step 6.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Proposed implementation details&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;An upgrades metadata file added to the main repository metadata. This file will contain a pointer to the new Fedora release, as well as some caveats for upgrading. For instance, that the i386 version of dbus must be removed before upgrading.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The upgrades file will specify whether a live or offline upgrade should be done.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The caveats will run during the &amp;lsquo;Preparing system for upgrade&amp;rsquo; step.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The updating current release step is just a &amp;lsquo;yum update&amp;rsquo; after it is completed, the upgrade tool shall restart, if it has been updated during this process.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The caveats metadata will be updated over time if any new issues arise.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Interaction between the upgrades metadata and other repos may get hairy. How
+does the system know what do to when you are running updates versus updates-
+testing? Perhaps each repo should have upgrades metadata.&lt;/p&gt;
+
+&lt;p&gt;This is all an extension to the F9
+&lt;a href=&#34;http://fedoraproject.org/wiki/Features/PreUpgrade&#34;&gt;PreUpgrade&lt;/a&gt; feature.
+Getting the Anaconda reboot working is a great first step. Once that&amp;rsquo;s done,
+we can move on to the optional live upgrade, a command line interface, etc.&lt;/p&gt;
+
+&lt;p&gt;Comments/flames appreciated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Planet Upgrade</title>
+      <link>http://jbowes.github.io/2006/11/05/planet-upgrade</link>
+      <pubDate>Sun, 05 Nov 2006 07:11:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2006/11/05/planet-upgrade</guid>
+      <description>&lt;p&gt;I upgraded&lt;a href=&#34;http://planet.cs.dal.ca&#34; title=&#34;Planet Dal CS&#34;&gt; Planet Dal CS&lt;/a&gt; to the
+latest stable release of &lt;a href=&#34;http://www.planetplanet.org&#34;&gt;Planet&lt;/a&gt; today.
+Everything looks good, but if you notice a bug, let me know.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

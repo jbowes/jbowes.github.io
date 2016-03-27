@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Tcb on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/tcb/</link>
+    <description>Recent content in Tcb on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-06-24 12:31:00 -0300 -0300</updated>
-
+    <lastBuildDate>Sun, 24 Jun 2007 12:31:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/tcb/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Being Productive</title>
+      <link>http://jbowes.github.io/2007/06/24/being-productive</link>
+      <pubDate>Sun, 24 Jun 2007 12:31:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/06/24/being-productive</guid>
+      <description>&lt;p&gt;Today was a good day, TCB-wise:&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I finished reading &lt;a href=&#34;http://www.amazon.com/gp/product/0060515228?ie=UTF8&amp;amp;tag=higteclowlif-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0060515228&#34;&gt;Fragile Things&lt;/a&gt; by &lt;a href=&#34;http://www.neilgaiman.com/&#34;&gt;Neil Gaiman&lt;/a&gt;. There are a few really terrible entries in this collection of short stories, but mostly it&amp;rsquo;s a good read.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upgraded this blog to the latest &lt;a href=&#34;http://www.wordpress.org&#34;&gt;Wordpress&lt;/a&gt;, and switched to the &lt;a href=&#34;http://www.plaintxt.org/themes/veryplaintxt/&#34;&gt;veryplaintxt&lt;/a&gt; theme. I&amp;rsquo;m enjoying the minimalist theme, but Wordpress appears to have eaten a lot of my &lt;a href=&#34;http://www.neato.co.nz/ultimate-tag-warrior&#34;&gt;tags&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Submitted &lt;a href=&#34;http://elixir.ematia.de/&#34;&gt;Elixir&lt;/a&gt; for inclusion in &lt;a href=&#34;http://www.fedoraproject.org&#34;&gt;Fedora&lt;/a&gt;. Elixir puts an &lt;a href=&#34;http://www.martinfowler.com/eaaCatalog/activeRecord.html&#34;&gt;Active Record&lt;/a&gt; layer on top of &lt;a href=&#34;http://www.sqlalchemy.org/&#34;&gt;SQLAlchemy&lt;/a&gt;, meaning you can do &lt;a href=&#34;http://www.sqlobject.org/&#34;&gt;SQLObject&lt;/a&gt;-like things with better database support.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Did some grocery shopping (tortilla chips and cheese count as groceries, right?)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Put &lt;a href=&#34;http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;amp;ih=012&amp;amp;sspagename=STRK%3AMESE%3AIT&amp;amp;viewitem=&amp;amp;item=220125068980&amp;amp;rd=1&amp;amp;rd=1&#34;&gt;a router&lt;/a&gt; on &lt;a href=&#34;http://www.ebay.com&#34;&gt;ebay&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,22 +1,186 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Android on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/android/</link>
+    <description>Recent content in Android on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2012-03-26 19:38:00.001 -0300 -0300</updated>
+    <lastBuildDate>Mon, 26 Mar 2012 19:38:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Camopic is now live!</title>
+      <link>http://jbowes.github.io/2012/03/26/camopic-is-now-live</link>
+      <pubDate>Mon, 26 Mar 2012 19:38:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/03/26/camopic-is-now-live</guid>
+      <description>&lt;p&gt;My new app, &lt;a href=&#34;http://bit.ly/camopic&#34;&gt;Camopic&lt;/a&gt;, is now live on Google Play (only
+$0.99! cheap!). Camopic uses
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Steganography&#34;&gt;steganography&lt;/a&gt; to hide a picture
+inside a different jpeg image. You can then share that image with another
+Camopic user, who will be able to reveal and view your hidden image.&lt;/p&gt;
 
-    
-      
-    
-      
-    
-      
-    
-      
-    
+&lt;p&gt;This basically sums it up:&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;http://3.bp.blogspot.com/-h_3leoMS1Fk/T3DvkhkG5QI/AAAAAAAA
+Cjc/d3As85wTg80/s1600/3ogo3j.jpg&#34;&gt;&lt;img src=&#34;http://3.bp.blogspot.com/-h_3leoMS1Fk/T3DvkhkG5QI/AAAAAAAACjc/d3As85wTg80
+/s1600/3ogo3j.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://bit.ly/camopic&#34;&gt;Google Play: Camopic $0.99&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Roboto on Fedora</title>
+      <link>http://jbowes.github.io/2012/03/17/using-roboto-on-fedora</link>
+      <pubDate>Sat, 17 Mar 2012 19:43:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/03/17/using-roboto-on-fedora</guid>
+      <description>&lt;p&gt;Using &lt;a href=&#34;http://www.android.com/&#34;&gt;Android&lt;/a&gt;&amp;rsquo;s
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Roboto&#34;&gt;Roboto&lt;/a&gt; font is pretty easy on
+&lt;a href=&#34;http://fedoraproject.org/&#34;&gt;Fedora&lt;/a&gt; (or any other Linux flavour). Just
+download the Roboto zip, open it up, copy the ttf files into your ~/.fonts
+dir, and refresh your font cache. From there, you can use the font in any
+program (though you may need to reload it first).&lt;/p&gt;
+
+&lt;p&gt;Here are the steps:&lt;br /&gt;
+``&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;wget https://dl-ssl.google.com/android/design/Roboto_Hinted_20111129.zip  
+unzip Roboto_Hinted_20111129.zip  
+mkdir ~/.fonts  
+mv Roboto_Hinted_20111129/*.ttf ~/.fonts  
+fc-cache  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;``&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retrofitting drop shadows into existing Android layouts</title>
+      <link>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</link>
+      <pubDate>Sun, 12 Feb 2012 16:28:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/02/12/retrofitting-drop-shadows-into-existing</guid>
+      <description>&lt;p&gt;I had some UI elements in an &lt;a href=&#34;https://market.android.com/developer?pub=James+Bowes&#34;&gt;Android application I&amp;rsquo;m working
+on&lt;/a&gt; that felt as if they
+should be above (pushing out of the screen, rather than to the top of it) the
+elements that followed them in the UI. A good way to indicate this is with a
+drop shadow, similar to those on Android title bars or &lt;a href=&#34;http://developer.android.com/design/patterns/actionbar.html&#34;&gt;Action
+Bars&lt;/a&gt;. An
+&lt;a href=&#34;http://www.anotherandroidblog.com/2011/06/29/drop-shadow-
+linearlayout/&#34;&gt;existing method&lt;/a&gt; didn&amp;rsquo;t work for me, as my UI is relying heavily on weights to
+keep proper size ratios between the elements I wanted to add a drop shadow to,
+and the element they would be casting a shadow on.&lt;/p&gt;
+
+&lt;p&gt;Rather than hanging the shadow off the element that will be casting the shadow
+with a &lt;a href=&#34;http://developer.android.com/reference/android/widget/
+RelativeLayout.html&#34;&gt;RelativeLayout&lt;/a&gt;, and throwing off the weights, I instead used a &lt;a href=&#34;http://developer.android.com/reference/android/widget/FrameLayout.html&#34;&gt;FrameLay
+out&lt;/a&gt;
+to overlay the shadow on top of where the shadow was cast:&lt;/p&gt;
+
+&lt;p&gt;`layout/my_layout.xml&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;LinearLayout  
+    android:id=&amp;quot;@+id/linearLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_weight=&amp;quot;1&amp;quot;  
+    android:layout_gravity=&amp;quot;top&amp;quot;  
+    android:paddingBottom=&amp;quot;2dp&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyShadowCastingWidget  
+        android:id=&amp;quot;@+id/shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherShadowCastingWidget  
+        android:id=&amp;quot;@+id/other_shadow_caster&amp;quot;  
+        android:layout_width=&amp;quot;wrap_content&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;   
+&amp;lt;/LinearLayout&amp;gt;  
+
+&amp;lt;FrameLayout  
+    android:id=&amp;quot;@+id/relativeLayout1&amp;quot;  
+    android:layout_width=&amp;quot;match_parent&amp;quot;  
+    android:layout_height=&amp;quot;0dp&amp;quot;  
+    android:layout_gravity=&amp;quot;bottom&amp;quot;  
+    android:layout_weight=&amp;quot;2&amp;quot; &amp;gt;  
+
+    &amp;lt;ca.repl.MyOtherWidget  
+        android:id=&amp;quot;@+id/other_widget&amp;quot;  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;match_parent&amp;quot; /&amp;gt;  
+
+    &amp;lt;View  
+        android:layout_width=&amp;quot;match_parent&amp;quot;  
+        android:layout_height=&amp;quot;4dip&amp;quot;  
+        android:background=&amp;quot;@drawable/drop_shadow&amp;quot; /&amp;gt;  
+&amp;lt;/FrameLayout&amp;gt;  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`&lt;/p&gt;
+
+&lt;p&gt;ca.repl.MyOtherWidget will have a shadow cast over it. To maintain the
+weights, I just moved all attrs off ca.repl.MyOtherWidget and onto the new
+FrameLayout.&lt;/p&gt;
+
+&lt;p&gt;For completeness, here&amp;rsquo;s the drop shadow drawable:&lt;/p&gt;
+
+&lt;p&gt;`drawable/drop_shadow.xml&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;?xml version=&amp;ldquo;1.0&amp;rdquo; encoding=&amp;ldquo;utf-8&amp;rdquo;?&amp;gt;&lt;br /&gt;
+&lt;shape xmlns:android=&#34;http://schemas.android.com/apk/res/android&#34;&gt;&lt;br /&gt;
+    &lt;gradient  
+        android:startColor=&#34;@color/drop_start&#34;  
+        android:endColor=&#34;@color/drop_end&#34;  
+        android:angle=&#34;270&#34; &gt;&lt;br /&gt;
+    &lt;/gradient&gt;&lt;br /&gt;
+&lt;/shape&gt;&lt;br /&gt;
+`&lt;br /&gt;
+And the two colors for the drawable. I used black for the color with alpha
+channels. If you wanted to make the shadow more obvious you could forgo alpha
+channels:&lt;/p&gt;
+
+&lt;p&gt;`values/colors.xml&lt;/p&gt;
+
+&lt;p&gt;&lt;resources&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_start&#34;&gt;#66000000&lt;/color&gt;&lt;br /&gt;
+    &lt;color name=&#34;drop_end&#34;&gt;#00000000&lt;/color&gt;&lt;br /&gt;
+&lt;/resources&gt;&lt;br /&gt;
+`&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android ProGuard and Git Tip</title>
+      <link>http://jbowes.github.io/2011/12/03/android-proguard-and-git-tip</link>
+      <pubDate>Sat, 03 Dec 2011 10:52:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2011/12/03/android-proguard-and-git-tip</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re obfuscating your &lt;a href=&#34;http://android.com/&#34;&gt;Android&lt;/a&gt; applications using
+&lt;a href=&#34;http://proguard.sourceforge.net/&#34;&gt;ProGuard&lt;/a&gt;, make sure to keep the
+&lt;em&gt;proguard/&lt;/em&gt; directory at the root of your Android project under revision
+control. This may seem contrary to what you&amp;rsquo;d feel like doing, as the files
+are autogenerated, but it will help if you ever need to debug a stack trace
+from your published application.&lt;/p&gt;
+
+&lt;p&gt;Typically when I&amp;rsquo;m ready to release, and after I&amp;rsquo;ve done every other change, I
+will bump the revision in my &lt;em&gt;AndroidManifest.xml&lt;/em&gt; and generate a new .apk
+from eclipse, then test it out on my device. If everything looks good, I&amp;rsquo;ll
+commit the manifest change, along with the now updated proguard directory,
+with a commit message containing the release number. Then I&amp;rsquo;ll tag that commit
+with the same name. This way, if that release ever has any exceptions I need
+to debug, I can download the obfuscated stack trace from the Android developer
+console, run &lt;em&gt;git checkout &amp;lt;TAGNAME&amp;gt;&lt;/em&gt;, and use the proguard files from
+that release to deobfuscate the strack trace.&lt;/p&gt;
+
+&lt;p&gt;Keeping the proguard files under git makes them quickly and easily accessible,
+should you ever require them.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

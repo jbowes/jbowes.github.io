@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Yahoo_pipes on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/yahoo_pipes/</link>
+    <description>Recent content in Yahoo_pipes on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-10-13 06:39:00 -0300 -0300</updated>
-
+    <lastBuildDate>Sat, 13 Oct 2007 06:39:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/yahoo_pipes/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Filtering Atom feeds on language</title>
+      <link>http://jbowes.github.io/2007/10/13/filtering-atom-feeds-on-language</link>
+      <pubDate>Sat, 13 Oct 2007 06:39:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/10/13/filtering-atom-feeds-on-language</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://planet.fedoraproject.org&#34;&gt;Fedora People&lt;/a&gt;, rather than concerning
+yourself with who posts what in which language, how about using
+&lt;a href=&#34;http://http://en.wikipedia.org/wiki/Atom_(standard)&#34;&gt;atom&lt;/a&gt;&amp;rsquo;s support for
+per-post language tagging and filtering the feed?&lt;/p&gt;
 
+&lt;p&gt;Here is an &lt;a href=&#34;http://pipes.yahoo.com/pipes/pipe.info?_id=SG5EW5h53BGmWgj9oeNLYQ&#34;&gt;English language only Fedora People
+feed&lt;/a&gt;
+(courtesy &lt;a href=&#34;http://pipes.yahoo.com&#34;&gt;Yahoo Pipes&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

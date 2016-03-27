@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Bdb on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/bdb/</link>
+    <description>Recent content in Bdb on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2007-05-10 09:02:00 -0300 -0300</updated>
-
+    <lastBuildDate>Thu, 10 May 2007 09:02:00 -0300</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/bdb/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Using Hostip Berkeley DB Files From Python</title>
+      <link>http://jbowes.github.io/2007/05/10/using-hostip-berkeley-db-files-from</link>
+      <pubDate>Thu, 10 May 2007 09:02:00 -0300</pubDate>
       
-    
+      <guid>http://jbowes.github.io/2007/05/10/using-hostip-berkeley-db-files-from</guid>
+      <description>&lt;p&gt;I needed to process some IP addresses the other day to associate them with
+their originating Country. I implemented the code in &lt;a href=&#34;http://www.python.org&#34;&gt;Python
+&lt;/a&gt;(as usual), and decided to try out
+&lt;a href=&#34;http://www.hostip.info&#34;&gt;Hostip&lt;/a&gt; for the IP address to Country mappings.
+Hostip provides freely downloadable bdb data files (along with a mysql db and
+a CSV file). Using the bdb files isn&amp;rsquo;t straightforward, so here is a general
+recipe for consuming them:&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Download the bdb files from hostip. There are three files, _hip_ip4&lt;em&gt;country.db&lt;/em&gt; (maps IP to country id), _hip&lt;em&gt;countries.db&lt;/em&gt; (maps country id to country name), and _hip_ip4_city_lap&lt;em&gt;lng.db&lt;/em&gt; (maps IP to city location).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open the files with Python. They&amp;rsquo;re bdb btree format files, so I found it easiest to open them with &lt;em&gt;bsddb.btopen(FILENAME, &amp;lsquo;r&amp;rsquo;)&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Convert your IP address to the correct format. Hostip bdb entries are keyed on class C block addresses, in integer format. The following code should do it:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;def dottedQuadToNum(ip):  
+&amp;quot;convert decimal dotted quad string to long integer&amp;quot;  
+return struct.unpack(&#39;!L&#39;,socket.inet_aton(ip))[0]  
+ip = &amp;quot;255.255.255.255&amp;quot;  
+ipparts = ip.split(&#39;.&#39;)  
+ipparts = ipparts[:3]  
+ipparts.append(&#39;0&#39;)  
+cclass = &#39;.&#39;.join(ipparts)  
+intcclass = dottedQuadToNum(cclass)&lt;/code&gt;&lt;br /&gt;
+&lt;em&gt;dottedQuadToNum from from
+&lt;a href=&#34;http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/66517&#34;&gt;ASPN&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Now, you can use the string representation of intcclass to get a country id from hip_ip4_counties.db, and use the id to get a country name from hip_countries.db&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,58 +1,335 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Life on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/life/</link>
+    <description>Recent content in Life on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2012-12-02 10:47:00 -0400 -0400</updated>
+    <lastBuildDate>Sun, 02 Dec 2012 10:47:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The End</title>
+      <link>http://jbowes.github.io/2012/12/02/the-end</link>
+      <pubDate>Sun, 02 Dec 2012 10:47:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2012/12/02/the-end</guid>
+      <description>&lt;p&gt;After nearly seven years, Friday marked my last day at &lt;a href=&#34;http://www.redhat.com/&#34;&gt;Red
+Hat&lt;/a&gt;. I&amp;rsquo;m taking a week off to focus on growing my
+beard and &lt;a href=&#34;http://hopville.com/recipe/1651119&#34;&gt;brewing&lt;/a&gt;
+&lt;a href=&#34;http://hopville.com/recipe/1664369&#34;&gt;a&lt;/a&gt;
+&lt;a href=&#34;http://hopville.com/recipe/1664372&#34;&gt;lot&lt;/a&gt;, before starting my next adventure.&lt;/p&gt;
 
+&lt;p&gt;If you need to reach me, I&amp;rsquo;m still on teh internets.&lt;/p&gt;
+</description>
+    </item>
     
+    <item>
+      <title>DIY Velcro Cable Ties</title>
+      <link>http://jbowes.github.io/2008/10/20/diy-velcro-cable-ties</link>
+      <pubDate>Mon, 20 Oct 2008 05:15:00 -0300</pubDate>
       
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+      <guid>http://jbowes.github.io/2008/10/20/diy-velcro-cable-ties</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.instructables.com/id/Velcro-
+Cable-Ties/&#34;&gt;Making your own velcro cable ties&lt;/a&gt; is a great idea. $2 in materials made as many cable ties as Wal-
+Mart was selling for $13. Thrifty!&lt;/p&gt;
 
+&lt;p&gt;I&amp;rsquo;d suggest sewing the velcro together vs stapling, especially if you have
+cats that are far too curious about staples.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perceptions of Toronto</title>
+      <link>http://jbowes.github.io/2008/06/04/perceptions-of-toronto</link>
+      <pubDate>Wed, 04 Jun 2008 14:17:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/06/04/perceptions-of-toronto</guid>
+      <description>&lt;p&gt;Growing up on the east coast of Canada,
+&lt;a href=&#34;http://torontoist.com/2008/06/vice_to_zune_mu.php&#34;&gt;this&lt;/a&gt; is how I imagined
+Toronto to be, like, &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;7&lt;/sub&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been here for nine months or so, and have yet to be invited to any trendy
+&lt;a href=&#34;http://vice.typepad.com/vice_magazine/canada/index.html&#34;&gt;VICE&lt;/a&gt; parties. Just
+so you know, VICE, I am very willing to grow out some stubble and wear vintage
+clothing or an ironic t-shirt for the event.&lt;/p&gt;
+
+&lt;p&gt;Toronto is great though, even without the free Red Stripe.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dear Government of Canada</title>
+      <link>http://jbowes.github.io/2008/03/26/dear-government-of-canada</link>
+      <pubDate>Wed, 26 Mar 2008 05:30:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/03/26/dear-government-of-canada</guid>
+      <description>&lt;p&gt;Please stop Bell from doing &lt;a href=&#34;http://arstechnica.com/news.ars/post/20080325-canadian-isps-furious-
+about-bell-canadas-traffic-throttling.html&#34;&gt;crazy
+stuff&lt;/a&gt;.  Thanks!&lt;/p&gt;
+
+&lt;p&gt;Love,&lt;/p&gt;
+
+&lt;p&gt;James&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cat News</title>
+      <link>http://jbowes.github.io/2008/03/03/cat-news</link>
+      <pubDate>Mon, 03 Mar 2008 03:51:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/03/03/cat-news</guid>
+      <description>&lt;p&gt;Our boy cat
+&lt;a href=&#34;http://www.flickr.com/photos/bowes/sets/72157603547669860/&#34;&gt;Julius&lt;/a&gt; passed
+away a few weeks ago. It was pretty shocking, as he was quite young and his
+passing was sudden and unexpected. While we miss him terribly, Cherie and I
+didn&amp;rsquo;t want
+&lt;a href=&#34;http://www.flickr.com/photos/bowes/sets/72157603551985363/&#34;&gt;Spook&lt;/a&gt; to get too
+used to being an only cat again.&lt;/p&gt;
+
+&lt;p&gt;So this weekend we picked up a new little fellow from the &lt;a href=&#34;http://www.torontohumanesociety.com/&#34;&gt;Toronto Humane
+Society&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/2306811211/&#34; title=&#34;img_3405.jpg by James
+Bowes, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2372/2306811211_ae181b6e77.jpg&#34; alt=&#34;img_3405.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;He doesn&amp;rsquo;t have a name yet, but he sure has quite a pair of ears on him!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2% Genius</title>
+      <link>http://jbowes.github.io/2008/01/29/2-genius</link>
+      <pubDate>Tue, 29 Jan 2008 16:46:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2008/01/29/2-genius</guid>
+      <description>&lt;p&gt;Agile Tsar &lt;a href=&#34;http://appliedlogic.blogspot.com/&#34;&gt;Dmitri Dolguikh&lt;/a&gt; pointed out
+&lt;a href=&#34;http://projecteuler.net&#34;&gt;Project Euler&lt;/a&gt; yesterday, which is a website
+containing a series of short programming problems. It reads a bit like bonus
+questions on a math exam, which is actually quite refreshing compared to the
+day-to-day problems at work. For added fun, I&amp;rsquo;m trying to run through the
+problems in &lt;a href=&#34;http://en.wikipedia.org/wiki/Common_Lisp&#34;&gt;Common Lisp&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So far I have completed 4 out of 179 problems, which makes me &lt;em&gt;2% genius&lt;/em&gt;,
+according to the site.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thin Crust Pizza</title>
+      <link>http://jbowes.github.io/2007/12/31/thin-crust-pizza</link>
+      <pubDate>Mon, 31 Dec 2007 04:38:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/12/31/thin-crust-pizza</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/2144297943/&#34; title=&#34;img_3266.jpg by James
+Bowes, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2163/2144297943_c1246346f2.jpg&#34; alt=&#34;img_3266.jpg&#34; /&gt;&lt;/a&gt;We made a delicious pizza on the weekend with a great &lt;a href=&#34;http://www.recipezaar.com/70165&#34;&gt;thin
+crust pizza dough recipe&lt;/a&gt; found on the tubes.
+It went well with &lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;Old Credit Brewing Co.
+Ltd.&amp;rsquo;s&lt;/a&gt; Pale
+Pilsner.&lt;a href=&#34;http://www.ontariocraftbrewers.com/brewery.php?brewery=oldcredit&#34;&gt;&lt;br /&gt;
+&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Our Home and Native Land</title>
+      <link>http://jbowes.github.io/2007/07/23/our-home-and-native-land</link>
+      <pubDate>Mon, 23 Jul 2007 04:44:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/07/23/our-home-and-native-land</guid>
+      <description>&lt;p&gt;At the end of August, Cherie and I (and the cats) will be moving to
+&lt;a href=&#34;http://www.toronto.ca/&#34;&gt;Toronto&lt;/a&gt;. I&amp;rsquo;ll still be working with &lt;a href=&#34;http://www.redhat.com&#34;&gt;Red
+Hat&lt;/a&gt; on &lt;a href=&#34;http://rhn.redhat.com&#34;&gt;RHN&lt;/a&gt;; we just decided
+it was time to return to &lt;a href=&#34;http://www.canada.gc.ca&#34;&gt;our own Country&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It should be good times.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Canada Day</title>
+      <link>http://jbowes.github.io/2007/07/03/canada-day</link>
+      <pubDate>Tue, 03 Jul 2007 07:02:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/07/03/canada-day</guid>
+      <description>&lt;p&gt;Last Sunday was &lt;a href=&#34;http://www.pch.gc.ca/special/canada/11/canada_e.cfm&#34;&gt;Canada
+Day&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://farm2.static.flickr.com/1381/704606117_562e76542f.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cherie and I celebrated with some homemade &lt;a href=&#34;http://www.google.com/url
+?sa=t&amp;amp;ct=res&amp;amp;cd=1&amp;amp;url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FPoutine&amp;amp;ei=xWSKRp
+L9DoHUeei5jPwB&amp;amp;usg=AFQjCNENrz7z9sApR-
+QNRr7ga04IYqWULw&amp;amp;sig2=u07EjVPW_2fJlh3UuMVkeA&#34;&gt;poutine&lt;/a&gt; and fine Canadian beverages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A delightful typo: Paintain</title>
+      <link>http://jbowes.github.io/2007/06/25/delightful-typo-paintain</link>
+      <pubDate>Mon, 25 Jun 2007 16:45:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/06/25/delightful-typo-paintain</guid>
+      <description>&lt;p&gt;While discussing a new software feature, I made the following typo:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;17:56 &amp;lt;@jbowes&amp;gt; and then people would use it, and then we&#39;d have to paintain
+it  
+17:56 &amp;lt;@jbowes&amp;gt; i meant to type maintain, but that word is awesome  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I think &lt;em&gt;paintain&lt;/em&gt; aptly describes what many of us do daily.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Being Productive</title>
+      <link>http://jbowes.github.io/2007/06/24/being-productive</link>
+      <pubDate>Sun, 24 Jun 2007 12:31:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/06/24/being-productive</guid>
+      <description>&lt;p&gt;Today was a good day, TCB-wise:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;I finished reading &lt;a href=&#34;http://www.amazon.com/gp/product/0060515228?ie=UTF8&amp;amp;tag=higteclowlif-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativeASIN=0060515228&#34;&gt;Fragile Things&lt;/a&gt; by &lt;a href=&#34;http://www.neilgaiman.com/&#34;&gt;Neil Gaiman&lt;/a&gt;. There are a few really terrible entries in this collection of short stories, but mostly it&amp;rsquo;s a good read.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Upgraded this blog to the latest &lt;a href=&#34;http://www.wordpress.org&#34;&gt;Wordpress&lt;/a&gt;, and switched to the &lt;a href=&#34;http://www.plaintxt.org/themes/veryplaintxt/&#34;&gt;veryplaintxt&lt;/a&gt; theme. I&amp;rsquo;m enjoying the minimalist theme, but Wordpress appears to have eaten a lot of my &lt;a href=&#34;http://www.neato.co.nz/ultimate-tag-warrior&#34;&gt;tags&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Submitted &lt;a href=&#34;http://elixir.ematia.de/&#34;&gt;Elixir&lt;/a&gt; for inclusion in &lt;a href=&#34;http://www.fedoraproject.org&#34;&gt;Fedora&lt;/a&gt;. Elixir puts an &lt;a href=&#34;http://www.martinfowler.com/eaaCatalog/activeRecord.html&#34;&gt;Active Record&lt;/a&gt; layer on top of &lt;a href=&#34;http://www.sqlalchemy.org/&#34;&gt;SQLAlchemy&lt;/a&gt;, meaning you can do &lt;a href=&#34;http://www.sqlobject.org/&#34;&gt;SQLObject&lt;/a&gt;-like things with better database support.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Did some grocery shopping (tortilla chips and cheese count as groceries, right?)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Put &lt;a href=&#34;http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&amp;amp;ih=012&amp;amp;sspagename=STRK%3AMESE%3AIT&amp;amp;viewitem=&amp;amp;item=220125068980&amp;amp;rd=1&amp;amp;rd=1&#34;&gt;a router&lt;/a&gt; on &lt;a href=&#34;http://www.ebay.com&#34;&gt;ebay&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The perfect cup of coffee</title>
+      <link>http://jbowes.github.io/2007/04/15/perfect-cup-of-coffee</link>
+      <pubDate>Sun, 15 Apr 2007 10:43:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/04/15/perfect-cup-of-coffee</guid>
+      <description>&lt;p&gt;My newest healthy obsession is coffee. Though I have always been a coffee fan,
+I had never taken any steps beyond putting dark roast in my Mr. Coffee two-
+cup. Now, our household has a whole new coffee routine.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/460189621/&#34; title=&#34;Photo Sharing&#34;&gt;&lt;img src=&#34;http://farm1.static.flickr.com/180/460189621_e0f1f15209.jpg&#34; alt=&#34;Coffee Stuff&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We now have a &lt;a href=&#34;http://www.amazon.com/gp/product/B000F
+HFKPI?ie=UTF8&amp;amp;tag=higteclowlif-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creative=9325&amp;amp;creativ
+eASIN=B000FHFKPI&#34;&gt;Mr. Coffee bean grinder&lt;/a&gt;&lt;img src=&#34;http://www.assoc-
+amazon.com/e/ir?t=higteclowlif-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=B000FHFKPI&#34; alt=&#34;&#34; /&gt;, airtight ceramic
+containers for bean storage, and a &lt;a href=&#34;http://www.amazon.com/
+gp/product/B000NKHLB8?ie=UTF8&amp;amp;tag=higteclowlif-20&amp;amp;linkCode=as2&amp;amp;camp=1789&amp;amp;creat
+ive=9325&amp;amp;creativeASIN=B000NKHLB8&#34;&gt;Bodum French Press&lt;/a&gt;&lt;img src=&#34;http://www.assoc-
+amazon.com/e/ir?t=higteclowlif-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=B000NKHLB8&#34; alt=&#34;&#34; /&gt;. Note the colour
+coordination, which delights the eyes as one prepares to delight the palette.&lt;/p&gt;
+
+&lt;p&gt;The ceramic containers are stored at room temperature, and keep out both light
+and air. This ensures that the roasted organic shade-grown fair-trade coffee
+beans housed within maintain their delicate bouquet, and preserves the natural
+oils of the beans.&lt;/p&gt;
+
+&lt;p&gt;The grinder facilitates using whole beans. Again, the goal is to preserve as
+much of the bean&amp;rsquo;s oils and flavours as possible.&lt;/p&gt;
+
+&lt;p&gt;The French Press is our latest acquisition. Ground coffee beans now co-mingle
+with hot (not boiling) filtered water for a full five minutes before they are
+pressed to the bottom of the container. Those all-important oils can now mix
+with the water, rather than getting caught in the filter or boiling off. As my
+colleague and fellow coffee obsessor
+&lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt; points out, the French Press uses
+no paper filters, so it is lower-impact than a standard coffee maker. Cherie
+and I also find it easier to clean.&lt;/p&gt;
+
+&lt;p&gt;I believe that the coffee from this new setup tastes better than that produced
+by the old setup, but this could be my mind rationalizing all the purchases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facebook eats babies</title>
+      <link>http://jbowes.github.io/2007/03/17/facebook-eats-babies</link>
+      <pubDate>Sat, 17 Mar 2007 09:05:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/03/17/facebook-eats-babies</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been trying to understand the popularity of
+&lt;a href=&#34;http://www.facebook.com&#34;&gt;facebook&lt;/a&gt; over the past week. In particular, why is
+it seemingly more popular than &lt;a href=&#34;http://www.friendster.com&#34;&gt;friendster&lt;/a&gt; or
+&lt;a href=&#34;http://www.orkut.com&#34;&gt;orkut&lt;/a&gt; (unless you&amp;rsquo;re
+&lt;a href=&#34;http://www.searchenginejournal.com/?p=3082&#34;&gt;Brazilian&lt;/a&gt;)?&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://dgoodwin.dangerouslyinc.com&#34;&gt;Devan&lt;/a&gt; phrased it well (using his elite
+new irc nick):&lt;br /&gt;
+&lt;code&gt;
+12:39 &amp;lt;@jbowes&amp;gt; facebook is way too much like orkut  
+12:40 &amp;lt;@jbowes&amp;gt; or all them other ones  
+12:40 &amp;lt;@jbowes&amp;gt; why is it that people seem to like it more?  
+12:40 &amp;lt; kryptos&amp;gt; it tries to replace everything  
+12:40 &amp;lt; kryptos&amp;gt; we have email  
+12:40 &amp;lt; kryptos&amp;gt; we have blogs  
+12:40 &amp;lt; kryptos&amp;gt; we have flickr  
+12:41 &amp;lt; kryptos&amp;gt; i wouldnt even be on facebook if i didnt have to check email
+for plans tonight, and constantly see facebook emails  
+12:41 &amp;lt; kryptos&amp;gt; maybe i need to filter them to trash  
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Facebook wants become the canonical source for your data. It keeps you coming
+back with its stream of email. This is reminiscent of the &lt;a href=&#34;http://www.stopmethaddiction.com/&#34;&gt;instant
+gratification&lt;/a&gt; aspects of gambling and
+other addictive activities.&lt;/p&gt;
+
+&lt;p&gt;If you think I&amp;rsquo;m being paranoid and over the top, check out this &lt;a href=&#34;http://www.thestudentunderground.org/article.php?id=21&amp;amp;issue=51&#34;&gt;Boston
+Underground
+article&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nerd Test</title>
+      <link>http://jbowes.github.io/2007/03/11/nerd-test</link>
+      <pubDate>Sun, 11 Mar 2007 04:57:00 -0300</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/03/11/nerd-test</guid>
+      <description>&lt;p&gt;Following &lt;a href=&#34;http://zeusville.wordpress.com/2007/03/11/whats-your-nerd-
+score/&#34;&gt;zeus&lt;/a&gt;, I took the nerd test:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nerdtests.
+com/ft_nq.php?im&#34;&gt;&lt;img src=&#34;http://www.nerdtests.com/images/ft/nq.php?val=1777&#34; alt=&#34;I am nerdier than 92% of all people. Are you nerdier? Click here to find ou
+t!&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Excellent.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Error Handling &amp; Pay Phones</title>
+      <link>http://jbowes.github.io/2007/03/03/error-handling-pay-phones</link>
+      <pubDate>Sat, 03 Mar 2007 09:36:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/03/03/error-handling-pay-phones</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s not enough to handle all error cases; you have to respond to them
+properly as well.&lt;/p&gt;
+
+&lt;p&gt;While waiting in the Ottawa International Airport, I placed a call to my
+sister from a pay phone. The number is local, so I entered the seven digits.
+The phone&amp;rsquo;s response was to play a recording for me: &lt;em&gt;&amp;ldquo;To dial this local
+number, you must enter the area code.&amp;rdquo;&lt;/em&gt; I tried again, entering 1+&amp;lt;area
+code&amp;gt;+&amp;lt;local number&amp;gt;, what I had assumed to be the only way to dial a
+number with an area code. To this, the phone played another recording: _&amp;ldquo;This
+is a local call. You must not begin the number with a one.&amp;rdquo; _Finally, I dialed
+&amp;lt;area code&amp;gt;+&amp;lt;local number&amp;gt;; this worked.&lt;/p&gt;
+
+&lt;p&gt;In both failed cases, the phone system detected an error and alerted me, as
+well as suggesting the solution. So it did one thing right, and two things
+wrong. The suggested solution was not clear enough, but more importantly, the
+phone system knew the number I was trying to connect to; it should have
+adjusted the number and connected me, without notifying me of any perceived
+errors.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

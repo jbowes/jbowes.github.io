@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site </title>
+    <title>Cat on My New Hugo Site</title>
     <link>http://jbowes.github.io/tags/cat/</link>
+    <description>Recent content in Cat on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2008-03-03 03:51:00 -0400 -0400</updated>
-
+    <lastBuildDate>Mon, 03 Mar 2008 03:51:00 -0400</lastBuildDate>
+    <atom:link href="http://jbowes.github.io/tags/cat/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Cat News</title>
+      <link>http://jbowes.github.io/2008/03/03/cat-news</link>
+      <pubDate>Mon, 03 Mar 2008 03:51:00 -0400</pubDate>
       
-    
-      
-    
+      <guid>http://jbowes.github.io/2008/03/03/cat-news</guid>
+      <description>&lt;p&gt;Our boy cat
+&lt;a href=&#34;http://www.flickr.com/photos/bowes/sets/72157603547669860/&#34;&gt;Julius&lt;/a&gt; passed
+away a few weeks ago. It was pretty shocking, as he was quite young and his
+passing was sudden and unexpected. While we miss him terribly, Cherie and I
+didn&amp;rsquo;t want
+&lt;a href=&#34;http://www.flickr.com/photos/bowes/sets/72157603551985363/&#34;&gt;Spook&lt;/a&gt; to get too
+used to being an only cat again.&lt;/p&gt;
 
+&lt;p&gt;So this weekend we picked up a new little fellow from the &lt;a href=&#34;http://www.torontohumanesociety.com/&#34;&gt;Toronto Humane
+Society&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/2306811211/&#34; title=&#34;img_3405.jpg by James
+Bowes, on Flickr&#34;&gt;&lt;img src=&#34;http://farm3.static.flickr.com/2372/2306811211_ae181b6e77.jpg&#34; alt=&#34;img_3405.jpg&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;He doesn&amp;rsquo;t have a name yet, but he sure has quite a pair of ears on him!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gratuitous kitty photo</title>
+      <link>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</link>
+      <pubDate>Sun, 28 Jan 2007 15:30:00 -0400</pubDate>
+      
+      <guid>http://jbowes.github.io/2007/01/28/gratuitous-kitty-photo</guid>
+      <description>&lt;p&gt;.flickr-photo { border: solid 2px #000000; } .flickr-yourcomment { } .flickr-
+frame { text-align: left; padding: 3px; } .flickr-caption { font-size: 0.8em;
+margin-top: 0px; }&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.f
+lickr.com/photos/bowes/118386519/&#34; title=&#34;photo sharing&#34;&gt;&lt;img src=&#34;http://farm1.static.flickr.com/35/118386519_08cc9fa352.jpg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/bowes/118386519/&#34;&gt;Spook in her box tunnel&lt;/a&gt;,
+originally uploaded by &lt;a href=&#34;http://www.flickr.com/people/bowes/&#34;&gt;James Bowes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m still playing around with the new hotness that is wordpress. This is me
+using the ‘blog this’ feature in flickr.&lt;/p&gt;
+
+&lt;p&gt;Above is our girl cat, spook, playing in a tunnel made from free cardboard
+boxes, sent to us from eBay and the USPS. The boxes are now long gone, after
+being filled with various nerd accoutrements. The cat remains.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
